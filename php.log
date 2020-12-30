@@ -1,0 +1,12 @@
+[30-Dec-2020 21:33:31 Asia/Tokyo] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Applications/MAMP/htdocs/PHP/ECsite/views/signup.php on line 28
+[30-Dec-2020 21:34:48 Asia/Tokyo] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Applications/MAMP/htdocs/PHP/ECsite/views/signup.php on line 28
+[30-Dec-2020 22:14:44 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function validMinLen() in /Applications/MAMP/htdocs/PHP/ECsite/signup.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/PHP/ECsite/signup.php on line 24
+[30-Dec-2020 22:30:01 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function validMinLen() in /Applications/MAMP/htdocs/PHP/ECsite/signup.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/PHP/ECsite/signup.php on line 24
+[30-Dec-2020 22:32:23 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP/ECsite/views/signup.php on line 9
+[30-Dec-2020 22:32:29 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP/ECsite/views/signup.php on line 9
