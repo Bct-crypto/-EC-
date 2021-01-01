@@ -5,6 +5,7 @@ require __DIR__ . '/lib/dbConnect.php';
 // バリデーション関数の読み込み
 require __DIR__ . '/lib/function.php';
 
+// POST送信が合った場合
 if (!empty($_POST)) {
 
     // 値を変数に格納
@@ -18,12 +19,51 @@ if (!empty($_POST)) {
     validRequired($pass_re, 'pass_re');
 
     if (empty($errMsg)) {
-        // Email形式のチェック
+
+        // Emailの形式のチェック
         validEmail($email, 'email');
-        // 最小入力数チェック
-        validMinLen($email, 'email');
-        // 最大入力数チェック
+        // Emailの最大入力数チェック
         validMaxLen($email, 'email');
+        // Emailの重複チェック
+        validEmailDup($email);
+
+        // パスワードの半角英数字チェック
+        validPass($pass, 'pass');
+        // パスワードの最小入力数チェック
+        validMinLen($pass, 'pass');
+        // パスワードの最大入力数チェック
+        validMaxLen($pass, 'pass');
+
+        // パスワード（再入力）の最小文字数チェック
+        validMinLen($pass_re, 'pass_re');
+        // パスワード（再入力）の最大文字数チェック
+        validMaxLen($pass_re, 'pass_re');
+
+        if (empty($errMsg)) {
+
+            // パスワードとパスワード（再入力）の合致チェック
+            validMatch($pass, $pass_re, 'pass_re');
+
+            if (empty($errMsg)) {
+
+                // 例外処理
+                try {
+                    // DB接続
+                    $dbh = dbConnect();
+                    // SQL作成
+                    $sql = 'INSERT INTO users (email,password,login_time,create_date) VALUES (:email,:password,:login_time,:create_date)';
+                    // データ流し込み
+                    $data = array(':email' => $email, ':password' => password_hash($pass, PASSWORD_DEFAULT), ':login_time' => date('Y-m-d H:i:s'), ':create_date' => date('Y-m-d H:i:s'));
+                    // クエリ実行
+                    queryPost($dbh, $sql, $data);
+
+                    header('Location:mypage.php');
+                } catch (Exception $e) {
+                    error_log('エラー発生：' . $e->getMessage());
+                    $errMsg['common'] = MSG07;
+                }
+            }
+        }
     }
 }
 
