@@ -10,3 +10,171 @@ Stack trace:
   thrown in /Applications/MAMP/htdocs/PHP/ECsite/signup.php on line 24
 [30-Dec-2020 22:32:23 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP/ECsite/views/signup.php on line 9
 [30-Dec-2020 22:32:29 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP/ECsite/views/signup.php on line 9
+[03-Jan-2021 16:17:15 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:17:15 Asia/Tokyo] デバッグ：Login Page.
+[03-Jan-2021 16:17:15 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Jan-2021 16:17:15 Asia/Tokyo] デバッグ：セッションID：a27ja0akj00s39et4ab5t5lb0p
+[03-Jan-2021 16:17:15 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Jan-2021 16:17:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609658235
+[03-Jan-2021 16:17:28 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:17:28 Asia/Tokyo] デバッグ：Login Page.
+[03-Jan-2021 16:17:28 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Jan-2021 16:17:28 Asia/Tokyo] デバッグ：セッションID：rfjgk27f0es1dk1gorvpsjtnom
+[03-Jan-2021 16:17:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Jan-2021 16:17:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609658248
+[03-Jan-2021 16:17:28 Asia/Tokyo] デバッグ：POST送信があります
+[03-Jan-2021 16:17:28 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 9
+[03-Jan-2021 16:18:40 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:18:40 Asia/Tokyo] デバッグ：Login Page.
+[03-Jan-2021 16:18:40 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Jan-2021 16:18:40 Asia/Tokyo] デバッグ：セッションID：4obdh93ipsajc04b8q7la75nst
+[03-Jan-2021 16:18:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Jan-2021 16:18:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609658320
+[03-Jan-2021 16:18:40 Asia/Tokyo] デバッグ：POST送信があります
+[03-Jan-2021 16:18:40 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 9
+[03-Jan-2021 16:19:29 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:19:29 Asia/Tokyo] デバッグ：Login Page.
+[03-Jan-2021 16:19:29 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Jan-2021 16:19:29 Asia/Tokyo] デバッグ：セッションID：c7fbd9a6qoaghbp1a5pf1dresk
+[03-Jan-2021 16:19:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Jan-2021 16:19:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609658369
+[03-Jan-2021 16:19:29 Asia/Tokyo] デバッグ：POST送信があります
+[03-Jan-2021 16:19:29 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 9
+[03-Jan-2021 16:19:29 Asia/Tokyo] PHP Notice:  Undefined index: email in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 13
+[03-Jan-2021 16:20:22 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:20:22 Asia/Tokyo] デバッグ：Login Page.
+[03-Jan-2021 16:20:22 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Jan-2021 16:20:22 Asia/Tokyo] デバッグ：セッションID：ggu8jjqqbeqa4ignaq2f7jh448
+[03-Jan-2021 16:20:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Jan-2021 16:20:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609658422
+[03-Jan-2021 16:20:22 Asia/Tokyo] デバッグ：POST送信があります
+[03-Jan-2021 16:20:22 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 9
+[03-Jan-2021 16:20:22 Asia/Tokyo] PHP Notice:  Undefined index: email in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 13
+[03-Jan-2021 16:20:43 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:20:43 Asia/Tokyo] デバッグ：Login Page.
+[03-Jan-2021 16:20:43 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Jan-2021 16:20:43 Asia/Tokyo] デバッグ：セッションID：76mekl03fcii0fi2otmqla5gg3
+[03-Jan-2021 16:20:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Jan-2021 16:20:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609658443
+[03-Jan-2021 16:20:43 Asia/Tokyo] デバッグ：POST送信があります
+[03-Jan-2021 16:20:43 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 9
+[03-Jan-2021 16:20:43 Asia/Tokyo] PHP Notice:  Undefined index: email in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 13
+[03-Jan-2021 16:20:46 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:20:46 Asia/Tokyo] デバッグ：Login Page.
+[03-Jan-2021 16:20:46 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Jan-2021 16:20:46 Asia/Tokyo] デバッグ：セッションID：fljji3ktofv82h4uedmtast4jl
+[03-Jan-2021 16:20:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Jan-2021 16:20:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609658446
+[03-Jan-2021 16:20:46 Asia/Tokyo] デバッグ：POST送信があります
+[03-Jan-2021 16:20:46 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 9
+[03-Jan-2021 16:20:46 Asia/Tokyo] PHP Notice:  Undefined index: email in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 13
+[03-Jan-2021 16:20:49 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:20:49 Asia/Tokyo] デバッグ：Login Page.
+[03-Jan-2021 16:20:49 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Jan-2021 16:20:49 Asia/Tokyo] デバッグ：セッションID：pqep5qmqfs1jt05je7co7p22qd
+[03-Jan-2021 16:20:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Jan-2021 16:20:49 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609658449
+[03-Jan-2021 16:20:49 Asia/Tokyo] デバッグ：POST送信があります
+[03-Jan-2021 16:20:49 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 9
+[03-Jan-2021 16:29:17 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:29:17 Asia/Tokyo] デバッグ：Login Page.
+[03-Jan-2021 16:29:17 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Jan-2021 16:29:17 Asia/Tokyo] デバッグ：セッションID：7q9vtoabhhmbgqfs5i8qickne9
+[03-Jan-2021 16:29:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Jan-2021 16:29:17 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609658957
+[03-Jan-2021 16:29:17 Asia/Tokyo] デバッグ：POST送信があります
+[03-Jan-2021 16:29:17 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 9
+[03-Jan-2021 16:29:23 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:29:23 Asia/Tokyo] デバッグ：Login Page.
+[03-Jan-2021 16:29:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Jan-2021 16:29:23 Asia/Tokyo] デバッグ：セッションID：uhgias12efqn0hsef142gb7hnf
+[03-Jan-2021 16:29:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Jan-2021 16:29:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609658963
+[03-Jan-2021 16:29:23 Asia/Tokyo] デバッグ：POST送信があります
+[03-Jan-2021 16:29:23 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 9
+[03-Jan-2021 16:29:23 Asia/Tokyo] PHP Notice:  Undefined index: email in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 13
+[03-Jan-2021 16:29:32 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:29:32 Asia/Tokyo] デバッグ：Login Page.
+[03-Jan-2021 16:29:32 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Jan-2021 16:29:32 Asia/Tokyo] デバッグ：セッションID：cd5iitcc9c8a3m2b4408f3ggjn
+[03-Jan-2021 16:29:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Jan-2021 16:29:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609658972
+[03-Jan-2021 16:29:32 Asia/Tokyo] デバッグ：POST送信があります
+[03-Jan-2021 16:29:32 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[03-Jan-2021 16:29:32 Asia/Tokyo] デバッグ：クエリ結果の中身：
+[03-Jan-2021 16:29:32 Asia/Tokyo] デバッグ：パスワードがアンマッチです
+[03-Jan-2021 16:30:48 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:30:48 Asia/Tokyo] デバッグ：Login Page.
+[03-Jan-2021 16:30:48 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Jan-2021 16:30:48 Asia/Tokyo] デバッグ：セッションID：oiugp5i3dahqf79q7sif21qoln
+[03-Jan-2021 16:30:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Jan-2021 16:30:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609659048
+[03-Jan-2021 16:30:48 Asia/Tokyo] デバッグ：POST送信があります
+[03-Jan-2021 16:30:48 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[03-Jan-2021 16:30:48 Asia/Tokyo] デバッグ：クエリ結果の中身：
+[03-Jan-2021 16:30:48 Asia/Tokyo] デバッグ：パスワードがアンマッチです
+[03-Jan-2021 16:30:59 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:30:59 Asia/Tokyo] デバッグ：Login Page.
+[03-Jan-2021 16:30:59 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Jan-2021 16:30:59 Asia/Tokyo] デバッグ：セッションID：epqq2suv5pmlgkqhl2vnes1956
+[03-Jan-2021 16:30:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Jan-2021 16:30:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609659059
+[03-Jan-2021 16:30:59 Asia/Tokyo] デバッグ：POST送信があります
+[03-Jan-2021 16:30:59 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[03-Jan-2021 16:30:59 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$ZhEw56Hpua9idFtKN6mXiu09gFzGsur7TC3BmK4.FNMYMaa9ltWPu
+    [id] => 1
+)
+
+[03-Jan-2021 16:31:00 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[03-Jan-2021 16:31:00 Asia/Tokyo] デバッグ：ログイン保持にチェックがあります
+[03-Jan-2021 16:31:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1609659060
+    [login_limit] => 2592000
+    [user_id] => 1
+)
+
+[03-Jan-2021 16:31:00 Asia/Tokyo] デバッグ：マイページへ遷移します
+[03-Jan-2021 16:34:02 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Jan-2021 16:34:08 Asia/Tokyo] デバッグ：未ログインユーザーです

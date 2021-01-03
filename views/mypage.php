@@ -5,7 +5,7 @@
 
             <h1 class="h2 text-dark mb-3">MyPage</h1>
 
-            <button type="submit" class="btn btn-lg btn-block btn-primary">サインイン</button>
+
         </form>
     </main>
 </div>

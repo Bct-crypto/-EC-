@@ -14,9 +14,44 @@ define('MSG05', '6文字以上で入力してください');
 define('MSG06', '256文字以内で入力してください');
 define('MSG07', 'エラーが発生しました。しばらく経ってからやり直してください。');
 define('MSG08', 'そのEmailは既に登録されています');
+define('MSG09', 'メールアドレスまたはパスワードが違います');
 
 // エラーメッセージ格納用の配列
 $errMsg = [];
+
+// Session準備・有効期限設定
+// sessionファイルの格納場所　30日間削除されないため
+session_save_path('/var/tmp/');
+// ガーベージコレクションが削除するセッションの有効期限を設定
+ini_set('session.gc_maxlifetime', 60 * 60 * 24 * 30);
+// ブラウザが閉じても削除されないようにクッキーの有効期限を伸ばす
+ini_set('session.cookie_lifetime', 60 * 60 * 24 * 30);
+// セッションを使用
+session_start();
+// 現在のセッションを新しいものに置き換える
+session_regenerate_id();
+
+// デバッグログ関数
+$debug_flg = true;
+function debug($str)
+{
+    global $debug_flg;
+    if (!empty($debug_flg)) {
+        error_log('デバッグ：' . $str);
+    }
+}
+// 画面表示処理開始ログの吐き出し関数
+function debugLogStart()
+{
+    debug('*********************************** 描画処理開始');
+    debug('セッションID：' . session_id());
+    debug('セッション変数の中身：' . print_r($_SESSION, true));
+    debug('現在日時タイムスタンプ：' . time());
+    if (!empty($_SESSION['login_date']) && !empty($_SESSION['login_limit'])) {
+        debug('ログイン期日日時タイムスタンプ：' . ($_SESSION['login_date'] + $_SESSION['login_limit']));
+    }
+}
+
 
 function validRequired($str, $key)
 {
