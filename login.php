@@ -40,7 +40,7 @@ if (!empty($_POST)) {
                 // DB接続
                 $dbh = dbConnect();
                 // SQL作成
-                $sql = 'SELECT password,id FROM users WHERE email = :email';
+                $sql = 'SELECT password,id FROM users WHERE email = :email AND delete_flg = 0';
                 // 値の入れ込み
                 $data = array(':email' => $email);
                 // クエリの実行

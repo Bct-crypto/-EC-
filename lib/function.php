@@ -15,6 +15,9 @@ define('MSG06', '256文字以内で入力してください');
 define('MSG07', 'エラーが発生しました。しばらく経ってからやり直してください。');
 define('MSG08', 'そのEmailは既に登録されています');
 define('MSG09', 'メールアドレスまたはパスワードが違います');
+define('MSG10', '電話番号の形式が違います');
+define('MSG11', '郵便番号の形式が違います');
+define('MSG12', '半角数字のみご利用いただけます');
 
 // エラーメッセージ格納用の配列
 $errMsg = [];
@@ -109,7 +112,7 @@ function validEmailDup($email)
         // DB接続
         $dbh = dbConnect();
         // SQL文作成
-        $sql = 'SELECT count(*) FROM users WHERE email = :email';
+        $sql = 'SELECT count(*) FROM users WHERE email = :email AND delete_flg = 0';
         // プレースホルダーへ値の入れ込み
         $data = array(':email' => $email);
         // クエリの実行
@@ -124,5 +127,29 @@ function validEmailDup($email)
     } catch (Exception $e) {
         error_log('エラー発生:' . $e->getMessage());
         $errMsg['common'] = MSG07;
+    }
+}
+
+function validTel($str, $key)
+{
+    if (!preg_match("/^\d{2}\-\d{4}\-\d{4}$/", $str)) {
+        global $errMsg;
+        $errMsg[$key] = MSG10;
+    }
+}
+
+function validZip($str, $key)
+{
+    if (!preg_match("/^\d{3}\-\d{4}$/", $str)) {
+        global $errMsg;
+        $errMsg[$key] = MSG11;
+    }
+}
+
+function validNumber($str, $key)
+{
+    if (!preg_match("/^[0-9]+$/", $str)) {
+        global $errMsg;
+        $errMsg[$key] = MSG12;
     }
 }
