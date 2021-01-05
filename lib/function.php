@@ -153,3 +153,29 @@ function validNumber($str, $key)
         $errMsg[$key] = MSG12;
     }
 }
+
+function getUserInfo($u_id)
+{
+    global $errMsg;
+    try {
+        // DB接続
+        $dbh = dbConnect();
+        // SQL作成
+        $sql = 'SELECT * FROM users WHERE id = :u_id';
+        // 値の入れ込み
+        $data = array(':u_id' => $u_id);
+        // クエリの実行
+        $stmt = queryPost($dbh, $sql, $data);
+
+        if ($stmt) {
+            debug('クエリ成功：ユーザー情報を取得しました');
+        } else {
+            debug('クエリ失敗：ユーザー情報の獲得に失敗しました');
+        }
+    } catch (Exception $e) {
+        error_log('エラー発生：' . $e->getMessage());
+        $errMsg['common'] = MSG07;
+    }
+    // 取得したユーザー情報を返却する
+    return $stmt->fetch(PDO::FETCH_ASSOC);
+}
