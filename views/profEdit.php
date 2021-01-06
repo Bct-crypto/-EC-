@@ -19,27 +19,27 @@
 
             <!-- Name -->
             <label for="inputName" class="">名前<span class="ml-3 text-danger"><?php if (!empty($errMsg['pass'])) echo $errMsg['username']; ?></span></label>
-            <input type="text" name="username" id="inputName" class="form-control mb-3" placeholder="" value="<?php if (!empty($_POST['username'])) echo $_POST['username']; ?>" autofocus>
+            <input type="text" name="username" id="inputName" class="form-control mb-3" placeholder="" value="<?php if (!empty($dbFormData['username'])) echo $dbFormData['username']; ?>" autofocus>
 
             <!-- Age -->
             <label for="inputAge" class="">年齢<span class="ml-3 text-danger"><?php if (!empty($errMsg['age'])) echo $errMsg['age']; ?></span></label>
-            <input type="number" name="age" id="inputAge" class="form-control mb-3" placeholder="※半角数字のみ">
+            <input type="number" name="age" id="inputAge" class="form-control mb-3" placeholder="※半角数字のみ" value="<?php if (!empty($dbFormData['age'])) echo $dbFormData['age']; ?>">
 
             <!-- Tel -->
             <label for="inputTel" class="">電話番号<span class="ml-3 text-danger"><?php if (!empty($errMsg['tel'])) echo $errMsg['tel']; ?></span></label>
-            <input type="text" name="tel" id="inputTel" class="form-control mb-3" placeholder="※ハイフンなしで入力ください">
+            <input type="text" name="tel" id="inputTel" class="form-control mb-3" placeholder="※ハイフンなしで入力ください" value="<?php if (!empty($dbFormData['tel'])) echo $dbFormData['tel']; ?>">
 
             <!-- Age -->
             <label for="inputZip" class="">郵便番号<span class="ml-3 text-danger"><?php if (!empty($errMsg['zip'])) echo $errMsg['zip']; ?></span></label>
-            <input type="text" name="zip" id="inputZip" class="form-control mb-3" placeholder="※ハイフンなしで入力ください">
+            <input type="text" name="zip" id="inputZip" class="form-control mb-3" placeholder="※ハイフンなしで入力ください" value="<?php if (!empty($dbFormData['zip'])) echo $dbFormData['zip']; ?>">
 
             <!-- Addr -->
             <label for="inputAddr" class="">住所<span class="ml-3 text-danger"><?php if (!empty($errMsg['addr'])) echo $errMsg['addr']; ?></span></label>
-            <input type="text" name="addr" id="inputAddr" class="form-control mb-3" placeholder="">
+            <input type="text" name="addr" id="inputAddr" class="form-control mb-3" placeholder="" value="<?php if (!empty($dbFormData['addr'])) echo $dbFormData['addr']; ?>">
 
             <!-- Email -->
             <label for="inputEmail" class="">メールアドレス<span class="ml-3 text-danger"><?php if (!empty($errMsg['email'])) echo $errMsg['email']; ?></span></label>
-            <input type="email" name="email" id="inputEmail" class="form-control mb-3" placeholder="">
+            <input type="email" name="email" id="inputEmail" class="form-control mb-3" placeholder="" value="<?php if (!empty($dbFormData['email'])) echo $dbFormData['email']; ?>">
 
             <button type="submit" class="btn btn-lg btn-block btn-primary">編集内容を更新する</button>
         </form>

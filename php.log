@@ -1007,3 +1007,384 @@ Stack trace:
     [update_date] => 2021-01-01 23:05:43
 )
 
+[06-Jan-2021 23:22:36 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[06-Jan-2021 23:22:36 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[06-Jan-2021 23:22:36 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[06-Jan-2021 23:22:36 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[06-Jan-2021 23:22:36 Asia/Tokyo] デバッグ：セッションID：mpihperi00f4lnb093k2tb1k55
+[06-Jan-2021 23:22:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1609942956
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[06-Jan-2021 23:22:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609942956
+[06-Jan-2021 23:22:36 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612534956
+[06-Jan-2021 23:22:36 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[06-Jan-2021 23:22:36 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 2
+    [username] => 
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test02@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[06-Jan-2021 23:24:38 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[06-Jan-2021 23:24:38 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[06-Jan-2021 23:24:38 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[06-Jan-2021 23:24:38 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[06-Jan-2021 23:24:38 Asia/Tokyo] デバッグ：セッションID：r9ps825g0kg3nhj2bfrtmt3rms
+[06-Jan-2021 23:24:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1609943078
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[06-Jan-2021 23:24:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609943078
+[06-Jan-2021 23:24:38 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612535078
+[06-Jan-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[06-Jan-2021 23:24:38 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 2
+    [username] => 
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test02@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[06-Jan-2021 23:24:51 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[06-Jan-2021 23:24:51 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[06-Jan-2021 23:24:51 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[06-Jan-2021 23:24:51 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[06-Jan-2021 23:24:51 Asia/Tokyo] デバッグ：セッションID：4lefijlnm0c220k28qbte0v5o2
+[06-Jan-2021 23:24:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1609943091
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[06-Jan-2021 23:24:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609943091
+[06-Jan-2021 23:24:51 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612535091
+[06-Jan-2021 23:24:51 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[06-Jan-2021 23:24:51 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 2
+    [username] => 
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test02@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[06-Jan-2021 23:24:51 Asia/Tokyo] デバッグ：POST送信があります
+[06-Jan-2021 23:24:51 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => test02@com
+)
+
+[06-Jan-2021 23:24:51 Asia/Tokyo] デバッグ：FILE情報：
+[06-Jan-2021 23:24:51 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/profEdit.php on line 9
+[06-Jan-2021 23:32:29 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[06-Jan-2021 23:32:29 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[06-Jan-2021 23:32:29 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[06-Jan-2021 23:32:29 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[06-Jan-2021 23:32:29 Asia/Tokyo] デバッグ：セッションID：rfioivoaighb0ckcds721sku2u
+[06-Jan-2021 23:32:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1609943549
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[06-Jan-2021 23:32:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609943549
+[06-Jan-2021 23:32:29 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612535549
+[06-Jan-2021 23:32:29 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[06-Jan-2021 23:32:29 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 2
+    [username] => 
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test02@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[06-Jan-2021 23:32:29 Asia/Tokyo] デバッグ：POST送信があります
+[06-Jan-2021 23:32:29 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => test02@com
+)
+
+[06-Jan-2021 23:32:29 Asia/Tokyo] デバッグ：FILE情報：
+[06-Jan-2021 23:32:29 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/profEdit.php on line 9
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：セッションID：58ckdelmom2imvmuiui16miq0k
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1609943636
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609943636
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612535636
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 2
+    [username] => 
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test02@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：POST送信があります
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => ぽんすけ
+    [age] => 25
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => test02@com
+)
+
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：FILE情報：
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を更新しました
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[06-Jan-2021 23:33:56 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[06-Jan-2021 23:34:23 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[06-Jan-2021 23:34:23 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[06-Jan-2021 23:34:23 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[06-Jan-2021 23:34:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[06-Jan-2021 23:34:23 Asia/Tokyo] デバッグ：セッションID：b1ah4eit3luhkghl11v87bvukk
+[06-Jan-2021 23:34:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1609943663
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[06-Jan-2021 23:34:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609943663
+[06-Jan-2021 23:34:23 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612535663
+[06-Jan-2021 23:34:23 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[06-Jan-2021 23:34:23 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 2
+    [username] => ぽんすけ
+    [age] => 25
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test02@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[06-Jan-2021 23:36:01 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[06-Jan-2021 23:36:01 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[06-Jan-2021 23:36:01 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[06-Jan-2021 23:36:01 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[06-Jan-2021 23:36:01 Asia/Tokyo] デバッグ：セッションID：u4d7kctdef0ok86b0gd6gtb9nn
+[06-Jan-2021 23:36:01 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1609943761
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[06-Jan-2021 23:36:01 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609943761
+[06-Jan-2021 23:36:01 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612535761
+[06-Jan-2021 23:36:01 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[06-Jan-2021 23:36:01 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 2
+    [username] => ぽんすけ
+    [age] => 25
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test02@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：セッションID：pshefokmumrdo55q20abbooa8o
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1609943767
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609943767
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612535767
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 2
+    [username] => ぽんすけ
+    [age] => 25
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test02@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：POST送信があります
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => ぽんすけ
+    [age] => 25
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => test02@com
+)
+
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：FILE情報：
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を更新しました
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[06-Jan-2021 23:36:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[06-Jan-2021 23:36:10 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[06-Jan-2021 23:36:10 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[06-Jan-2021 23:36:10 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[06-Jan-2021 23:36:10 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[06-Jan-2021 23:36:10 Asia/Tokyo] デバッグ：セッションID：0b13b2u5h1cmkg90v8ka69gu06
+[06-Jan-2021 23:36:10 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1609943770
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[06-Jan-2021 23:36:10 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609943770
+[06-Jan-2021 23:36:10 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612535770
+[06-Jan-2021 23:36:10 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[06-Jan-2021 23:36:10 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 2
+    [username] => ぽんすけ
+    [age] => 25
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test02@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[06-Jan-2021 23:36:21 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[06-Jan-2021 23:36:21 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[06-Jan-2021 23:36:21 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[06-Jan-2021 23:36:21 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[06-Jan-2021 23:36:21 Asia/Tokyo] デバッグ：セッションID：0gvb7k8d5e0fcr1afhrfkci5hf
+[06-Jan-2021 23:36:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1609943781
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[06-Jan-2021 23:36:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1609943781
+[06-Jan-2021 23:36:21 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612535781
+[06-Jan-2021 23:36:21 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[06-Jan-2021 23:36:21 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 2
+    [username] => ぽんすけ
+    [age] => 25
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test02@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[06-Jan-2021 23:36:21 Asia/Tokyo] デバッグ：POST送信があります
+[06-Jan-2021 23:36:21 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => ぽんすけ
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => test02@com
+)
+
+[06-Jan-2021 23:36:21 Asia/Tokyo] デバッグ：FILE情報：
+[06-Jan-2021 23:36:21 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/profEdit.php on line 9
