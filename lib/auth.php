@@ -14,6 +14,7 @@ if (!empty($_SESSION['login_date'])) {
         session_destroy();
         // ログインページへ
         header('Location:login.php');
+        exit();
     } else {
         debug('ログイン有効期限以内です');
 
@@ -23,11 +24,13 @@ if (!empty($_SESSION['login_date'])) {
         if (basename($_SERVER['PHP_SELF']) === 'login.php') {
             debug('マイページへ遷移します');
             header('Location:mypage.php');
+            exit();
         }
     }
 } else {
     debug('未ログインユーザーです');
     if (basename($_SERVER['PHP_SELF']) !== 'login.php') {
         header('Location:login.php');
+        exit();
     }
 }

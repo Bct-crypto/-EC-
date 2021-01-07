@@ -21,12 +21,13 @@ if (!empty($_POST)) {
 
     // 変数に情報を格納する
     $username = $_POST['username'];
-    $age = $_POST['age'];
-    $tel = $_POST['tel'];
+    $age = (!empty($_POST['age'])) ? $_POST['age'] : 0;
+    $tel = (!empty($_POST['tel'])) ? $_POST['tel'] : 0;
     $zip = (!empty($_POST['zip'])) ? $_POST['zip'] : 0;
     $addr = $_POST['addr'];
     $email = $_POST['email'];
 
+    var_dump($tel);
     // DBの情報と新たにPOSTされた情報が異なる場合にバリデーションチェックを行う
 
     // 名前
@@ -34,17 +35,23 @@ if (!empty($_POST)) {
         validMaxLen($username, 'username');
     }
     // 年齢
-    if ($dbFormData['age'] !== $age) {
+    if ($age === 0) {
+        $age = $age;
+    } elseif ($dbFormData['age'] !== $age) {
         validMaxLen($age, 'age');
         validNumber($age, 'age');
     }
     // 電話番号
-    if ($dbFormData['tel'] !== $tel) {
+    if ($tel === 0) {
+        $tel = $tel;
+    } elseif ((int)$dbFormData['tel'] !== $tel) {
         validTel($tel, 'tel');
     }
     // 郵便番号
     // DBから取得してきた値は全てString型なのでintにキャストする
-    if ((int)$dbFormData['zip'] !== $zip) {
+    if ($zip === 0) {
+        $zip = $zip;
+    } elseif ((int)$dbFormData['zip'] !== $zip) {
         validZip($zip, 'zip');
     }
     // 住所

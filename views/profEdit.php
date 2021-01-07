@@ -19,11 +19,11 @@
 
             <!-- Name -->
             <label for="inputName" class="">名前<span class="ml-3 text-danger"><?php if (!empty($errMsg['pass'])) echo $errMsg['username']; ?></span></label>
-            <input type="text" name="username" id="inputName" class="form-control mb-3" placeholder="" value="<?php if (!empty($dbFormData['username'])) echo $dbFormData['username']; ?>" autofocus>
+            <input type="text" name="username" id="inputName" class="form-control mb-3" placeholder="" value="<?php echo getFormData('username'); ?>" autofocus>
 
             <!-- Age -->
             <label for="inputAge" class="">年齢<span class="ml-3 text-danger"><?php if (!empty($errMsg['age'])) echo $errMsg['age']; ?></span></label>
-            <input type="number" name="age" id="inputAge" class="form-control mb-3" placeholder="※半角数字のみ" value="<?php if (!empty($dbFormData['age'])) echo $dbFormData['age']; ?>">
+            <input type="text" name="age" id="inputAge" class="form-control mb-3" placeholder="※半角数字のみ" value="<?php if (!empty($dbFormData['age'])) echo $dbFormData['age']; ?>">
 
             <!-- Tel -->
             <label for="inputTel" class="">電話番号<span class="ml-3 text-danger"><?php if (!empty($errMsg['tel'])) echo $errMsg['tel']; ?></span></label>

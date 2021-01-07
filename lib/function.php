@@ -132,7 +132,7 @@ function validEmailDup($email)
 
 function validTel($str, $key)
 {
-    if (!preg_match("/^\d{2}\-\d{4}\-\d{4}$/", $str)) {
+    if (!preg_match("/0\d{1,4}\d{1,4}\d{4}/", $str)) {
         global $errMsg;
         $errMsg[$key] = MSG10;
     }
@@ -140,7 +140,7 @@ function validTel($str, $key)
 
 function validZip($str, $key)
 {
-    if (!preg_match("/^\d{3}\-\d{4}$/", $str)) {
+    if (!preg_match("/(^\d{3}\-\d{4}$)|(^\d{7}$)/", $str)) {
         global $errMsg;
         $errMsg[$key] = MSG11;
     }
@@ -153,6 +153,8 @@ function validNumber($str, $key)
         $errMsg[$key] = MSG12;
     }
 }
+
+// function validLength($str,$key,$len = 8)
 
 function getUserInfo($u_id)
 {
@@ -178,4 +180,40 @@ function getUserInfo($u_id)
     }
     // 取得したユーザー情報を返却する
     return $stmt->fetch(PDO::FETCH_ASSOC);
+}
+
+// Formの入力保持
+function getFormData($str)
+{
+    global $dbFormData;
+
+    // ユーザーデータがある場合
+    if (!empty($dbFormData)) {
+        // フォームエラーがある場合
+        if (!empty($errMsg[$str])) {
+            // POSTされたデータがある場合
+            if (isset($_POST[$str])) {
+                return sanitize($_POST[$str]);
+            } else {
+                return sanitize($dbFormData[$str]);
+            }
+        } else {
+            // フォームエラーがない場合
+            // POSTされており、尚且つPOSTされた値とDBの差異をチェック
+            if (isset($_POST[$str]) && $dbFormData[$str] !== $_POST[$str]) {
+                return sanitize($_POST[$str]);
+            } else {
+                return sanitize($dbFormData[$str]);
+            }
+        }
+    } else {
+        if (isset($_POST[$str])) {
+            return sanitize($_POST[$str]);
+        }
+    }
+}
+
+function sanitize($str)
+{
+    return htmlspecialchars($str, ENT_QUOTES);
 }
