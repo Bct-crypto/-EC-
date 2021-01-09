@@ -19,7 +19,7 @@ define('MSG10', '電話番号の形式が違います');
 define('MSG11', '郵便番号の形式が違います');
 define('MSG12', '半角数字のみご利用いただけます');
 define('MSG13', '登録されているパスワードと一致しません');
-define('MSG14', '登録されているパスワードと同じです');
+define('MSG14', '古いパスワードと同じです');
 define('MSG15', '文字で入力してください');
 define('MSG16', '正しくありません');
 define('MSG17', '有効期限が切れています');
@@ -68,7 +68,7 @@ function debugLogStart()
 
 function validRequired($str, $key)
 {
-    if (empty($str)) {
+    if ($str === '') {
         global $errMsg;
         $errMsg[$key] = MSG01;
     }
@@ -164,6 +164,17 @@ function validNumber($str, $key)
     }
 }
 
+// パスワードチェック専用関数
+function validCheck($str, $key)
+{
+    // 半角英数字チェック
+    validPass($str, $key);
+    // 最大文字数チェック
+    validMaxLen($str, $key);
+    // 最小文字数チェック
+    validMinLen($str, $key);
+}
+
 // function validLength($str,$key,$len = 8)
 
 function getUserInfo($u_id)
@@ -173,23 +184,55 @@ function getUserInfo($u_id)
         // DB接続
         $dbh = dbConnect();
         // SQL作成
-        $sql = 'SELECT * FROM users WHERE id = :u_id';
+        $sql = 'SELECT * FROM users WHERE id = :u_id AND delete_flg = 0';
         // 値の入れ込み
         $data = array(':u_id' => $u_id);
         // クエリの実行
         $stmt = queryPost($dbh, $sql, $data);
 
+        // if ($stmt) {
+        //     debug('クエリ成功：ユーザー情報を取得しました');
+        // } else {
+        //     debug('クエリ失敗：ユーザー情報の獲得に失敗しました');
+        // }
+
         if ($stmt) {
-            debug('クエリ成功：ユーザー情報を取得しました');
+            // 取得したユーザー情報を返却する
+            return $stmt->fetch(PDO::FETCH_ASSOC);
         } else {
-            debug('クエリ失敗：ユーザー情報の獲得に失敗しました');
+            return false;
         }
     } catch (Exception $e) {
         error_log('エラー発生：' . $e->getMessage());
         $errMsg['common'] = MSG07;
     }
-    // 取得したユーザー情報を返却する
-    return $stmt->fetch(PDO::FETCH_ASSOC);
+}
+
+// 登録商品情報の取得
+function getProduct($u_id)
+{
+    global $errMsg;
+    debug('自身の商品情報を取得します');
+    debug('ユーザID：' . $u_id);
+    try {
+        // DB接続
+        $dbh = dbConnect();
+        // SQL作成
+        $sql = 'SELECT * FROM product WHERE user_id = :u_id AND delete_flg = 0';
+        // 値の入れ込み
+        $data = [':u_id' => $u_id];
+        // クエリの実行
+        $stmt = queryPost($dbh, $sql, $data);
+
+        if ($stmt) {
+            return $stmt->fetchAll();
+        } else {
+            return false;
+        }
+    } catch (Exception $e) {
+        error_log('エラー発生：' . $e->getMessage());
+        $errMsg['common'] = MSG07;
+    }
 }
 
 // Formの入力保持
@@ -227,3 +270,14 @@ function sanitize($str)
 {
     return htmlspecialchars($str, ENT_QUOTES);
 }
+
+
+// // sessionを一度だけ取得
+// function getSessionFlash($key)
+// {
+//     if (!empty($_SESSION[$key])) {
+//         $data = $_SESSION[$key];
+//         $_SESSION = '';
+//         return $data;
+//     }
+// }

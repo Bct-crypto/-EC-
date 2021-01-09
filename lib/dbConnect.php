@@ -23,6 +23,11 @@ function queryPost($dbh, $sql, $data)
     // クエリ作成
     $stmt = $dbh->prepare($sql);
     // プレースホルダーに値をセットし、SQLを実行
-    $stmt->execute($data);
+    if (!$stmt->execute($data)) {
+        debug('クエリに失敗しました');
+        $errMsg['common'] = MSG07;
+        return 0;
+    }
+    debug('クエリ成功');
     return $stmt;
 }

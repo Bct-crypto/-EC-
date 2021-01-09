@@ -6563,3 +6563,1882 @@ Stack trace:
 [08-Jan-2021 01:55:03 Asia/Tokyo] デバッグ：ログイン有効期限以内です
 [08-Jan-2021 01:55:26 Asia/Tokyo] デバッグ：ログイン済ユーザーです
 [08-Jan-2021 01:55:26 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:19:11 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:19:11 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:19:11 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:19:11 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:19:11 Asia/Tokyo] デバッグ：セッションID：ts9nbnkvp8p7cbha8v023sp2ht
+[09-Jan-2021 00:19:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610119151
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 00:19:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610119151
+[09-Jan-2021 00:19:11 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612711151
+[09-Jan-2021 00:19:11 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:19:11 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:19:13 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:19:13 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:19:15 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:19:15 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:19:15 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:19:15 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:19:15 Asia/Tokyo] デバッグ：セッションID：ujhcnhmbq9qgh71jqn8dc158hc
+[09-Jan-2021 00:19:15 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610119155
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 00:19:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610119155
+[09-Jan-2021 00:19:15 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612711155
+[09-Jan-2021 00:19:15 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:19:15 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:19:23 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:19:23 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:19:23 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:19:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:19:23 Asia/Tokyo] デバッグ：セッションID：f4s7jvpnbkpcq2sic7fa65cavn
+[09-Jan-2021 00:19:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610119163
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 00:19:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610119163
+[09-Jan-2021 00:19:23 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612711163
+[09-Jan-2021 00:19:23 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:19:23 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:20:16 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:20:16 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:20:16 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:20:16 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:20:16 Asia/Tokyo] デバッグ：セッションID：istkk4efuqskklp32m84c5sen1
+[09-Jan-2021 00:20:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610119216
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 00:20:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610119216
+[09-Jan-2021 00:20:16 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612711216
+[09-Jan-2021 00:20:16 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:20:16 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:20:16 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 00:23:15 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:23:15 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:23:15 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:23:15 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:23:15 Asia/Tokyo] デバッグ：セッションID：9bpbhsddgiibpq59pgra33no04
+[09-Jan-2021 00:23:15 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610119395
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 00:23:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610119395
+[09-Jan-2021 00:23:15 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612711395
+[09-Jan-2021 00:23:15 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:23:15 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:23:15 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 00:24:44 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:24:44 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:24:44 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:24:44 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:24:44 Asia/Tokyo] デバッグ：セッションID：ji1rb3l1ctg7r3p5npeaffg148
+[09-Jan-2021 00:24:44 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610119484
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 00:24:44 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610119484
+[09-Jan-2021 00:24:44 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612711484
+[09-Jan-2021 00:24:44 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:24:44 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:24:44 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 00:25:17 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:25:17 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:25:17 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:25:17 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:25:17 Asia/Tokyo] デバッグ：セッションID：fnkbnq22ape4i1d03tdvk3j881
+[09-Jan-2021 00:25:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610119517
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 00:25:17 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610119517
+[09-Jan-2021 00:25:17 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612711517
+[09-Jan-2021 00:25:17 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:25:17 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:25:17 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 00:25:34 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:25:34 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:25:34 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:25:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:25:34 Asia/Tokyo] デバッグ：セッションID：vf92hdf1v729m2hrhtcsbqo9rk
+[09-Jan-2021 00:25:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610119534
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 00:25:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610119534
+[09-Jan-2021 00:25:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612711534
+[09-Jan-2021 00:25:34 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:25:34 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:25:34 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 00:26:01 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:26:01 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:26:01 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:26:01 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:26:01 Asia/Tokyo] デバッグ：セッションID：d3pniki2qn0b90k6rvh2oota4r
+[09-Jan-2021 00:26:01 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610119561
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 00:26:01 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610119561
+[09-Jan-2021 00:26:01 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612711561
+[09-Jan-2021 00:26:01 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:26:01 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:26:01 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 00:26:26 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:26:26 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:26:26 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:26:26 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:26:26 Asia/Tokyo] デバッグ：セッションID：dbhe9c4cc0idsliud2uil7pmvo
+[09-Jan-2021 00:26:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610119586
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 00:26:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610119586
+[09-Jan-2021 00:26:26 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612711586
+[09-Jan-2021 00:26:26 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:26:26 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:26:26 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 00:26:37 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:26:37 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:26:37 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:26:37 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:26:37 Asia/Tokyo] デバッグ：セッションID：s42c4vm2epa9tblpk5ebm60aoq
+[09-Jan-2021 00:26:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610119597
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 00:26:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610119597
+[09-Jan-2021 00:26:37 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612711597
+[09-Jan-2021 00:26:37 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:26:37 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:26:37 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 00:30:15 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:30:15 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:30:15 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:30:15 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:30:15 Asia/Tokyo] デバッグ：セッションID：ik4jt2s0gie2olj283nscvfdld
+[09-Jan-2021 00:30:15 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610119815
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 00:30:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610119815
+[09-Jan-2021 00:30:15 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612711815
+[09-Jan-2021 00:30:15 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:30:15 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:30:15 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 00:30:24 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:30:24 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:30:24 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:30:24 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:30:24 Asia/Tokyo] デバッグ：セッションID：65jqja9fgip3cu7412hhvvvpgj
+[09-Jan-2021 00:30:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610119824
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 00:30:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610119824
+[09-Jan-2021 00:30:24 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612711824
+[09-Jan-2021 00:30:24 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:30:24 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:30:24 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 00:30:24 Asia/Tokyo] デバッグ：バリデーションチェックOK：更新処理に進みます
+[09-Jan-2021 00:30:24 Asia/Tokyo] PHP Notice:  Undefined index: id in /Applications/MAMP/htdocs/PHP/ECsite/passEdit.php on line 59
+[09-Jan-2021 00:30:25 Asia/Tokyo] デバッグ：クエリ成功：パスワードを更新しました
+[09-Jan-2021 00:30:25 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:30:25 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:38:41 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:38:41 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:38:41 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:38:41 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:38:41 Asia/Tokyo] デバッグ：セッションID：u7j56vb8b04psacuolbofruihr
+[09-Jan-2021 00:38:41 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610120321
+    [login_limit] => 2592000
+    [user_id] => 2
+    [success] => パスワードを変更しました
+)
+
+[09-Jan-2021 00:38:41 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610120321
+[09-Jan-2021 00:38:41 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612712321
+[09-Jan-2021 00:38:41 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:38:41 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:38:55 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:38:55 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:38:55 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:38:55 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:38:55 Asia/Tokyo] デバッグ：セッションID：11evu9a1kii7433ohm680qhg4q
+[09-Jan-2021 00:38:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610120335
+    [login_limit] => 2592000
+    [user_id] => 2
+    [success] => パスワードを変更しました
+)
+
+[09-Jan-2021 00:38:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610120335
+[09-Jan-2021 00:38:55 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612712335
+[09-Jan-2021 00:38:55 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:38:55 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:38:55 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：セッションID：f21gjbf042oie1bfj75218cund
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610120379
+    [login_limit] => 2592000
+    [user_id] => 2
+    [success] => パスワードを変更しました
+)
+
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610120379
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612712379
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$M2eVVxLwY1h4tQRZ00J0heHyhduSwFHlWx8WzrsuV1p2iXeA7xOcS
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：バリデーションチェックOK：更新処理に進みます
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：クエリ成功：パスワードを更新しました
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 00:39:39 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 12:18:12 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 12:18:12 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 12:18:14 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 12:18:14 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 12:18:14 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 12:18:14 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 12:18:14 Asia/Tokyo] デバッグ：セッションID：10urnd9s7b47e7b2hppn18hhup
+[09-Jan-2021 12:18:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610162294
+    [login_limit] => 2592000
+    [user_id] => 2
+    [success] => パスワードを変更しました
+)
+
+[09-Jan-2021 12:18:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610162294
+[09-Jan-2021 12:18:14 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612754294
+[09-Jan-2021 12:18:14 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 12:18:14 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$iDTKAnbmA.cxI/EBpPlJpeSYvIBjrh.8Z1VBNXsBMv.UQ91xFrWZK
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 12:18:18 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 12:18:18 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 12:18:19 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 12:18:19 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 12:18:22 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 12:18:22 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:14:22 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:14:22 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:14:25 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:14:25 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:14:25 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[09-Jan-2021 15:14:25 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:14:25 Asia/Tokyo] デバッグ：セッションID：8bpgrnhf74tcs487utfe672fgf
+[09-Jan-2021 15:14:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610172865
+    [login_limit] => 2592000
+    [user_id] => 2
+    [success] => パスワードを変更しました
+)
+
+[09-Jan-2021 15:14:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610172865
+[09-Jan-2021 15:14:25 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612764865
+[09-Jan-2021 15:14:25 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:14:25 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$iDTKAnbmA.cxI/EBpPlJpeSYvIBjrh.8Z1VBNXsBMv.UQ91xFrWZK
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：セッションID：tfern9sr2acesv66589de64pn2
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610172868
+    [login_limit] => 2592000
+    [user_id] => 2
+    [success] => パスワードを変更しました
+)
+
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610172868
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612764868
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$iDTKAnbmA.cxI/EBpPlJpeSYvIBjrh.8Z1VBNXsBMv.UQ91xFrWZK
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：POST送信があります
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+)
+
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：FILE情報：
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を更新しました
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:14:28 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:15:58 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:15:58 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:16:09 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:16:09 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:16:22 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:16:22 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:17:13 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:17:13 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:17:32 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:17:32 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:17:39 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:17:39 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:20:28 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:20:28 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:21:18 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:21:18 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:22:53 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:22:53 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:23:02 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:23:02 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:23:02 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 15:23:02 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:23:02 Asia/Tokyo] デバッグ：セッションID：8ra7f9s02qr48shchp1esq3309
+[09-Jan-2021 15:23:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610173382
+    [login_limit] => 2592000
+    [user_id] => 2
+    [success] => パスワードを変更しました
+)
+
+[09-Jan-2021 15:23:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610173382
+[09-Jan-2021 15:23:02 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612765382
+[09-Jan-2021 15:23:02 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:23:02 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$iDTKAnbmA.cxI/EBpPlJpeSYvIBjrh.8Z1VBNXsBMv.UQ91xFrWZK
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：セッションID：kfcohhb2cl6b6abiio6p07v4jg
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610173394
+    [login_limit] => 2592000
+    [user_id] => 2
+    [success] => パスワードを変更しました
+)
+
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610173394
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612765394
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$iDTKAnbmA.cxI/EBpPlJpeSYvIBjrh.8Z1VBNXsBMv.UQ91xFrWZK
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：バリデーションチェックOK：更新処理に進みます
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：クエリ成功：パスワードを更新しました
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:23:14 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:25:04 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:25:04 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:25:04 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:25:04 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:25:04 Asia/Tokyo] デバッグ：セッションID：e65802748u0pf2r831s3jn10ff
+[09-Jan-2021 15:25:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:25:04 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610173504
+[09-Jan-2021 15:25:12 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:25:12 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:25:12 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:25:12 Asia/Tokyo] デバッグ：セッションID：9bc45bkkggv1een77s3mt12htf
+[09-Jan-2021 15:25:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:25:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610173512
+[09-Jan-2021 15:25:24 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:25:24 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:25:24 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:25:24 Asia/Tokyo] デバッグ：セッションID：gvmtspt337ei7km1dmo30insef
+[09-Jan-2021 15:25:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:25:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610173524
+[09-Jan-2021 15:25:24 Asia/Tokyo] デバッグ：POST送信があります
+[09-Jan-2021 15:25:24 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[09-Jan-2021 15:25:24 Asia/Tokyo] デバッグ：クエリ結果の中身：
+[09-Jan-2021 15:25:24 Asia/Tokyo] デバッグ：パスワードがアンマッチです
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：セッションID：olmchulose908b8gceec6mn06t
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610173545
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：POST送信があります
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$Rf/G0fyXFLYH3vOf7RkYDOJeSwbvpAKXkg4JVwPH9bt8DMoOTvy4i
+    [id] => 2
+)
+
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610173545
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：マイページへ遷移します
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:25:45 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:25:53 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:25:53 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:25:53 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 15:25:53 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:25:53 Asia/Tokyo] デバッグ：セッションID：j04407itr2uih4ut8mj24kvrge
+[09-Jan-2021 15:25:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610173553
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:25:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610173553
+[09-Jan-2021 15:25:53 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610177153
+[09-Jan-2021 15:25:53 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:25:53 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$Rf/G0fyXFLYH3vOf7RkYDOJeSwbvpAKXkg4JVwPH9bt8DMoOTvy4i
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：セッションID：prrubup1tg7ble1j345j64143s
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610173566
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610173566
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610177166
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$Rf/G0fyXFLYH3vOf7RkYDOJeSwbvpAKXkg4JVwPH9bt8DMoOTvy4i
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：バリデーションチェックOK：更新処理に進みます
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：クエリ成功：パスワードを更新しました
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:26:06 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:27:33 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:27:33 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:27:33 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:27:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:27:33 Asia/Tokyo] デバッグ：セッションID：6t2mp3801lolchjopdpbfjruka
+[09-Jan-2021 15:27:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:27:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610173653
+[09-Jan-2021 15:27:48 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:27:48 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:27:48 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:27:48 Asia/Tokyo] デバッグ：セッションID：95h2b3la1hkesltgmb1dipnq14
+[09-Jan-2021 15:27:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:27:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610173668
+[09-Jan-2021 15:27:48 Asia/Tokyo] デバッグ：POST送信があります
+[09-Jan-2021 15:27:48 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[09-Jan-2021 15:27:48 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$RONN9g4Vwr3JwD90d.vlmOA0ypOXxWj5x//NZh1cCaIpTVUIqziCm
+    [id] => 2
+)
+
+[09-Jan-2021 15:27:49 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[09-Jan-2021 15:27:49 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません
+[09-Jan-2021 15:27:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610173669
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:27:49 Asia/Tokyo] デバッグ：マイページへ遷移します
+[09-Jan-2021 15:27:49 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:27:49 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:27:52 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:27:52 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:27:52 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 15:27:52 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:27:52 Asia/Tokyo] デバッグ：セッションID：5neenf1a056f2s72aqe5ljo4jf
+[09-Jan-2021 15:27:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610173672
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:27:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610173672
+[09-Jan-2021 15:27:52 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610177272
+[09-Jan-2021 15:27:52 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:27:52 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$RONN9g4Vwr3JwD90d.vlmOA0ypOXxWj5x//NZh1cCaIpTVUIqziCm
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：セッションID：d96cfi03sj43cm6kl3v4ncbfsm
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610173683
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610173683
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610177283
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$RONN9g4Vwr3JwD90d.vlmOA0ypOXxWj5x//NZh1cCaIpTVUIqziCm
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：バリデーションチェックOK：更新処理に進みます
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：クエリ成功：パスワードを更新しました
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:28:03 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:33:21 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:33:21 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:33:21 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:33:21 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:33:21 Asia/Tokyo] デバッグ：セッションID：ctnm5buf6fuh524nqa72e0mf6g
+[09-Jan-2021 15:33:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:33:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174001
+[09-Jan-2021 15:33:35 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:33:35 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:33:35 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:33:35 Asia/Tokyo] デバッグ：セッションID：b26a73k7qv80vh797gecbsbm1p
+[09-Jan-2021 15:33:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:33:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174015
+[09-Jan-2021 15:33:43 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:33:43 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:33:43 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:33:43 Asia/Tokyo] デバッグ：セッションID：6kdg6tktsohiq83egkbt9ho9c5
+[09-Jan-2021 15:33:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:33:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174023
+[09-Jan-2021 15:33:43 Asia/Tokyo] デバッグ：POST送信があります
+[09-Jan-2021 15:33:43 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[09-Jan-2021 15:33:43 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$XzZQMW70RtRFK/XUIqbB7OGlf.yaQdjfN2WFZduDcdUUJZo2MVvdO
+    [id] => 2
+)
+
+[09-Jan-2021 15:33:44 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[09-Jan-2021 15:33:44 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません
+[09-Jan-2021 15:33:44 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610174024
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:33:44 Asia/Tokyo] デバッグ：マイページへ遷移します
+[09-Jan-2021 15:33:44 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:33:44 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:33:46 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:33:46 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:33:46 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 15:33:46 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:33:46 Asia/Tokyo] デバッグ：セッションID：cdunh5bu6stnn5ca9asap1muva
+[09-Jan-2021 15:33:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610174026
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:33:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174026
+[09-Jan-2021 15:33:46 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610177626
+[09-Jan-2021 15:33:46 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:33:46 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$XzZQMW70RtRFK/XUIqbB7OGlf.yaQdjfN2WFZduDcdUUJZo2MVvdO
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：セッションID：l9ge1dmrj4jqpao2lokad6f3ak
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610174035
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174035
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610177635
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$XzZQMW70RtRFK/XUIqbB7OGlf.yaQdjfN2WFZduDcdUUJZo2MVvdO
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：バリデーションチェックOK：更新処理に進みます
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：クエリ成功：パスワードを更新しました
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:33:55 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:34:44 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:34:44 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:34:44 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:34:44 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:34:44 Asia/Tokyo] デバッグ：セッションID：1deef069kn60fum8ob5r95ov3h
+[09-Jan-2021 15:34:44 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:34:44 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174084
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：セッションID：998kusrlqk6sfasbr93caos1v2
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174101
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：POST送信があります
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$4dy.COipf/apeFDo2FtsEuDFnp64vro89XDpXtW5ltaHhRwAf2YrK
+    [id] => 2
+)
+
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：ログイン保持にチェックがあります
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610174101
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：マイページへ遷移します
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:35:01 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:35:03 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:35:03 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:35:03 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 15:35:03 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:35:03 Asia/Tokyo] デバッグ：セッションID：pb9pkqbfv8em70fqk859g4pptv
+[09-Jan-2021 15:35:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610174103
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:35:03 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174103
+[09-Jan-2021 15:35:03 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612766103
+[09-Jan-2021 15:35:03 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:35:03 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$4dy.COipf/apeFDo2FtsEuDFnp64vro89XDpXtW5ltaHhRwAf2YrK
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：セッションID：3vk1497ulb563t1go30bse2kvu
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610174112
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174112
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612766112
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$4dy.COipf/apeFDo2FtsEuDFnp64vro89XDpXtW5ltaHhRwAf2YrK
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：バリデーションチェックOK：更新処理に進みます
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：クエリ成功：パスワードを更新しました
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:35:12 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:38:46 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:38:46 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:38:46 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:38:46 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:38:46 Asia/Tokyo] デバッグ：セッションID：7sgpouognhl91ajmh2u700gl3j
+[09-Jan-2021 15:38:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:38:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174326
+[09-Jan-2021 15:48:12 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:48:12 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:48:12 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:48:12 Asia/Tokyo] デバッグ：セッションID：h2imh2lma16ri9qfn87mdoamck
+[09-Jan-2021 15:48:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:48:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174892
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：セッションID：jvsis5ukl8g3orgnm7j22fql49
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174899
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：POST送信があります
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$ty/BT29Dz.Gsp5hju.xSquL8IVct9pmaU9nUfJcNfPHykIiYeV7rm
+    [id] => 2
+)
+
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610174899
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：マイページへ遷移します
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:48:19 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:48:23 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:48:23 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:48:23 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 15:48:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:48:23 Asia/Tokyo] デバッグ：セッションID：0un6cpilvka68a1rud8mr8rv8s
+[09-Jan-2021 15:48:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610174903
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:48:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174903
+[09-Jan-2021 15:48:23 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610178503
+[09-Jan-2021 15:48:23 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:48:23 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$ty/BT29Dz.Gsp5hju.xSquL8IVct9pmaU9nUfJcNfPHykIiYeV7rm
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:48:31 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:48:31 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:48:31 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 15:48:31 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:48:31 Asia/Tokyo] デバッグ：セッションID：nk4d2gtclnl2sdfnloa01438u6
+[09-Jan-2021 15:48:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610174911
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 15:48:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174911
+[09-Jan-2021 15:48:31 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610178511
+[09-Jan-2021 15:48:31 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 15:48:31 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$ty/BT29Dz.Gsp5hju.xSquL8IVct9pmaU9nUfJcNfPHykIiYeV7rm
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 15:48:31 Asia/Tokyo] デバッグ：未入力チェックOK
+[09-Jan-2021 15:48:31 Asia/Tokyo] デバッグ：バリデーションチェックOK：更新処理に進みます
+[09-Jan-2021 15:48:32 Asia/Tokyo] デバッグ：クエリ成功：パスワードを更新しました
+[09-Jan-2021 15:48:32 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 15:48:32 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 15:49:45 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:49:45 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 15:49:45 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 15:49:45 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 15:49:45 Asia/Tokyo] デバッグ：セッションID：ibvum230pfr003ar9gq16g3dh7
+[09-Jan-2021 15:49:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 15:49:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610174985
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：セッションID：ghbl6630i740danfauk5dp5817
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610175794
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：POST送信があります
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [id] => 2
+)
+
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：ログイン保持にチェックがあります
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610175794
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：マイページへ遷移します
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 16:03:14 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 16:03:14 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function getSessionFlash() in /Applications/MAMP/htdocs/PHP/ECsite/views/mypage.php:4
+Stack trace:
+#0 /Applications/MAMP/htdocs/PHP/ECsite/views/layout.php(36): include()
+#1 /Applications/MAMP/htdocs/PHP/ECsite/mypage.php(15): include('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/PHP/ECsite/views/mypage.php on line 4
+[09-Jan-2021 16:03:25 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 16:03:25 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 16:07:08 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 16:07:08 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 16:07:08 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[09-Jan-2021 16:07:08 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 16:07:08 Asia/Tokyo] デバッグ：セッションID：b5f2vu4bhnvdfcmvoh2tknq7qq
+[09-Jan-2021 16:07:08 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610176028
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 16:07:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610176028
+[09-Jan-2021 16:07:08 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612768028
+[09-Jan-2021 16:07:08 Asia/Tokyo] デバッグ：クエリ成功：ユーザー情報を取得しました
+[09-Jan-2021 16:07:08 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[09-Jan-2021 16:29:33 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 16:29:33 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 16:30:26 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 16:30:26 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 16:31:34 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 16:31:34 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 21:53:13 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 21:53:13 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 21:53:13 Asia/Tokyo] デバッグ：MyPageを表示します
+[09-Jan-2021 21:53:13 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 21:53:13 Asia/Tokyo] デバッグ：セッションID：ubq25ngcrk84lennsb0lo8d47n
+[09-Jan-2021 21:53:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610196793
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 21:53:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610196793
+[09-Jan-2021 21:53:13 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612788793
+[09-Jan-2021 21:53:13 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[09-Jan-2021 21:53:13 Asia/Tokyo] デバッグ：ユーザID：2
+[09-Jan-2021 21:53:13 Asia/Tokyo] デバッグ：クエリ成功
+[09-Jan-2021 21:53:13 Asia/Tokyo] デバッグ：クエリ成功
+[09-Jan-2021 21:53:14 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 21:53:14 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 21:53:14 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 21:53:14 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 21:53:14 Asia/Tokyo] デバッグ：セッションID：kl3gl25hav6k1mg9sdjiqjtv7p
+[09-Jan-2021 21:53:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610196794
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 21:53:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610196794
+[09-Jan-2021 21:53:14 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612788794
+[09-Jan-2021 22:01:21 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:01:21 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:01:21 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:01:21 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:01:21 Asia/Tokyo] デバッグ：セッションID：4rb8rglj8u15q1iq5he72pu32q
+[09-Jan-2021 22:01:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610197281
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:01:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610197281
+[09-Jan-2021 22:01:21 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612789281
+[09-Jan-2021 22:07:16 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:07:16 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:07:16 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:07:16 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:07:16 Asia/Tokyo] デバッグ：セッションID：sh3k67avkui4hn2fin9uaffg4e
+[09-Jan-2021 22:07:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610197636
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:07:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610197636
+[09-Jan-2021 22:07:16 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612789636
+[09-Jan-2021 22:12:30 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:12:30 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:12:30 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:12:30 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:12:30 Asia/Tokyo] デバッグ：セッションID：apaam9o9gdsbdsskg7ms2n31ff
+[09-Jan-2021 22:12:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610197950
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:12:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610197950
+[09-Jan-2021 22:12:30 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612789950
+[09-Jan-2021 22:16:18 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:16:18 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:16:18 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:16:18 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:16:18 Asia/Tokyo] デバッグ：セッションID：m8uodad66s22jmu8e713duddol
+[09-Jan-2021 22:16:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610198178
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:16:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610198178
+[09-Jan-2021 22:16:18 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612790178
+[09-Jan-2021 22:16:34 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:16:34 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:16:34 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:16:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:16:34 Asia/Tokyo] デバッグ：セッションID：pu6p7edei99523to0k1vvo1393
+[09-Jan-2021 22:16:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610198194
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:16:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610198194
+[09-Jan-2021 22:16:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612790194
+[09-Jan-2021 22:16:44 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:16:44 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:16:44 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:16:44 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:16:44 Asia/Tokyo] デバッグ：セッションID：tbr3eccka9ilq0he11gmdl27t1
+[09-Jan-2021 22:16:44 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610198204
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:16:44 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610198204
+[09-Jan-2021 22:16:44 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612790204
+[09-Jan-2021 22:19:08 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:19:08 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:19:08 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:19:08 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:19:08 Asia/Tokyo] デバッグ：セッションID：9d2bhqdb58a7l2cpbb2j4par02
+[09-Jan-2021 22:19:08 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610198348
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:19:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610198348
+[09-Jan-2021 22:19:08 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612790348
+[09-Jan-2021 22:21:45 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:21:45 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:21:45 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:21:45 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:21:45 Asia/Tokyo] デバッグ：セッションID：s9rlocou66e1urj1cr61mqje93
+[09-Jan-2021 22:21:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610198505
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:21:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610198505
+[09-Jan-2021 22:21:45 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612790505
+[09-Jan-2021 22:26:19 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:26:19 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:26:19 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:26:19 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:26:19 Asia/Tokyo] デバッグ：セッションID：ksruddu3bpdtlk5mt03ejsvtac
+[09-Jan-2021 22:26:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610198779
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:26:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610198779
+[09-Jan-2021 22:26:19 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612790779
+[09-Jan-2021 22:29:05 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:29:05 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:29:05 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:29:05 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:29:05 Asia/Tokyo] デバッグ：セッションID：obrjacrjjllmvlebrink1uib0d
+[09-Jan-2021 22:29:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610198945
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:29:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610198945
+[09-Jan-2021 22:29:05 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612790945
+[09-Jan-2021 22:32:55 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:32:55 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:32:55 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:32:55 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:32:55 Asia/Tokyo] デバッグ：セッションID：ct3h0nhgnbkoktfqb9g59mjov3
+[09-Jan-2021 22:32:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610199175
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:32:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610199175
+[09-Jan-2021 22:32:55 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612791175
+[09-Jan-2021 22:33:43 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:33:43 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:33:43 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:33:43 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:33:43 Asia/Tokyo] デバッグ：セッションID：3fjqthbchbv2mhutja5kqjbden
+[09-Jan-2021 22:33:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610199223
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:33:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610199223
+[09-Jan-2021 22:33:43 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612791223
+[09-Jan-2021 22:33:53 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:33:53 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:33:53 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:33:53 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:33:53 Asia/Tokyo] デバッグ：セッションID：acdi9s2ukcc5kenf6iiv8j4crn
+[09-Jan-2021 22:33:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610199233
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:33:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610199233
+[09-Jan-2021 22:33:53 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612791233
+[09-Jan-2021 22:36:18 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:36:18 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:36:18 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:36:18 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:36:18 Asia/Tokyo] デバッグ：セッションID：uadkj2lvtplnbcfbl86btdpgbf
+[09-Jan-2021 22:36:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610199378
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:36:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610199378
+[09-Jan-2021 22:36:18 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612791378
+[09-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：セッションID：hppabqqh5knd6jjo7i7sma7p7b
+[09-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610199916
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610199916
+[09-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612791916
+[09-Jan-2021 22:48:29 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:48:29 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:48:29 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:48:29 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:48:29 Asia/Tokyo] デバッグ：セッションID：c2uhb0k3e8qe1r030oemqvcrbk
+[09-Jan-2021 22:48:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610200109
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:48:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610200109
+[09-Jan-2021 22:48:29 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612792109
+[09-Jan-2021 22:52:31 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 22:52:31 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 22:52:31 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 22:52:31 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 22:52:31 Asia/Tokyo] デバッグ：セッションID：6onm6r2r7c7k1qdh9p3i2jbpl9
+[09-Jan-2021 22:52:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610200351
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 22:52:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610200351
+[09-Jan-2021 22:52:31 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612792351
+[09-Jan-2021 23:05:34 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 23:05:34 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 23:05:34 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 23:05:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:05:34 Asia/Tokyo] デバッグ：セッションID：n3hm1itdvbuivlq5162naohni1
+[09-Jan-2021 23:05:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610201134
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:05:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610201134
+[09-Jan-2021 23:05:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612793134
+[09-Jan-2021 23:05:46 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 23:05:46 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 23:05:46 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 23:05:46 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:05:46 Asia/Tokyo] デバッグ：セッションID：86e8mg7uql0u2e97fvk6s7k64u
+[09-Jan-2021 23:05:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610201146
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:05:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610201146
+[09-Jan-2021 23:05:46 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612793146
+[09-Jan-2021 23:06:10 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 23:06:10 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 23:06:10 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 23:06:10 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:06:10 Asia/Tokyo] デバッグ：セッションID：9hodr9mo5flkrd1bjbu48tdipc
+[09-Jan-2021 23:06:10 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610201170
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:06:10 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610201170
+[09-Jan-2021 23:06:10 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612793170
+[09-Jan-2021 23:09:33 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 23:09:33 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 23:09:33 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 23:09:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:09:33 Asia/Tokyo] デバッグ：セッションID：ln0b5tbrhu9uhi8tq7u725er9d
+[09-Jan-2021 23:09:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610201373
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:09:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610201373
+[09-Jan-2021 23:09:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612793373
+[09-Jan-2021 23:13:31 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 23:13:31 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 23:13:31 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 23:13:31 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:13:31 Asia/Tokyo] デバッグ：セッションID：6r0jvpjo9nj878bpc7sannt623
+[09-Jan-2021 23:13:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610201611
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:13:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610201611
+[09-Jan-2021 23:13:31 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612793611
+[09-Jan-2021 23:13:40 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 23:13:40 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 23:13:40 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 23:13:40 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:13:40 Asia/Tokyo] デバッグ：セッションID：ruim47anqjesqgcj3j9u7drelu
+[09-Jan-2021 23:13:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610201620
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:13:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610201620
+[09-Jan-2021 23:13:40 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612793620
+[09-Jan-2021 23:13:43 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 23:13:43 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 23:13:43 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 23:13:43 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:13:43 Asia/Tokyo] デバッグ：セッションID：eqhu6akkeai6288aqt7kfjisk6
+[09-Jan-2021 23:13:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 23:13:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610201623
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：未ログインユーザーです
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：Login Page.
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：セッションID：voc6vdj8k3qukikci1330oe6hc
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610201629
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：POST送信があります
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：クエリ成功
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [id] => 2
+)
+
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610201629
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：マイページへ遷移します
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：MyPageを表示します
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：セッションID：8m16vbs04qkrm5vb112ksrs5nn
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610201629
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610201629
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610205229
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：ユーザID：2
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：クエリ成功
+[09-Jan-2021 23:13:49 Asia/Tokyo] デバッグ：クエリ成功
+[09-Jan-2021 23:13:53 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 23:13:53 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 23:13:53 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 23:13:53 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:13:53 Asia/Tokyo] デバッグ：セッションID：t0s49ufecq804co9a7h897js55
+[09-Jan-2021 23:13:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610201633
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:13:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610201633
+[09-Jan-2021 23:13:53 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610205233
+[09-Jan-2021 23:14:42 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 23:14:42 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 23:14:42 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 23:14:42 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:14:42 Asia/Tokyo] デバッグ：セッションID：88fp28uuvtqtnbo3865vbs95ov
+[09-Jan-2021 23:14:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610201682
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:14:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610201682
+[09-Jan-2021 23:14:42 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610205282
+[09-Jan-2021 23:17:07 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 23:17:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 23:17:07 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 23:17:07 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:17:07 Asia/Tokyo] デバッグ：セッションID：032ksrmitgd567v0keflkfgi37
+[09-Jan-2021 23:17:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610201827
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:17:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610201827
+[09-Jan-2021 23:17:07 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610205427
+[09-Jan-2021 23:18:02 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 23:18:02 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 23:18:02 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 23:18:02 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:18:02 Asia/Tokyo] デバッグ：セッションID：jndvjodb38n6vgjg8veab7bvab
+[09-Jan-2021 23:18:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610201882
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:18:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610201882
+[09-Jan-2021 23:18:02 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610205482
+[09-Jan-2021 23:21:14 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 23:21:14 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 23:21:14 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 23:21:14 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:21:14 Asia/Tokyo] デバッグ：セッションID：1lt28d55mr2j30mdd3ee2aglau
+[09-Jan-2021 23:21:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610202074
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:21:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610202074
+[09-Jan-2021 23:21:14 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610205674
+[09-Jan-2021 23:21:23 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[09-Jan-2021 23:21:23 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[09-Jan-2021 23:21:23 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[09-Jan-2021 23:21:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[09-Jan-2021 23:21:23 Asia/Tokyo] デバッグ：セッションID：20s701dmu068ff4d4ulugj1cff
+[09-Jan-2021 23:21:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610202083
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[09-Jan-2021 23:21:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610202083
+[09-Jan-2021 23:21:23 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610205683
