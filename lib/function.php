@@ -175,6 +175,15 @@ function validCheck($str, $key)
     validMinLen($str, $key);
 }
 
+// セレクトボックスチェック
+function validSelect($str, $key)
+{
+    if (!preg_match("/^[1-9]+$/", $str)) {
+        global $errMsg;
+        $errMsg[$key] = MSG15;
+    }
+}
+
 // function validLength($str,$key,$len = 8)
 
 function getUserInfo($u_id)
@@ -208,8 +217,64 @@ function getUserInfo($u_id)
     }
 }
 
+// 商品情報の取得
+function getProduct($u_id, $p_id)
+{
+    debug('商品情報を取得します');
+    debug('ユーザーID：' . $u_id);
+    debug('商品ID：' . $p_id);
+
+    try {
+        // DB接続
+        $dbh = dbConnect();
+        // SQL作成
+        $sql = 'SELECT * FROM product WHERE user_id = :u_id AND id = :p_id AND delete_flg= 0';
+        // 値の入れ込み
+        $data = [
+            ':u_id' => $u_id,
+            ':p_id' => $p_id
+        ];
+        // クエリの実行
+        $stmt = queryPost($dbh, $sql, $data);
+
+        if ($stmt) {
+            return $stmt->fetch(PDO::FETCH_ASSOC);
+        } else {
+            return false;
+        }
+    } catch (Exception $e) {
+        error_log('エラー発生：' . $e->getMessage());
+        $errMsg['common'] = MSG07;
+    }
+}
+
+function getCategory()
+{
+    debug('カテゴリ情報を取得します');
+
+    try {
+        // DB接続
+        $dbh = dbConnect();
+        // SQL作成
+        $sql = 'SELECT * FROM category';
+        // 値の入れ込み
+        $data = [];
+        // クエリの実行
+        $stmt = queryPost($dbh, $sql, $data);
+
+        if ($stmt) {
+            return $stmt->fetchAll();
+        } else {
+            return false;
+        }
+    } catch (Exception $e) {
+        error_log('エラー発生：' . $e->getMessage());
+        $errMsg['common'] = MSG07;
+    }
+}
+
 // 登録商品情報の取得
-function getProduct($u_id)
+function getMyProduct($u_id)
 {
     global $errMsg;
     debug('自身の商品情報を取得します');

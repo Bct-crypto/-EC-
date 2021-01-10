@@ -15,7 +15,7 @@ debugLogStart();
 // 画面表示データをそれぞれ取得する
 $user_id = $_SESSION['user_id'];
 // 商品データ
-$productData = getProduct($user_id);
+$productData = getMyProduct($user_id);
 // プロフィールデータ
 $userInfo = getUserInfo($user_id);
 // お気に入りデータ
