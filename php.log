@@ -8707,3 +8707,742 @@ Stack trace:
 [10-Jan-2021 22:22:57 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612876977
 [10-Jan-2021 22:22:57 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
 [10-Jan-2021 22:22:57 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:19:31 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 10:19:31 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 10:19:31 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[11-Jan-2021 10:19:31 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 10:19:31 Asia/Tokyo] デバッグ：セッションID：9o6n9mbrgj2udkqbv0fp1o94ba
+[11-Jan-2021 10:19:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610327971
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 10:19:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610327971
+[11-Jan-2021 10:19:31 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612919971
+[11-Jan-2021 10:19:31 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[11-Jan-2021 10:19:31 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:19:34 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 10:19:34 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 10:19:34 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[11-Jan-2021 10:19:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 10:19:34 Asia/Tokyo] デバッグ：セッションID：7cmq54en698l83l80235smac02
+[11-Jan-2021 10:19:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610327974
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 10:19:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610327974
+[11-Jan-2021 10:19:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612919974
+[11-Jan-2021 10:19:34 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[11-Jan-2021 10:19:34 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:19:34 Asia/Tokyo] デバッグ：POST送信があります
+[11-Jan-2021 10:19:34 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => 
+    [category_id] => 0
+    [comment] => 
+    [price] => 
+)
+
+[11-Jan-2021 10:19:34 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/listProduct.php on line 15
+[11-Jan-2021 10:28:31 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 10:28:31 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 10:28:31 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[11-Jan-2021 10:28:31 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 10:28:31 Asia/Tokyo] デバッグ：セッションID：mthciqrjse058usrdhbj4rb6pd
+[11-Jan-2021 10:28:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610328511
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 10:28:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610328511
+[11-Jan-2021 10:28:31 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612920511
+[11-Jan-2021 10:28:31 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[11-Jan-2021 10:28:31 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:28:31 Asia/Tokyo] デバッグ：POST送信があります
+[11-Jan-2021 10:28:31 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => 
+    [category_id] => 0
+    [comment] => 
+    [price] => 
+)
+
+[11-Jan-2021 10:28:31 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/listProduct.php on line 15
+[11-Jan-2021 10:29:07 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 10:29:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 10:29:07 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[11-Jan-2021 10:29:07 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 10:29:07 Asia/Tokyo] デバッグ：セッションID：18hte05691ddt5g6qhfidlnoi1
+[11-Jan-2021 10:29:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610328547
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 10:29:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610328547
+[11-Jan-2021 10:29:07 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612920547
+[11-Jan-2021 10:29:07 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[11-Jan-2021 10:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:29:07 Asia/Tokyo] デバッグ：POST送信があります
+[11-Jan-2021 10:29:07 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => 
+    [category_id] => 0
+    [comment] => 
+    [price] => 
+)
+
+[11-Jan-2021 10:29:07 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/listProduct.php on line 15
+[11-Jan-2021 10:29:49 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 10:29:49 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 10:29:49 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[11-Jan-2021 10:29:49 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 10:29:49 Asia/Tokyo] デバッグ：セッションID：g44blva0n77nc5tpoctm92i604
+[11-Jan-2021 10:29:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610328589
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 10:29:49 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610328589
+[11-Jan-2021 10:29:49 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612920589
+[11-Jan-2021 10:29:49 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[11-Jan-2021 10:29:49 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:29:49 Asia/Tokyo] デバッグ：POST送信があります
+[11-Jan-2021 10:29:49 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => 
+    [category_id] => 0
+    [comment] => 
+    [price] => 
+)
+
+[11-Jan-2021 10:29:49 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/listProduct.php on line 15
+[11-Jan-2021 10:30:03 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 10:30:03 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 10:30:03 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[11-Jan-2021 10:30:03 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 10:30:03 Asia/Tokyo] デバッグ：セッションID：japl8uprvte72fqreehseos6q3
+[11-Jan-2021 10:30:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610328603
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 10:30:03 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610328603
+[11-Jan-2021 10:30:03 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612920603
+[11-Jan-2021 10:30:03 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[11-Jan-2021 10:30:03 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:30:03 Asia/Tokyo] デバッグ：POST送信があります
+[11-Jan-2021 10:30:03 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => 
+    [category_id] => 0
+    [comment] => 
+    [price] => 
+)
+
+[11-Jan-2021 10:30:03 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/listProduct.php on line 15
+[11-Jan-2021 10:30:29 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 10:30:29 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 10:30:29 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[11-Jan-2021 10:30:29 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 10:30:29 Asia/Tokyo] デバッグ：セッションID：1u64f0u12le61jls5gqpkr5ev2
+[11-Jan-2021 10:30:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610328629
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 10:30:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610328629
+[11-Jan-2021 10:30:29 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612920629
+[11-Jan-2021 10:30:29 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[11-Jan-2021 10:30:29 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:30:29 Asia/Tokyo] デバッグ：POST送信があります
+[11-Jan-2021 10:30:29 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => 餅ゴマ
+    [category_id] => 0
+    [comment] => 
+    [price] => 0
+)
+
+[11-Jan-2021 10:30:29 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/listProduct.php on line 15
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：セッションID：i1rnpn1nscanjb00b2j9kighi9
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610328644
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610328644
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612920644
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：POST送信があります
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => 餅ゴマ
+    [category_id] => 2
+    [comment] => もちもちのゴマです
+    [price] => 300
+)
+
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：バリデーションチェックOKです
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：準備したSQL：INSERT INTO product (name,category_id,comment,price,user_id,create_date) VALUES (:name,:category,:comment,:price,:u_id,:date)
+[11-Jan-2021 10:30:44 Asia/Tokyo] デバッグ：流し込むデータ：Array
+(
+    [:name] => 餅ゴマ
+    [:category_id] => 2
+    [:comment] => もちもちのゴマです
+    [:price] => 300
+    [:user_id] => 2
+    [:date] => 2021-01-11 10:30:44
+)
+
+[11-Jan-2021 10:30:44 Asia/Tokyo] エラー発生：SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：セッションID：3meuc3v9tnl6e8ckqlfln9m5lq
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610328780
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610328780
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612920780
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：POST送信があります
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => 餅ゴマ
+    [category_id] => 2
+    [comment] => もちもちのゴマです
+    [price] => 300
+)
+
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：バリデーションチェックOKです
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：準備したSQL：INSERT INTO product (name,category_id,comment,price,user_id,create_date) VALUES (:name,:category,:comment,:price,:u_id,:date)
+[11-Jan-2021 10:33:00 Asia/Tokyo] デバッグ：流し込むデータ：Array
+(
+    [:name] => 餅ゴマ
+    [:category_id] => 2
+    [:comment] => もちもちのゴマです
+    [:price] => 300
+    [:u_id] => 2
+    [:date] => 2021-01-11 10:33:00
+)
+
+[11-Jan-2021 10:33:00 Asia/Tokyo] エラー発生：SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：セッションID：ge5aief3t90sb9lc0d8jmp9083
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610328794
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610328794
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612920794
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：POST送信があります
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => 餅ゴマ
+    [category_id] => 2
+    [comment] => もちもちのゴマです
+    [price] => 300
+)
+
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：バリデーションチェックOKです
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：準備したSQL：INSERT INTO product (name,category_id,comment,price,user_id,create_date) VALUES (:name,:category,:comment,:price,:u_id,:date)
+[11-Jan-2021 10:33:14 Asia/Tokyo] デバッグ：流し込むデータ：Array
+(
+    [:name] => 餅ゴマ
+    [:category_id] => 2
+    [:comment] => もちもちのゴマです
+    [:price] => 300
+    [:u_id] => 2
+    [:date] => 2021-01-11 10:33:14
+)
+
+[11-Jan-2021 10:33:14 Asia/Tokyo] エラー発生：SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：セッションID：bbldckouqb2ts1mb99s034l8nj
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610328984
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610328984
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612920984
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：POST送信があります
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => 餅ゴマ
+    [category_id] => 2
+    [comment] => もちもちのゴマです
+    [price] => 300
+)
+
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：バリデーションチェックOKです
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：準備したSQL：INSERT INTO product (name,category_id,comment,price,user_id,create_date) VALUES (:name,:category,:comment,:price,:u_id,:date)
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：流し込むデータ：Array
+(
+    [:name] => 餅ゴマ
+    [:category] => 2
+    [:comment] => もちもちのゴマです
+    [:price] => 300
+    [:u_id] => 2
+    [:date] => 2021-01-11 10:36:24
+)
+
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：セッションID：4i5012f7e8i38ki8ar9tqaimls
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610328984
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610328984
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612920984
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 10:36:24 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:21:10 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:21:10 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:21:10 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:21:10 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:21:10 Asia/Tokyo] デバッグ：セッションID：4m28gi01r0fvi5k6qmi20s5b4g
+[11-Jan-2021 22:21:10 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610371270
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:21:10 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610371270
+[11-Jan-2021 22:21:10 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612963270
+[11-Jan-2021 22:21:10 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:21:10 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:21:10 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:21:10 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:21:32 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:21:32 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:21:32 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:21:32 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:21:32 Asia/Tokyo] デバッグ：セッションID：0c5d1gd1rhth46bsmucegb69q0
+[11-Jan-2021 22:21:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610371292
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:21:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610371292
+[11-Jan-2021 22:21:32 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612963292
+[11-Jan-2021 22:21:32 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:21:32 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:21:32 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:21:32 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:22:42 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:22:42 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:22:42 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:22:42 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:22:42 Asia/Tokyo] デバッグ：セッションID：c5peov6288kvk9kbcavh6c18kb
+[11-Jan-2021 22:22:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610371362
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:22:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610371362
+[11-Jan-2021 22:22:42 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612963362
+[11-Jan-2021 22:22:42 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:22:42 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:22:42 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:22:42 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:23:05 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:23:05 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:23:05 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:23:05 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:23:05 Asia/Tokyo] デバッグ：セッションID：jcdnarp9r31vk4oh24e5u8kq5o
+[11-Jan-2021 22:23:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610371385
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:23:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610371385
+[11-Jan-2021 22:23:05 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612963385
+[11-Jan-2021 22:23:05 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:23:05 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:23:05 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:23:05 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:31:20 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:31:20 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:31:20 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:31:20 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:31:20 Asia/Tokyo] デバッグ：セッションID：st0b32jkpgnst14ephub39jvkj
+[11-Jan-2021 22:31:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610371880
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:31:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610371880
+[11-Jan-2021 22:31:20 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612963880
+[11-Jan-2021 22:31:20 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:31:20 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:31:20 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:31:20 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:36:38 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:36:38 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:36:38 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:36:38 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:36:38 Asia/Tokyo] デバッグ：セッションID：irfa05eqsmkdbc3qsaoegg2276
+[11-Jan-2021 22:36:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610372198
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:36:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610372198
+[11-Jan-2021 22:36:38 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612964198
+[11-Jan-2021 22:36:38 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:36:38 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:36:38 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:36:38 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:37:14 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:37:14 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:37:14 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:37:14 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:37:14 Asia/Tokyo] デバッグ：セッションID：g71e0sam53d4q6vlrmj8fv74hi
+[11-Jan-2021 22:37:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610372234
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:37:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610372234
+[11-Jan-2021 22:37:14 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612964234
+[11-Jan-2021 22:37:14 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:37:14 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:37:14 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:37:14 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:39:31 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:39:31 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:39:31 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:39:31 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:39:31 Asia/Tokyo] デバッグ：セッションID：v7mhva3m1s7eaudjdqlevn3mc5
+[11-Jan-2021 22:39:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610372371
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:39:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610372371
+[11-Jan-2021 22:39:31 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612964371
+[11-Jan-2021 22:39:31 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:39:31 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:39:31 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:39:31 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:40:25 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:40:25 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:40:25 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:40:25 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:40:25 Asia/Tokyo] デバッグ：セッションID：aq746kdp2kp2fpsna8a49tm913
+[11-Jan-2021 22:40:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610372425
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:40:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610372425
+[11-Jan-2021 22:40:25 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612964425
+[11-Jan-2021 22:40:25 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:40:25 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:40:25 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:40:25 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:40:25 Asia/Tokyo] PHP Notice:  Undefined index: date in /Applications/MAMP/htdocs/PHP/ECsite/views/mypage.php on line 22
+[11-Jan-2021 22:40:47 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:40:47 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:40:47 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:40:47 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:40:47 Asia/Tokyo] デバッグ：セッションID：0dbc3rea2ht3l1ql9tt9mruaqg
+[11-Jan-2021 22:40:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610372447
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:40:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610372447
+[11-Jan-2021 22:40:47 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612964447
+[11-Jan-2021 22:40:47 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:40:47 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:40:47 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:40:47 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:42:27 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:42:27 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:42:27 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:42:27 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:42:27 Asia/Tokyo] デバッグ：セッションID：3gobsbghpso4e32kis9b8ou7ie
+[11-Jan-2021 22:42:27 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610372547
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:42:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610372547
+[11-Jan-2021 22:42:27 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612964547
+[11-Jan-2021 22:42:27 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:42:27 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:42:27 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:42:27 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:42:27 Asia/Tokyo] PHP Warning:  Use of undefined constant update_date - assumed 'update_date' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/PHP/ECsite/views/mypage.php on line 22
+[11-Jan-2021 22:42:27 Asia/Tokyo] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /Applications/MAMP/htdocs/PHP/ECsite/views/mypage.php on line 22
+[11-Jan-2021 22:42:46 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:42:46 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:42:46 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:42:46 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:42:46 Asia/Tokyo] デバッグ：セッションID：lo3svgvlqcbgbdpfscu9s7t10b
+[11-Jan-2021 22:42:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610372566
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:42:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610372566
+[11-Jan-2021 22:42:46 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612964566
+[11-Jan-2021 22:42:46 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:42:46 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:42:46 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:42:46 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:42:46 Asia/Tokyo] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /Applications/MAMP/htdocs/PHP/ECsite/views/mypage.php on line 22
+[11-Jan-2021 22:54:33 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:54:33 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:54:33 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:54:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:54:33 Asia/Tokyo] デバッグ：セッションID：q2rflq1vnicm8solo5p09pki02
+[11-Jan-2021 22:54:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610373273
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:54:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610373273
+[11-Jan-2021 22:54:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612965273
+[11-Jan-2021 22:54:33 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:54:33 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:54:33 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:54:33 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:58:56 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:58:56 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:58:56 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:58:56 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:58:56 Asia/Tokyo] デバッグ：セッションID：e5dr46dn7skskkmdnqmh70ai0d
+[11-Jan-2021 22:58:56 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610373536
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:58:56 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610373536
+[11-Jan-2021 22:58:56 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612965536
+[11-Jan-2021 22:58:56 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:58:56 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:58:56 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:58:56 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:59:29 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 22:59:29 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 22:59:29 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 22:59:29 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 22:59:29 Asia/Tokyo] デバッグ：セッションID：gvtpnh6roubimkurkgii0rn319
+[11-Jan-2021 22:59:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610373569
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 22:59:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610373569
+[11-Jan-2021 22:59:29 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612965569
+[11-Jan-2021 22:59:29 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 22:59:29 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 22:59:29 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 22:59:29 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 23:01:19 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 23:01:19 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 23:01:19 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 23:01:19 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 23:01:19 Asia/Tokyo] デバッグ：セッションID：38328aqo1g8eftvdh7jq9k1vv5
+[11-Jan-2021 23:01:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610373679
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 23:01:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610373679
+[11-Jan-2021 23:01:19 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612965679
+[11-Jan-2021 23:01:19 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 23:01:19 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 23:01:19 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 23:01:19 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 23:01:21 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 23:01:21 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 23:01:21 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[11-Jan-2021 23:01:21 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 23:01:21 Asia/Tokyo] デバッグ：セッションID：e1lqk0tdv1ts5c747epmlr7jhg
+[11-Jan-2021 23:01:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610373681
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 23:01:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610373681
+[11-Jan-2021 23:01:21 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612965681
+[11-Jan-2021 23:01:21 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[11-Jan-2021 23:01:21 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 23:01:22 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 23:01:22 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 23:01:22 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 23:01:22 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 23:01:22 Asia/Tokyo] デバッグ：セッションID：9m8thl9s764hmu5elvjsgmjne5
+[11-Jan-2021 23:01:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610373682
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 23:01:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610373682
+[11-Jan-2021 23:01:22 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612965682
+[11-Jan-2021 23:01:22 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 23:01:22 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 23:01:22 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 23:01:22 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 23:01:39 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 23:01:39 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 23:01:39 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 23:01:39 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 23:01:39 Asia/Tokyo] デバッグ：セッションID：7t6nvstiso2ovrunk2drt2n3dj
+[11-Jan-2021 23:01:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610373699
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 23:01:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610373699
+[11-Jan-2021 23:01:39 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612965699
+[11-Jan-2021 23:01:39 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 23:01:39 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 23:01:39 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 23:01:39 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 23:01:41 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 23:01:41 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 23:01:41 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[11-Jan-2021 23:01:41 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 23:01:41 Asia/Tokyo] デバッグ：セッションID：cjhsd6f31r7deruofegda8o3sj
+[11-Jan-2021 23:01:41 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610373701
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 23:01:41 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610373701
+[11-Jan-2021 23:01:41 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612965701
+[11-Jan-2021 23:01:41 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[11-Jan-2021 23:01:41 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 23:01:42 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 23:01:42 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 23:01:42 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 23:01:42 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 23:01:42 Asia/Tokyo] デバッグ：セッションID：1vo7okev5tt9v6bpph8tserbqg
+[11-Jan-2021 23:01:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610373702
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 23:01:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610373702
+[11-Jan-2021 23:01:42 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612965702
+[11-Jan-2021 23:01:42 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 23:01:42 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 23:01:42 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 23:01:42 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 23:03:31 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[11-Jan-2021 23:03:31 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[11-Jan-2021 23:03:31 Asia/Tokyo] デバッグ：MyPageを表示します
+[11-Jan-2021 23:03:31 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[11-Jan-2021 23:03:31 Asia/Tokyo] デバッグ：セッションID：eil3livv3ripj3dkj24etp68l8
+[11-Jan-2021 23:03:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610373811
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[11-Jan-2021 23:03:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610373811
+[11-Jan-2021 23:03:31 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612965811
+[11-Jan-2021 23:03:31 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[11-Jan-2021 23:03:31 Asia/Tokyo] デバッグ：ユーザID：2
+[11-Jan-2021 23:03:31 Asia/Tokyo] デバッグ：クエリ成功
+[11-Jan-2021 23:03:31 Asia/Tokyo] デバッグ：クエリ成功

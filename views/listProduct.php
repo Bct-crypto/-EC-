@@ -25,7 +25,7 @@
             <select name="category_id" id="" class="form-control">
                 <option value="0" <?php if (getFormData('category_id') == 0) {
                                         echo 'selected';
-                                    } ?>>選択してください</option>
+                                    } ?>>選択してください ※必須項目</option>
                 <?php
                 foreach ($dbCategoryData as $key => $val) {
                 ?>
@@ -45,7 +45,7 @@
 
             <!-- 価格 -->
             <label for="price" class="">価格<span class="ml-3 text-danger"><?php if (!empty($errMsg['price'])) echo $errMsg['price']; ?></span></label>
-            <input type="text" name="price" id="price" class="form-control mb-3" placeholder="" value="<?php echo getFormData('price'); ?>">
+            <input type="text" name="price" id="price" class="form-control mb-3" placeholder="" value="<?php echo (!empty(getFormData('price'))) ? getFormData('price') : 0; ?>">
 
             <!-- 写真 -->
             <label for="pic" class="">商品画像<span class="ml-3 text-danger"><?php if (!empty($errMsg['pic'])) echo $errMsg['pic']; ?></span></label>

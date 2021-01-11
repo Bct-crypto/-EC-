@@ -82,7 +82,41 @@ if (!empty($_POST)) {
         debug('バリデーションチェックOKです');
 
         try {
-            //code...
+            // DB接続
+            $dbh = dbConnect();
+            if ($editFlg) {
+                // true=編集なのでUPDATE文を実行する
+                $sql = 'UPDATE product SET name = :name,category_id = :category,comment = :comment,price = :price WHERE user_id = :u_id AND id = :p_id';
+                $data = [
+                    ':name' => $name,
+                    ':category' => $category,
+                    ':comment' => $comment,
+                    ':price' => $price,
+                    ':u_id' => $_SESSION['user_id'],
+                    '::p_id' => $p_id
+                ];
+            } else {
+                // false=新規登録なのでINSERT文を実行する
+                $sql = 'INSERT INTO product (name,category_id,comment,price,user_id,create_date) VALUES (:name,:category,:comment,:price,:u_id,:date)';
+                // 値の入れ込み
+                $data = [
+                    ':name' => $name,
+                    ':category' => $category,
+                    ':comment' => $comment,
+                    ':price' => $price,
+                    ':u_id' => $_SESSION['user_id'],
+                    ':date' => date('Y-m-d H:i:s')
+                ];
+            }
+            debug('準備したSQL：' . $sql);
+            debug('流し込むデータ：' . print_r($data, true));
+
+            // クエリの実行
+            $stmt = queryPost($dbh, $sql, $data);
+            if ($stmt) {
+                debug('クエリ成功');
+                header('Location:mypage.php');
+            }
         } catch (Exception $e) {
             error_log('エラー発生：' . $e->getMessage());
         }
