@@ -36,6 +36,10 @@ if (!empty($_POST)) {
     $category = $_POST['category_id'];
     $comment = $_POST['comment'];
     $price = (!empty($_POST['price'])) ? $_POST['price'] : 0;
+    // 画像をアップロードし、パスを格納する
+    $pic = (!empty($_FILES['pic']['name'])) ? upLoadImage($_FILES['pic'], 'pic') : '';
+    // 画像をPOSTしていない（登録していない）がすでにDBに登録されている場合、DBのパスを入れてあげる（POSTに反映されないため）
+    $pic = (empty($pic)) && (!empty($dbFormData('pic'))) ? $dbFormData('pic') : $pic;
 
     // 更新の場合はDBから取得してきた情報と異なるためバリデーションチェックを行う
 
@@ -86,24 +90,26 @@ if (!empty($_POST)) {
             $dbh = dbConnect();
             if ($editFlg) {
                 // true=編集なのでUPDATE文を実行する
-                $sql = 'UPDATE product SET name = :name,category_id = :category,comment = :comment,price = :price WHERE user_id = :u_id AND id = :p_id';
+                $sql = 'UPDATE product SET name = :name,category_id = :category,comment = :comment,price = :price,pic = :pic WHERE user_id = :u_id AND id = :p_id';
                 $data = [
                     ':name' => $name,
                     ':category' => $category,
                     ':comment' => $comment,
                     ':price' => $price,
+                    ':pic' => $pic,
                     ':u_id' => $_SESSION['user_id'],
                     '::p_id' => $p_id
                 ];
             } else {
                 // false=新規登録なのでINSERT文を実行する
-                $sql = 'INSERT INTO product (name,category_id,comment,price,user_id,create_date) VALUES (:name,:category,:comment,:price,:u_id,:date)';
+                $sql = 'INSERT INTO product (name,category_id,comment,price,pic,user_id,create_date) VALUES (:name,:category,:comment,:price,:pic,:u_id,:date)';
                 // 値の入れ込み
                 $data = [
                     ':name' => $name,
                     ':category' => $category,
                     ':comment' => $comment,
                     ':price' => $price,
+                    ':pic' => $pic,
                     ':u_id' => $_SESSION['user_id'],
                     ':date' => date('Y-m-d H:i:s')
                 ];

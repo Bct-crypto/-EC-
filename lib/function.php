@@ -346,3 +346,58 @@ function sanitize($str)
 //         return $data;
 //     }
 // }
+
+function upLoadImage($file, $key)
+{
+    debug('画像アップロード開始');
+    debug('FILE情報：' . print_r($file, true));
+
+    // $fileのerrorがないか、errorの結果が整数型できているか
+    if (isset($file['error']) && is_int($file['error'])) {
+        try {
+            // error内容別のExceptionの処理を記載しておく
+            switch ($file['error']) {
+                case UPLOAD_ERR_OK: //OK
+                    break;
+                case UPLOAD_ERR_NO_FILE: // ファイル未選択
+                    throw new RuntimeException('ファイルが選択されていません');
+                case UPLOAD_ERR_INI_SIZE: //php.iniの既定サイズオーバー
+                    throw new RuntimeException('ファイルサイズが大きすぎます');
+                case UPLOAD_ERR_FORM_SIZE: //form定義サイズをオーバー
+                    throw new RuntimeException('ファイルサイズが大きすぎます');
+                default:
+                    throw new RuntimeException('その他のエラーが発生しました');
+            }
+
+            // MIMEタイプをチェックする（ファイル拡張子のこと）
+            // exif_imagetype関数は「GIF,JPEG」などの定数を返す
+            $type = @exif_imagetype($file['tmp_name']);
+            if (!in_array($type, [IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG], true)) {
+                // 第３引数にtrueを入れることで厳密なチェックが可能となる
+                throw new RuntimeException('ファイル形式が非対応です');
+            }
+
+            // ファイルデータからSHA-1ハッシュを取ってファイル名を決定し、ファイルを保存する
+            // ハッシュ化しておかないとアップロードされたファイル名そのままで保存してしまうと同じファイル名がアップロードされる可能性があり、
+            // DBにパスを保存した場合、どっちの画像のパスなのか判断つかなくなってしまう
+            // image_type_to_extension関数はファイルの拡張子を取得するもの
+            $path = 'uploads/' . sha1_file($file['tmp_name']) . image_type_to_extension($type);
+            if (!move_uploaded_file($file['tmp_name'], $path)) {
+                // tmp_nameから$pathへのファイル移動が失敗した場合
+                throw new RuntimeException('ファイルの移動に失敗しました');
+            }
+
+            // 保存したファイルパスの権限を変更する
+            // 0644は所有者の読み込みと書き込みの権限を、そのほかには読み込みのみを許可
+            chmod($path, 0644);
+
+            debug('ファイルは正常にアップロードされました');
+            debug('ファイルパス：' . $path);
+            return $path;
+        } catch (RuntimeException $e) {
+            debug($e->getMessage());
+            global $errMsg;
+            $errMsg[$key] = $e->getMessage();
+        }
+    }
+}
