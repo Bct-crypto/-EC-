@@ -331,6 +331,65 @@ function getFormData($str)
     }
 }
 
+// TOPページ用の商品情報の取得
+function getProductList($currentMinNum = 1, $span = 10)
+{
+    debug('商品情報の取得します');
+
+    try {
+        // DB接続
+        $dbh = dbConnect();
+        // SQL作成
+        $sql = 'SELECT id FROM product';
+        // if(!empty($category)) $sql .= ' WHERE category_id = '.$category;
+        $data = [];
+        // クエリ実行
+        $stmt = queryPost($dbh, $sql, $data);
+        // 結果の格納(総レコード数を返す)
+        $rst['total'] = $stmt->rowCount();
+        // 総ページ数を求める
+        $rst['total_page'] = ceil($rst['total'] / $span);
+        if (!$stmt) {
+            return false;
+        }
+
+        // ページング用のSQLを作成
+        $sql = 'SELECT * FROM product';
+        //    if(!empty($category)) $sql .= ' WHERE category = '.$category;
+        //    if(!empty($sort)){
+        //      switch($sort){
+        //        case 1:
+        //          $sql .= ' ORDER BY price ASC';
+        //          break;
+        //        case 2:
+        //          $sql .= ' ORDER BY price DESC';
+        //          break;
+        //        case 3:
+        //          $sql .= ' ORDER BY create_date DESC';
+        //          break;
+        //      }
+        //    }
+        // SQL条件を追加する
+        $sql .= ' LIMIT ' . $span . ' OFFSET ' . $currentMinNum;
+        // 値の入れ込み
+        $data = [];
+        debug('SQL:' . $sql);
+        // クエリの実行
+        $stmt = queryPost($dbh, $sql, $data);
+
+        if ($stmt) {
+            // クエリ結果を格納
+            $rst['data'] = $stmt->fetchAll();
+            return $rst;
+        } else {
+            return false;
+        }
+    } catch (Exception $e) {
+        error_log('エラー発生：' . $e->getMessage());
+        $errMsg['common'] = MSG07;
+    }
+}
+
 function sanitize($str)
 {
     return htmlspecialchars($str, ENT_QUOTES);

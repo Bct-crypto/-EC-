@@ -17,110 +17,27 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="img/sample.svg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sample Title.</h5>
-                            <p class="card-text">Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">詳細</button>
+                <?php foreach ($dbProductData['data'] as $key => $val) : ?>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <?php if (!empty($val['pic'])) : ?>
+                                <img class="card-img-top" src="<?php echo sanitize($val['pic']); ?>" alt="" style="min-height: 160px;max-height: 160px; object-fit :cover;">
+                            <?php else : ?>
+                                <img class="card-img-top" src="img/sample-img.png" alt="" style="max-height: 160px; object-fit :cover;">
+                            <?php endif; ?>
+                            <div class="card-body">
+                                <h5 class="card-title"><?php echo sanitize($val['name']); ?></h5>
+                                <p class="card-text"><?php echo sanitize($val['comment']); ?></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="productDetail.php" class="btn btn-info">詳細</a>
+                                    </div>
+                                    <small class="text-muted">最終更新日：<?php echo sanitize(date('Y年n月j日', strtotime($val['update_date']))); ?></small>
                                 </div>
-                                <small class="text-muted">更新日：2021年3月15日</small>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="img/sample.svg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sample Title.</h5>
-                            <p class="card-text">Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">詳細</button>
-                                </div>
-                                <small class="text-muted">更新日：2021年3月15日</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="img/sample.svg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sample Title.</h5>
-                            <p class="card-text">Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">詳細</button>
-                                </div>
-                                <small class="text-muted">更新日：2021年3月15日</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="img/sample.svg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sample Title.</h5>
-                            <p class="card-text">Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">詳細</button>
-                                </div>
-                                <small class="text-muted">更新日：2021年3月15日</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="img/sample.svg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sample Title.</h5>
-                            <p class="card-text">Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">詳細</button>
-                                </div>
-                                <small class="text-muted">更新日：2021年3月15日</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="img/sample.svg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sample Title.</h5>
-                            <p class="card-text">Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">詳細</button>
-                                </div>
-                                <small class="text-muted">更新日：2021年3月15日</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-
-
-
+                <?php endforeach; ?>
 
 
             </div>

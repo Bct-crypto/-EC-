@@ -5,13 +5,39 @@
 
             <h1 class="h2 text-dark mb-3">MyPage</h1>
 
+            <!-- Profile -->
+            <div class="card mb-3">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
+                        </svg>
+                    </div>
+                    <div class="col-md-8 text-left">
+                        <div class="card-body">
+                            <h5 class="card-title">プロフィール</h5>
+                            <p class="card-text">名前：<?php echo sanitize($userInfo['username']); ?></p>
+                            <p class="card-text">年齢：<?php echo sanitize($userInfo['age']); ?></p>
+                            <p class="card-text">Mail：<?php echo sanitize($userInfo['email']); ?></p>
+
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <p class="h4 text-left">登録した商品</p>
             <div class="row">
                 <?php if (!empty($productData)) :  ?>
                     <?php foreach ($productData as $key => $val) : ?>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="img/sample.svg" alt="">
+                                <?php if (!empty($val['pic'])) : ?>
+                                    <img class="card-img-top" src="<?php echo sanitize($val['pic']); ?>" alt="" style="min-height: 160px;max-height: 160px; object-fit :cover;">
+                                <?php else : ?>
+                                    <img class="card-img-top" src="img/sample-img.png" alt="" style="max-height: 160px; object-fit :cover;">
+                                <?php endif; ?>
                                 <div class="card-body">
                                     <h5 class="card-title"><?php echo sanitize($val['name']); ?></h5>
                                     <p class="card-text"><?php echo sanitize($val['comment']); ?></p>
@@ -26,25 +52,8 @@
                         </div>
                     <?php endforeach; ?>
                 <?php else : ?>
-                    <div class="h4">登録されている商品はありません</div>
+                    <div class="h4 my-2">登録商品なし</div>
                 <?php endif; ?>
-
-
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="img/sample.svg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sample Title.</h5>
-                            <p class="card-text">Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~Text~~</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">詳細</button>
-                                </div>
-                                <small class="text-muted">更新日：2021年3月15日</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
 

@@ -10,8 +10,6 @@ require __DIR__ . '/lib/auth.php';
 debug('MyPageを表示します');
 debugLogStart();
 
-
-
 // 画面表示データをそれぞれ取得する
 $user_id = $_SESSION['user_id'];
 // 商品データ

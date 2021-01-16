@@ -49,7 +49,7 @@
 
             <!-- 写真 -->
             <label for="pic" class="">商品画像<span class="ml-3 text-danger"><?php if (!empty($errMsg['pic'])) echo $errMsg['pic']; ?></span></label>
-            <input type="file" class="form-control-file mb-3" id="pic">
+            <input type="file" class="form-control-file mb-3" id="pic" name="pic">
             <?php if (!empty($p_id)) : ?>
                 <img src="<?php getFormData('pic'); ?>" alt="" class="img-rounded d-block mx-auto mb-3" style="width:250px;">
             <?php else : ?>
