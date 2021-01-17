@@ -39,9 +39,65 @@
                     </div>
                 <?php endforeach; ?>
 
-
             </div>
         </div>
+
+        <!-- ページネーション -->
+        <nav aria-label="検索結果表示">
+            <ul class="pagination justify-content-center">
+
+                <?php
+                $pageColNum = 5; // 表示リンク数
+                $totalPageNum = $dbProductData['total_page'];
+                // 現在のページが、総ページ数と同じ　かつ　総ページ数が表示項目数以上なら、左にリンク４個出す
+                if ($currentPageNum == $totalPageNum && $totalPageNum >= $pageColNum) {
+                    $minPageNum = $currentPageNum - 4;
+                    $maxPageNum = $currentPageNum;
+                    // 現在のページが、総ページ数の１ページ前なら、左にリンク３個、右に１個出す
+                } elseif ($currentPageNum == ($totalPageNum - 1) && $totalPageNum >= $pageColNum) {
+                    $minPageNum = $currentPageNum - 3;
+                    $maxPageNum = $currentPageNum + 1;
+                    // 現ページが2の場合は左にリンク１個、右にリンク３個だす。
+                } elseif ($currentPageNum == 2 && $totalPageNum >= $pageColNum) {
+                    $minPageNum = $currentPageNum - 1;
+                    $maxPageNum = $currentPageNum + 3;
+                    // 現ページが1の場合は左に何も出さない。右に５個出す。
+                } elseif ($currentPageNum == 1 && $totalPageNum >= $pageColNum) {
+                    $minPageNum = $currentPageNum;
+                    $maxPageNum = 5;
+                    // 総ページ数が表示項目数より少ない場合は、総ページ数をループのMax、ループのMinを１に設定
+                } elseif ($totalPageNum < $pageColNum) {
+                    $minPageNum = 1;
+                    $maxPageNum = $totalPageNum;
+                    // それ以外は左に２個出す。
+                } else {
+                    $minPageNum = $currentPageNum - 2;
+                    $maxPageNum = $currentPageNum + 2;
+                }
+                ?>
+
+                <!-- ページネーションリンク表示部分 -->
+
+                <!-- 現在のページが１ページ目でなければ、最初へ戻るリンクを表示 -->
+                <?php if ($currentPageNum != 1) : ?>
+                    <li class="page-item">
+                        <a class="page-link" href="?p=1">最初へ</a>
+                    </li>
+                <?php endif; ?>
+
+                <!-- 表示リンク生成部分 -->
+                <?php for ($i = $minPageNum; $i <= $maxPageNum; $i++) : ?>
+                    <li class="page-item <?php if ($currentPageNum == $i) echo 'active'; ?>"><a class="page-link" href="?p=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+                <?php endfor; ?>
+
+                <!-- 現在のページが最大ページでなければ、最終ページへ進むリンクを表示 -->
+                <?php if ($currentPageNum != $maxPageNum) : ?>
+                    <li class="page-item">
+                        <a class="page-link" href="?p=<?php echo $totalPageNum; ?>">最後へ</a>
+                    </li>
+                <?php endif; ?>
+            </ul>
+        </nav>
     </div>
 
 </main>

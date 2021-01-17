@@ -332,7 +332,7 @@ function getFormData($str)
 }
 
 // TOPページ用の商品情報の取得
-function getProductList($currentMinNum = 1, $span = 10)
+function getProductList($currentMinNum = 1, $span = 9)
 {
     debug('商品情報の取得します');
 

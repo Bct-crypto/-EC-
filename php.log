@@ -12714,3 +12714,1029 @@ Stack trace:
 [16-Jan-2021 09:25:12 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
 [16-Jan-2021 09:25:12 Asia/Tokyo] デバッグ：クエリ成功
 [16-Jan-2021 09:25:12 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 00:17:04 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 00:17:04 Asia/Tokyo] デバッグ：セッションID：q2dug0bg01up6if18mn4a0e69h
+[17-Jan-2021 00:17:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 00:17:04 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610810224
+[17-Jan-2021 00:17:04 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 00:17:04 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 00:17:04 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 00:17:04 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 00:17:04 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 00:17:04 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 00:17:04 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 00:17:04 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 00:17:04 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:04:58 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:04:58 Asia/Tokyo] デバッグ：セッションID：46rtlof8277adsan4us35mpbmb
+[17-Jan-2021 07:04:58 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:04:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610834698
+[17-Jan-2021 07:04:58 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:04:58 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:04:58 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:04:58 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:04:58 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:04:58 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:04:58 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:04:58 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:04:58 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:05:36 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:05:36 Asia/Tokyo] デバッグ：セッションID：8gnqkjs6mlpjuindc6clgvrst8
+[17-Jan-2021 07:05:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:05:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610834736
+[17-Jan-2021 07:05:36 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:05:36 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:05:36 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:05:36 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:05:36 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:05:36 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:06:04 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:06:04 Asia/Tokyo] デバッグ：セッションID：f61b2ao3ur7us7ttbjdphsfl4k
+[17-Jan-2021 07:06:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:06:04 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610834764
+[17-Jan-2021 07:06:04 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:06:04 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:06:04 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:06:04 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:06:04 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:06:04 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:06:04 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:06:04 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:06:04 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:06:28 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:06:28 Asia/Tokyo] デバッグ：セッションID：g6ab7tvmd8pu69jn79bluqhnr3
+[17-Jan-2021 07:06:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:06:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610834788
+[17-Jan-2021 07:06:28 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:06:28 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:06:28 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:06:28 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:06:28 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:06:28 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:06:28 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:06:28 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:06:28 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:09:12 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:09:12 Asia/Tokyo] デバッグ：セッションID：hb2cqdae395njbgfc06uoachcb
+[17-Jan-2021 07:09:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:09:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610834952
+[17-Jan-2021 07:09:12 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:09:12 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:09:12 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:09:12 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:09:12 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:09:12 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:09:12 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:09:12 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:09:12 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:10:57 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:10:57 Asia/Tokyo] デバッグ：セッションID：hj4evcq6vkap9r3raam0rnf360
+[17-Jan-2021 07:10:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:10:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610835057
+[17-Jan-2021 07:10:57 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:10:57 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:10:57 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:10:57 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:10:57 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:10:57 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:10:57 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:10:57 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:10:57 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:10:59 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:10:59 Asia/Tokyo] デバッグ：セッションID：lh4te6bsugbnstudti322b11cd
+[17-Jan-2021 07:10:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:10:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610835059
+[17-Jan-2021 07:10:59 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:10:59 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:10:59 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:10:59 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:10:59 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:10:59 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:10:59 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:10:59 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:10:59 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:11:39 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:11:39 Asia/Tokyo] デバッグ：セッションID：lfdsa3p6huif6qtja89ds53a4g
+[17-Jan-2021 07:11:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:11:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610835099
+[17-Jan-2021 07:11:39 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:11:39 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:11:39 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:11:39 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:11:39 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:11:39 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:11:39 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:11:39 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:11:39 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:12:27 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:12:27 Asia/Tokyo] デバッグ：セッションID：rl9bs9vujbpcbtd1g2sfqbbfh7
+[17-Jan-2021 07:12:27 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:12:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610835147
+[17-Jan-2021 07:12:27 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:12:27 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:12:27 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:12:27 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:12:27 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:12:27 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:12:27 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:12:27 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:12:27 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:13:09 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:13:09 Asia/Tokyo] デバッグ：セッションID：0090b10fr6bi9co4dfev96v4tk
+[17-Jan-2021 07:13:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:13:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610835189
+[17-Jan-2021 07:13:09 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:13:09 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:13:09 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:13:09 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:13:09 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:13:09 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:13:09 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:13:09 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:13:09 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:18:35 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:18:35 Asia/Tokyo] デバッグ：セッションID：jbh6nc35gqtkcc2543888r0mf8
+[17-Jan-2021 07:18:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:18:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610835515
+[17-Jan-2021 07:18:35 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:18:35 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:18:35 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:18:35 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:18:35 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:18:35 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:18:35 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:18:35 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:18:35 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:34:54 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:34:54 Asia/Tokyo] デバッグ：セッションID：5g2vargl4cp6li86865oqhekd9
+[17-Jan-2021 07:34:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:34:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610836494
+[17-Jan-2021 07:34:54 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:34:54 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:34:54 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:34:54 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:34:54 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:34:54 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:34:54 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:34:54 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:34:54 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:57:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:57:33 Asia/Tokyo] デバッグ：セッションID：1ot5jhm28s0vb1h1vqo7nnoii0
+[17-Jan-2021 07:57:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:57:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610837853
+[17-Jan-2021 07:57:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:57:33 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:57:33 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:57:33 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:57:33 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:57:33 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:57:33 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:57:33 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:57:33 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:57:37 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:57:37 Asia/Tokyo] デバッグ：セッションID：iqji4j3ou0piu8dr202ug30945
+[17-Jan-2021 07:57:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:57:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610837857
+[17-Jan-2021 07:57:37 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:57:37 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:57:37 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:57:37 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:57:37 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:57:37 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:57:37 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:57:37 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:57:37 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:58:45 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:58:45 Asia/Tokyo] デバッグ：セッションID：2gon1bj4fo22fuqbgs4ilaud74
+[17-Jan-2021 07:58:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:58:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610837925
+[17-Jan-2021 07:58:45 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:58:45 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:58:45 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:58:45 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:45 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:58:45 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:45 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:58:45 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:45 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 07:58:49 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:58:49 Asia/Tokyo] デバッグ：セッションID：smus2gpjug62qfkuqbs9u3idnj
+[17-Jan-2021 07:58:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:58:49 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610837929
+[17-Jan-2021 07:58:49 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:58:49 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:58:49 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:58:49 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:49 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 9
+[17-Jan-2021 07:58:49 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:49 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:58:49 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:49 Asia/Tokyo] デバッグ：現在ページ：2
+[17-Jan-2021 07:58:53 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:58:53 Asia/Tokyo] デバッグ：セッションID：ejqiullhr0fdsp798j84mn32jo
+[17-Jan-2021 07:58:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:58:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610837933
+[17-Jan-2021 07:58:53 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:58:53 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:58:53 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:58:53 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:53 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 27
+[17-Jan-2021 07:58:53 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:53 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:58:53 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:53 Asia/Tokyo] デバッグ：現在ページ：4
+[17-Jan-2021 07:58:56 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:58:56 Asia/Tokyo] デバッグ：セッションID：q1vnk4a9r410uun6lbauitmtec
+[17-Jan-2021 07:58:56 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:58:56 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610837936
+[17-Jan-2021 07:58:56 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:58:56 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:58:56 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:58:56 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:56 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 36
+[17-Jan-2021 07:58:56 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:56 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:58:56 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:56 Asia/Tokyo] デバッグ：現在ページ：5
+[17-Jan-2021 07:58:59 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 07:58:59 Asia/Tokyo] デバッグ：セッションID：kvjhqhp9h41f4vqs9t6h4hlk0v
+[17-Jan-2021 07:58:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 07:58:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610837939
+[17-Jan-2021 07:58:59 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 07:58:59 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 07:58:59 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 07:58:59 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:59 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 07:58:59 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:59 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 07:58:59 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 07:58:59 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:03:52 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:03:52 Asia/Tokyo] デバッグ：セッションID：c84n9k70mpn8uvqeoqabl9numf
+[17-Jan-2021 08:03:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:03:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838232
+[17-Jan-2021 08:03:52 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:03:52 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:03:52 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:03:52 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:03:52 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:03:52 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:03:52 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:03:52 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:03:52 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:03:53 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:03:53 Asia/Tokyo] デバッグ：セッションID：knba43h3kns3ei347uapmku84t
+[17-Jan-2021 08:03:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:03:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838233
+[17-Jan-2021 08:03:53 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:03:53 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:03:53 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:03:53 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:03:53 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:03:53 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:03:53 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:03:53 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:03:53 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:03:57 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:03:57 Asia/Tokyo] デバッグ：セッションID：dcvgajao1ejejor04nc3mn0mda
+[17-Jan-2021 08:03:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:03:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838237
+[17-Jan-2021 08:03:57 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:03:57 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:03:57 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:03:57 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:03:57 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:03:57 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:03:57 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:03:57 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:03:57 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:04:00 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:04:00 Asia/Tokyo] デバッグ：セッションID：tira2puelslonsv1qp21dragqd
+[17-Jan-2021 08:04:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:04:00 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838240
+[17-Jan-2021 08:04:00 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:04:00 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:04:00 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:04:00 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:00 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 36
+[17-Jan-2021 08:04:00 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:00 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:04:00 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:00 Asia/Tokyo] デバッグ：現在ページ：5
+[17-Jan-2021 08:04:07 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:04:07 Asia/Tokyo] デバッグ：セッションID：c1g51vc972jtg1anshu1s292qh
+[17-Jan-2021 08:04:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:04:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838247
+[17-Jan-2021 08:04:07 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:04:07 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:04:07 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:04:07 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:07 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:04:07 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:07 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:04:07 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:07 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:04:09 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:04:09 Asia/Tokyo] デバッグ：セッションID：nj0ottuth3l1nbn638plhmc5g2
+[17-Jan-2021 08:04:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:04:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838249
+[17-Jan-2021 08:04:09 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:04:09 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:04:09 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:04:09 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:09 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:04:09 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:09 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:04:09 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:09 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:04:11 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:04:11 Asia/Tokyo] デバッグ：セッションID：46s5gr30rcmfuq4q57mkk4q9og
+[17-Jan-2021 08:04:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:04:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838251
+[17-Jan-2021 08:04:11 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:04:11 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:04:11 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:04:11 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:11 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 27
+[17-Jan-2021 08:04:11 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:11 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:04:11 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:11 Asia/Tokyo] デバッグ：現在ページ：4
+[17-Jan-2021 08:04:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:04:23 Asia/Tokyo] デバッグ：セッションID：at5agftlnrdqsvkklh7gcbhfp5
+[17-Jan-2021 08:04:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:04:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838263
+[17-Jan-2021 08:04:23 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:04:23 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:04:23 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:04:23 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:23 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:04:23 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:23 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:04:23 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:23 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:04:26 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:04:26 Asia/Tokyo] デバッグ：セッションID：b4s1g0hp4ilgjbv2oomm0addms
+[17-Jan-2021 08:04:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:04:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838266
+[17-Jan-2021 08:04:26 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:04:26 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:04:26 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:04:26 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:26 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 9
+[17-Jan-2021 08:04:26 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:26 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:04:26 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:26 Asia/Tokyo] デバッグ：現在ページ：2
+[17-Jan-2021 08:04:30 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:04:30 Asia/Tokyo] デバッグ：セッションID：up5lbshjbt48j7cgv407fivj4n
+[17-Jan-2021 08:04:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:04:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838270
+[17-Jan-2021 08:04:30 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:04:30 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:04:30 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:04:30 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:30 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 18
+[17-Jan-2021 08:04:30 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:30 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:04:30 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:04:30 Asia/Tokyo] デバッグ：現在ページ：3
+[17-Jan-2021 08:05:06 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:05:06 Asia/Tokyo] デバッグ：セッションID：h4sgp8ma6ohl0i31eteq0ml276
+[17-Jan-2021 08:05:06 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:05:06 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838306
+[17-Jan-2021 08:05:06 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:05:06 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:05:06 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:05:06 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:05:06 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:05:06 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:05:06 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:05:06 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:05:06 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:05:11 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:05:11 Asia/Tokyo] デバッグ：セッションID：0t56qaveg2q0pemcuhr153ta2n
+[17-Jan-2021 08:05:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:05:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838311
+[17-Jan-2021 08:05:11 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:05:11 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:05:11 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:05:11 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:05:11 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:05:11 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:05:11 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:05:11 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:05:11 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:05:15 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:05:15 Asia/Tokyo] デバッグ：セッションID：i71clq7eekqli2vu6qmct6i6m6
+[17-Jan-2021 08:05:15 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:05:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838315
+[17-Jan-2021 08:05:15 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:05:15 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:05:15 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:05:15 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:05:15 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:05:15 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:05:15 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:05:15 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:05:15 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:11:46 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:11:46 Asia/Tokyo] デバッグ：セッションID：8si7olhnr0g61irkirl9mogigj
+[17-Jan-2021 08:11:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:11:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838706
+[17-Jan-2021 08:11:46 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:11:46 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:11:46 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:11:46 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:11:46 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:11:46 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:11:46 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:11:46 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:11:46 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:11:53 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:11:53 Asia/Tokyo] デバッグ：セッションID：dfbq3tdsjdmrv4dq9pkrag71g3
+[17-Jan-2021 08:11:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:11:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838713
+[17-Jan-2021 08:11:53 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:11:53 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:11:53 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:11:53 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:11:53 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 36
+[17-Jan-2021 08:11:53 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:11:53 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:11:53 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:11:53 Asia/Tokyo] デバッグ：現在ページ：5
+[17-Jan-2021 08:11:58 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:11:58 Asia/Tokyo] デバッグ：セッションID：dvhl6q305hd8ubd2er930ehj0b
+[17-Jan-2021 08:11:58 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:11:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838718
+[17-Jan-2021 08:11:58 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:11:58 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:11:58 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:11:58 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:11:58 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:11:58 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:11:58 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:11:58 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:11:58 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:12:00 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:12:00 Asia/Tokyo] デバッグ：セッションID：hi35u6v0om3m4u9cmqlq38ec7q
+[17-Jan-2021 08:12:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:12:00 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838720
+[17-Jan-2021 08:12:00 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:12:00 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:12:00 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:12:00 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:12:00 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:12:00 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:12:00 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:12:00 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:12:00 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:12:46 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:12:46 Asia/Tokyo] デバッグ：セッションID：bvg52ls1d7bc74dvnvm52vm9un
+[17-Jan-2021 08:12:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:12:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838766
+[17-Jan-2021 08:12:46 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:12:46 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:12:46 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:12:46 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:12:46 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:12:46 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:12:46 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:12:46 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:12:46 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:12:52 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:12:52 Asia/Tokyo] デバッグ：セッションID：lbfdpmv81bgdi4nd4uql6j9mid
+[17-Jan-2021 08:12:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:12:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838772
+[17-Jan-2021 08:12:52 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:12:52 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:12:52 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:12:52 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:12:52 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 54
+[17-Jan-2021 08:12:52 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:12:52 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:12:52 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:12:52 Asia/Tokyo] デバッグ：現在ページ：7
+[17-Jan-2021 08:12:56 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:12:56 Asia/Tokyo] デバッグ：セッションID：cq52c6oj55pv3ko82ss4nq55gu
+[17-Jan-2021 08:12:56 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:12:56 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838776
+[17-Jan-2021 08:12:56 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:12:56 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:12:56 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:12:56 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:12:56 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 08:12:56 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:12:56 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:12:56 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:12:56 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 08:14:24 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 08:14:24 Asia/Tokyo] デバッグ：セッションID：hii3mn7vto514411ph4uf8c1cq
+[17-Jan-2021 08:14:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 08:14:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610838864
+[17-Jan-2021 08:14:24 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 08:14:24 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 08:14:24 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 08:14:24 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:14:24 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 9
+[17-Jan-2021 08:14:24 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:14:24 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 08:14:24 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 08:14:24 Asia/Tokyo] デバッグ：現在ページ：2
+[17-Jan-2021 09:03:00 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 09:03:00 Asia/Tokyo] デバッグ：セッションID：qbrm20g19f5kuouf1t139opc6q
+[17-Jan-2021 09:03:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 09:03:00 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610841780
+[17-Jan-2021 09:03:00 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 09:03:00 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 09:03:00 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 09:03:00 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:03:00 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 18
+[17-Jan-2021 09:03:00 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:03:00 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 09:03:00 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:03:00 Asia/Tokyo] デバッグ：現在ページ：3
+[17-Jan-2021 09:03:29 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 09:03:29 Asia/Tokyo] デバッグ：セッションID：oc6i495e34po2d02mridol7u82
+[17-Jan-2021 09:03:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 09:03:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610841809
+[17-Jan-2021 09:03:29 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 09:03:29 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 09:03:29 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 09:03:29 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:03:29 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 54
+[17-Jan-2021 09:03:29 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:03:29 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 09:03:29 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:03:29 Asia/Tokyo] デバッグ：現在ページ：7
+[17-Jan-2021 09:03:31 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 09:03:31 Asia/Tokyo] デバッグ：セッションID：sohlako0fgvhe76bg5faltokcn
+[17-Jan-2021 09:03:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 09:03:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610841811
+[17-Jan-2021 09:03:31 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 09:03:31 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 09:03:31 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 09:03:31 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:03:31 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 45
+[17-Jan-2021 09:03:31 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:03:31 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 09:03:31 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:03:31 Asia/Tokyo] デバッグ：現在ページ：6
+[17-Jan-2021 09:03:35 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 09:03:35 Asia/Tokyo] デバッグ：セッションID：t5rdm3h9gtc84us5rfagohs4kg
+[17-Jan-2021 09:03:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 09:03:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610841815
+[17-Jan-2021 09:03:35 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 09:03:35 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 09:03:35 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 09:03:35 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:03:35 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 36
+[17-Jan-2021 09:03:35 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:03:35 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 09:03:35 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:03:35 Asia/Tokyo] デバッグ：現在ページ：5
+[17-Jan-2021 09:04:05 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 09:04:05 Asia/Tokyo] デバッグ：セッションID：cjke0md8clnmck1ffhkih4jav1
+[17-Jan-2021 09:04:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 09:04:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610841845
+[17-Jan-2021 09:04:05 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 09:04:05 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 09:04:05 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 09:04:05 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:04:05 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 36
+[17-Jan-2021 09:04:05 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:04:05 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 09:04:05 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 09:04:05 Asia/Tokyo] デバッグ：現在ページ：5
+[17-Jan-2021 21:31:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:31:34 Asia/Tokyo] デバッグ：セッションID：0ltpbepv0mk71hm6qm0v96rj9b
+[17-Jan-2021 21:31:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 21:31:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610886694
+[17-Jan-2021 21:31:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 21:31:34 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 21:31:34 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 21:31:34 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:31:34 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 27
+[17-Jan-2021 21:31:34 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:31:34 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 21:31:34 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:31:34 Asia/Tokyo] デバッグ：現在ページ：4
+[17-Jan-2021 21:31:37 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:31:37 Asia/Tokyo] デバッグ：セッションID：4r02jd87ebloanlvkihgdoh5qs
+[17-Jan-2021 21:31:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 21:31:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610886697
+[17-Jan-2021 21:31:37 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 21:31:37 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 21:31:37 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 21:31:37 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:31:37 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 9
+[17-Jan-2021 21:31:37 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:31:37 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 21:31:37 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:31:37 Asia/Tokyo] デバッグ：現在ページ：2
+[17-Jan-2021 21:31:39 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:31:39 Asia/Tokyo] デバッグ：セッションID：6dkbv3rmljl2icvu2q2opd4icm
+[17-Jan-2021 21:31:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 21:31:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610886699
+[17-Jan-2021 21:31:39 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 21:31:39 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 21:31:39 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 21:31:39 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:31:39 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 18
+[17-Jan-2021 21:31:39 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:31:39 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 21:31:39 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:31:39 Asia/Tokyo] デバッグ：現在ページ：3
+[17-Jan-2021 21:32:14 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:32:14 Asia/Tokyo] デバッグ：セッションID：ebpco1ttl3qq2oc5b35bri7i6a
+[17-Jan-2021 21:32:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 21:32:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610886734
+[17-Jan-2021 21:32:14 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 21:32:14 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 21:32:14 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 21:32:14 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:32:14 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 54
+[17-Jan-2021 21:32:14 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:32:14 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 21:32:14 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:32:14 Asia/Tokyo] デバッグ：現在ページ：7
+[17-Jan-2021 21:32:17 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:32:17 Asia/Tokyo] デバッグ：セッションID：tf6ph44uiklmq72fv4qedo4345
+[17-Jan-2021 21:32:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 21:32:17 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610886737
+[17-Jan-2021 21:32:17 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 21:32:17 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 21:32:17 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 21:32:17 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:32:17 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 21:32:17 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:32:17 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 21:32:17 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:32:17 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 21:33:57 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:33:57 Asia/Tokyo] デバッグ：セッションID：llbd8usj6r5ugsp1mng5relcrg
+[17-Jan-2021 21:33:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 21:33:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610886837
+[17-Jan-2021 21:33:57 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 21:33:57 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 21:33:57 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 21:33:57 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:33:57 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 36
+[17-Jan-2021 21:33:57 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:33:57 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 21:33:57 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:33:57 Asia/Tokyo] デバッグ：現在ページ：5
+[17-Jan-2021 21:34:00 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:34:00 Asia/Tokyo] デバッグ：セッションID：ii0gogd2lv89dut14jm0lq2b3o
+[17-Jan-2021 21:34:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 21:34:00 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610886840
+[17-Jan-2021 21:34:00 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 21:34:00 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 21:34:00 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 21:34:00 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:34:00 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 45
+[17-Jan-2021 21:34:00 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:34:00 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 21:34:00 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:34:00 Asia/Tokyo] デバッグ：現在ページ：6
+[17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：セッションID：4upov0g1j8k9kdjj8rp12t19af
+[17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610756708
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610886842
+[17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610760308
+[17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 54
+[17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：現在ページ：7
