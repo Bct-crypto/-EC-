@@ -20,6 +20,10 @@ $dbCategoryData = getCategory();
 // 新規登録か編集画面かの判定
 $editFlg = (empty($dbFormData)) ? false : true;
 
+debug('商品ID：' . $p_id);
+debug('フォーム用DBデータ：' . print_r($dbFormData, true));
+debug('カテゴリデータ：' . print_r($dbCategoryData, true));
+
 // パラメータの改竄チェック
 if (!empty($p_id) && empty($dbFormData)) {
     debug('GETパラメータの商品IDが異なります。マイページへ移動します');

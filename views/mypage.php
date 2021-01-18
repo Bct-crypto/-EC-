@@ -1,4 +1,4 @@
-<div class="container text-center">
+<div class="container text-center" style="margin-bottom: 120px;">
     <main class="form">
         <form action="#" method="post">
             <img src="" alt="">
@@ -34,16 +34,17 @@
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
                                 <?php if (!empty($val['pic'])) : ?>
-                                    <img class="card-img-top" src="<?php echo sanitize($val['pic']); ?>" alt="" style="min-height: 160px;max-height: 160px; object-fit :cover;">
+                                    <img class="card-img-top" src="<?php echo sanitize($val['pic']); ?>" alt="" style="min-height: 200px;max-height: 200px; object-fit :cover;">
                                 <?php else : ?>
-                                    <img class="card-img-top" src="img/sample-img.png" alt="" style="max-height: 160px; object-fit :cover;">
+                                    <img class="card-img-top" src="img/sample-img.png" alt="" style="min-height: 200px;max-height: 200px; object-fit :cover;">
                                 <?php endif; ?>
                                 <div class="card-body">
                                     <h5 class="card-title"><?php echo sanitize($val['name']); ?></h5>
-                                    <p class="card-text"><?php echo sanitize($val['comment']); ?></p>
+                                    <p class="card-text"><?php echo sanitize(mb_substr($val['comment'], 0, 10)); ?>...</p>
+                                    <p class="card-text">¥<?php echo sanitize($val['price']); ?>円</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
-                                            <a href="listProduct.php" class="btn btn-sm btn-outline-secondary text-dark">詳細</a>
+                                            <a href="listProduct.php<?php echo (!empty(appendGetParam())) ? appendGetParam() . '&p_id=' . $val['id'] : '?p_id=' . $val['id']; ?>" class="btn btn-sm btn-outline-secondary text-dark">詳細</a>
                                         </div>
                                         <small class="text-muted">最終更新：<?php echo sanitize(date('Y年n月j日', strtotime($val['update_date']))); ?></small>
                                     </div>
@@ -57,10 +58,16 @@
             </div>
 
 
-            <a href="listProduct.php" class="btn btn-warning btn-block mb-2">商品を登録する<i class="fas fa-gift ml-2"></i></a>
-            <a href="profEdit.php" class="btn btn-info btn-block mb-2">プロフィールの編集<i class="far fa-address-card ml-2"></i></a>
-            <a href="passEdit.php" class="btn btn-success btn-block mb-2">パスワード変更<i class="fas fa-key ml-2"></i></a>
-            <a href="withdraw.php" class="btn btn-danger btn-block">退会ページ<i class="fas fa-dove ml-2"></i></a>
         </form>
     </main>
+
+    <a href="listProduct.php" class="btn btn-warning btn-block mb-2">商品を登録する<i class="fas fa-gift ml-2"></i></a>
+
+    <a href="profEdit.php" class="btn btn-info btn-block mb-2">プロフィールの編集<i class="far fa-address-card ml-2"></i></a>
+
+
+    <a href="passEdit.php" class="btn btn-success btn-block mb-2">パスワード変更<i class="fas fa-key ml-2"></i></a>
+
+    <a href="withdraw.php" class="btn btn-danger btn-block">退会ページ<i class="fas fa-dove ml-2"></i></a>
+
 </div>

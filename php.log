@@ -13740,3 +13740,3928 @@ Stack trace:
 [17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
 [17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：クエリ成功
 [17-Jan-2021 21:34:02 Asia/Tokyo] デバッグ：現在ページ：7
+[17-Jan-2021 21:56:03 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[17-Jan-2021 21:56:03 Asia/Tokyo] デバッグ：ログイン有効期限オーバーです
+[17-Jan-2021 21:56:03 Asia/Tokyo] デバッグ：未ログインユーザーです
+[17-Jan-2021 21:56:03 Asia/Tokyo] デバッグ：Login Page.
+[17-Jan-2021 21:56:03 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:56:03 Asia/Tokyo] デバッグ：セッションID：hq7n1ssurik5ij1aa0pec7hond
+[17-Jan-2021 21:56:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[17-Jan-2021 21:56:03 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610888163
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：未ログインユーザーです
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：Login Page.
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：セッションID：nsoldckvk9fo0hv8253glaeb0v
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610888172
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：POST送信があります
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [id] => 2
+)
+
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610888172
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：マイページへ遷移します
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：MyPageを表示します
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：セッションID：9ubm27pr63jrhiv9fvu5ju5ri3
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610888172
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610888172
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610891772
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：ユーザID：2
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:56:12 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:56:15 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:56:15 Asia/Tokyo] デバッグ：セッションID：utd0qnhch4eh9mlnvs9cq9mm08
+[17-Jan-2021 21:56:15 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610888172
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[17-Jan-2021 21:56:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610888175
+[17-Jan-2021 21:56:15 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610891772
+[17-Jan-2021 21:56:15 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 21:56:15 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 21:56:15 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:56:15 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 21:56:15 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:56:15 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 21:56:15 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:56:15 Asia/Tokyo] デバッグ：現在ページ：1
+[17-Jan-2021 21:56:17 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[17-Jan-2021 21:56:17 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[17-Jan-2021 21:56:17 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[17-Jan-2021 21:56:17 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:56:17 Asia/Tokyo] デバッグ：セッションID：43aqv87nm606qatgidtt8p9oro
+[17-Jan-2021 21:56:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610888177
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[17-Jan-2021 21:56:17 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610888177
+[17-Jan-2021 21:56:17 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610891777
+[17-Jan-2021 21:56:17 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 32
+[17-Jan-2021 21:56:22 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[17-Jan-2021 21:56:22 Asia/Tokyo] デバッグ：セッションID：9tkvteg7350j9prhc9h5ois39v
+[17-Jan-2021 21:56:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610888177
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[17-Jan-2021 21:56:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610888182
+[17-Jan-2021 21:56:22 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610891777
+[17-Jan-2021 21:56:22 Asia/Tokyo] デバッグ：TOPページを表示します
+[17-Jan-2021 21:56:22 Asia/Tokyo] デバッグ：商品情報の取得します
+[17-Jan-2021 21:56:22 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:56:22 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[17-Jan-2021 21:56:22 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:56:22 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[17-Jan-2021 21:56:22 Asia/Tokyo] デバッグ：クエリ成功
+[17-Jan-2021 21:56:22 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 00:13:10 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 00:13:10 Asia/Tokyo] デバッグ：ログイン有効期限オーバーです
+[18-Jan-2021 00:13:10 Asia/Tokyo] デバッグ：未ログインユーザーです
+[18-Jan-2021 00:13:10 Asia/Tokyo] デバッグ：Login Page.
+[18-Jan-2021 00:13:10 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 00:13:10 Asia/Tokyo] デバッグ：セッションID：8ghqnkj0eq080lt87h5u44cgtn
+[18-Jan-2021 00:13:10 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[18-Jan-2021 00:13:10 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610896390
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：未ログインユーザーです
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：Login Page.
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：セッションID：in92cnqvo3vuiq5vmlggj3gkq4
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610896397
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：POST送信があります
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [id] => 2
+)
+
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610896397
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：マイページへ遷移します
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：セッションID：n5fm93rml1niapek8p84q3vs7r
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610896397
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610896397
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610899997
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:17 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:20 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 00:13:20 Asia/Tokyo] デバッグ：セッションID：7nv17cbhls4nvs6k0925vk4d9o
+[18-Jan-2021 00:13:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610896397
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[18-Jan-2021 00:13:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610896400
+[18-Jan-2021 00:13:20 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610899997
+[18-Jan-2021 00:13:20 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 00:13:20 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 00:13:20 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:20 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 00:13:20 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:20 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 00:13:20 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:20 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：セッションID：srgfbj9i4js9bino28go2r87pr
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610896402
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610896402
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610900002
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：商品ID：
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:22 Asia/Tokyo] エラー発生：不正な値が入力されています
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：取得したDBデータ：
+[18-Jan-2021 00:13:22 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 32
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：セッションID：0jmo5kinq3sgu2luu9rd4rrr0s
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610896402
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610896402
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610900002
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:22 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：セッションID：ttrhojrc4cjv1ruhlfit59c05g
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610896403
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610896403
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610900003
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：商品ID：
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:23 Asia/Tokyo] エラー発生：不正な値が入力されています
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：取得したDBデータ：
+[18-Jan-2021 00:13:23 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 32
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：セッションID：l4tcrrk13ch3h42sdaa34dfuab
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610896403
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610896403
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610900003
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:13:23 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 00:20:51 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 00:20:51 Asia/Tokyo] デバッグ：セッションID：q4lfo8vp7nn567j758li0jj7uv
+[18-Jan-2021 00:20:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610896403
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[18-Jan-2021 00:20:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610896851
+[18-Jan-2021 00:20:51 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610900003
+[18-Jan-2021 00:20:51 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 00:20:51 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 00:20:51 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:20:51 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 00:20:51 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:20:51 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 00:20:51 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:20:51 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 00:20:57 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 00:20:57 Asia/Tokyo] デバッグ：セッションID：ovek5t3a21e7m59tfvhr7tn7tc
+[18-Jan-2021 00:20:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610896403
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[18-Jan-2021 00:20:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610896857
+[18-Jan-2021 00:20:57 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610900003
+[18-Jan-2021 00:20:57 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 00:20:57 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 00:20:57 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:20:57 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 00:20:57 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:20:57 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 00:20:57 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:20:57 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 00:22:20 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 00:22:20 Asia/Tokyo] デバッグ：セッションID：bt8etl1deceldmlkmnbndplugc
+[18-Jan-2021 00:22:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610896403
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[18-Jan-2021 00:22:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610896940
+[18-Jan-2021 00:22:20 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610900003
+[18-Jan-2021 00:22:20 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 00:22:20 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 00:22:20 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:22:20 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 00:22:20 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:22:20 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 00:22:20 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:22:20 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 00:22:33 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 00:22:33 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 00:22:33 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 00:22:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 00:22:33 Asia/Tokyo] デバッグ：セッションID：uq8hkgdo6kjm1oiltfihif3de6
+[18-Jan-2021 00:22:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610896953
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[18-Jan-2021 00:22:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610896953
+[18-Jan-2021 00:22:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1610900553
+[18-Jan-2021 00:22:33 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 00:22:33 Asia/Tokyo] デバッグ：商品ID：2
+[18-Jan-2021 00:22:33 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 00:22:33 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 2
+    [name] => 柴犬
+    [category_id] => 3
+    [comment] => 可愛いワンコです
+    [price] => 3000
+    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+    [user_id] => 2
+    [create_date] => 2021-01-15 01:07:57
+    [update_date] => 2021-01-15 01:07:57
+    [category] => Javascript
+)
+
+[18-Jan-2021 00:22:33 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 32
+[18-Jan-2021 06:42:49 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 06:42:49 Asia/Tokyo] デバッグ：ログイン有効期限オーバーです
+[18-Jan-2021 06:42:49 Asia/Tokyo] デバッグ：未ログインユーザーです
+[18-Jan-2021 06:42:49 Asia/Tokyo] デバッグ：Login Page.
+[18-Jan-2021 06:42:49 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:42:49 Asia/Tokyo] デバッグ：セッションID：bmleutj7hflgv3l3lemsq5qubk
+[18-Jan-2021 06:42:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[18-Jan-2021 06:42:49 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610919769
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：未ログインユーザーです
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：Login Page.
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：セッションID：j9hig00fcsu9ia9n46eekcopi4
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610919779
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：POST送信があります
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [id] => 2
+)
+
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：ログイン保持にチェックがあります
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610919779
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：マイページへ遷移します
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：セッションID：1laf0lct2nvbav84nfg0vj72pp
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610919779
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610919779
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613511779
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:42:59 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:43:01 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:43:01 Asia/Tokyo] デバッグ：セッションID：6ol3mhu3dl7tlesk054jqo5rds
+[18-Jan-2021 06:43:01 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610919779
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 06:43:01 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610919781
+[18-Jan-2021 06:43:01 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613511779
+[18-Jan-2021 06:43:01 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 06:43:01 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 06:43:01 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:43:01 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 06:43:01 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:43:01 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 06:43:01 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:43:01 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 06:43:03 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 06:43:03 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 06:43:03 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 06:43:03 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:43:03 Asia/Tokyo] デバッグ：セッションID：r2iu3svgueglv35tm57rn6cj1j
+[18-Jan-2021 06:43:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610919783
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 06:43:03 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610919783
+[18-Jan-2021 06:43:03 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613511783
+[18-Jan-2021 06:43:03 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 06:43:03 Asia/Tokyo] デバッグ：商品ID：2
+[18-Jan-2021 06:43:03 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:43:03 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 2
+    [name] => 柴犬
+    [category_id] => 3
+    [comment] => 可愛いワンコです
+    [price] => 3000
+    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+    [user_id] => 2
+    [create_date] => 2021-01-15 01:07:57
+    [update_date] => 2021-01-15 01:07:57
+    [category] => Javascript
+)
+
+[18-Jan-2021 06:43:03 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 32
+[18-Jan-2021 06:47:08 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 06:47:08 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 06:47:08 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 06:47:08 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:47:08 Asia/Tokyo] デバッグ：セッションID：fnos5jfls1pq4npd8lkq3qtiks
+[18-Jan-2021 06:47:08 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610920028
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 06:47:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610920028
+[18-Jan-2021 06:47:08 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613512028
+[18-Jan-2021 06:47:08 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 06:47:08 Asia/Tokyo] デバッグ：商品ID：2
+[18-Jan-2021 06:47:08 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:47:08 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 2
+    [name] => 柴犬
+    [category_id] => 3
+    [comment] => 可愛いワンコです
+    [price] => 3000
+    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+    [user_id] => 2
+    [create_date] => 2021-01-15 01:07:57
+    [update_date] => 2021-01-15 01:07:57
+    [category] => Javascript
+)
+
+[18-Jan-2021 06:47:08 Asia/Tokyo] PHP Notice:  Undefined variable: val in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 24
+[18-Jan-2021 06:47:08 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 24
+[18-Jan-2021 06:47:08 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 33
+[18-Jan-2021 06:47:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:47:34 Asia/Tokyo] デバッグ：セッションID：4p4k1kudn3e9ah0e0gjf3e0b14
+[18-Jan-2021 06:47:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610920028
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 06:47:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610920054
+[18-Jan-2021 06:47:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613512028
+[18-Jan-2021 06:47:34 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 06:47:34 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 06:47:34 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:47:34 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 06:47:34 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:47:34 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 06:47:34 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:47:34 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 06:47:36 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 06:47:36 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 06:47:36 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 06:47:36 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:47:36 Asia/Tokyo] デバッグ：セッションID：uh1gnnd1u8huqn3kfg7g7j50gi
+[18-Jan-2021 06:47:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610920056
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 06:47:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610920056
+[18-Jan-2021 06:47:36 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613512056
+[18-Jan-2021 06:47:36 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 06:47:36 Asia/Tokyo] デバッグ：商品ID：3
+[18-Jan-2021 06:47:36 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:47:36 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 3
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[18-Jan-2021 06:47:36 Asia/Tokyo] PHP Notice:  Undefined variable: val in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 24
+[18-Jan-2021 06:47:36 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 24
+[18-Jan-2021 06:47:36 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 33
+[18-Jan-2021 06:50:56 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 06:50:56 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 06:50:56 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 06:50:56 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:50:56 Asia/Tokyo] デバッグ：セッションID：6uqhsebl93galhaapq7su3ucm2
+[18-Jan-2021 06:50:56 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610920256
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 06:50:56 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610920256
+[18-Jan-2021 06:50:56 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613512256
+[18-Jan-2021 06:50:56 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 06:50:56 Asia/Tokyo] デバッグ：商品ID：3
+[18-Jan-2021 06:50:56 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:50:56 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 3
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[18-Jan-2021 06:50:56 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 34
+[18-Jan-2021 06:52:59 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 06:52:59 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 06:52:59 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 06:52:59 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:52:59 Asia/Tokyo] デバッグ：セッションID：i3e40evu7susc4k876kndltekp
+[18-Jan-2021 06:52:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610920379
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 06:52:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610920379
+[18-Jan-2021 06:52:59 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613512379
+[18-Jan-2021 06:52:59 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 06:52:59 Asia/Tokyo] デバッグ：商品ID：3
+[18-Jan-2021 06:52:59 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:52:59 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 3
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[18-Jan-2021 06:52:59 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 34
+[18-Jan-2021 06:58:34 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 06:58:34 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 06:58:34 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 06:58:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:58:34 Asia/Tokyo] デバッグ：セッションID：lauk6juikcpco877am9jj2n644
+[18-Jan-2021 06:58:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610920714
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 06:58:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610920714
+[18-Jan-2021 06:58:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613512714
+[18-Jan-2021 06:58:34 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 06:58:34 Asia/Tokyo] デバッグ：商品ID：3
+[18-Jan-2021 06:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:58:34 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 3
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[18-Jan-2021 06:58:34 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 34
+[18-Jan-2021 06:59:16 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 06:59:16 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 06:59:16 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 06:59:16 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:59:16 Asia/Tokyo] デバッグ：セッションID：472olq4hog29cenedes2fu74cs
+[18-Jan-2021 06:59:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610920756
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 06:59:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610920756
+[18-Jan-2021 06:59:16 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613512756
+[18-Jan-2021 06:59:16 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 06:59:16 Asia/Tokyo] デバッグ：商品ID：3
+[18-Jan-2021 06:59:16 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:59:16 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 3
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[18-Jan-2021 06:59:16 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 34
+[18-Jan-2021 06:59:18 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:59:18 Asia/Tokyo] デバッグ：セッションID：edmah9lmjg2vuknnj1cmk4k7kh
+[18-Jan-2021 06:59:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610920756
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 06:59:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610920758
+[18-Jan-2021 06:59:18 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613512756
+[18-Jan-2021 06:59:18 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 06:59:18 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 06:59:18 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:59:18 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 06:59:18 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:59:18 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 06:59:18 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:59:18 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 06:59:23 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 06:59:23 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 06:59:23 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 06:59:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 06:59:23 Asia/Tokyo] デバッグ：セッションID：571m9katmrcnq5p7n7kqouecq9
+[18-Jan-2021 06:59:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610920763
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 06:59:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610920763
+[18-Jan-2021 06:59:23 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613512763
+[18-Jan-2021 06:59:23 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 06:59:23 Asia/Tokyo] デバッグ：商品ID：2
+[18-Jan-2021 06:59:23 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 06:59:23 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 2
+    [name] => 柴犬
+    [category_id] => 3
+    [comment] => 可愛いワンコです
+    [price] => 3000
+    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+    [user_id] => 2
+    [create_date] => 2021-01-15 01:07:57
+    [update_date] => 2021-01-15 01:07:57
+    [category] => Javascript
+)
+
+[18-Jan-2021 06:59:23 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 34
+[18-Jan-2021 07:00:08 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 07:00:08 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 07:00:08 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 07:00:08 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:00:08 Asia/Tokyo] デバッグ：セッションID：d404sh2jdgdbot49okbeg2a0mp
+[18-Jan-2021 07:00:08 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610920808
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:00:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610920808
+[18-Jan-2021 07:00:08 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613512808
+[18-Jan-2021 07:00:08 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 07:00:08 Asia/Tokyo] デバッグ：商品ID：2
+[18-Jan-2021 07:00:08 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:00:08 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 2
+    [name] => 柴犬
+    [category_id] => 3
+    [comment] => 可愛いワンコです
+    [price] => 3000
+    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+    [user_id] => 2
+    [create_date] => 2021-01-15 01:07:57
+    [update_date] => 2021-01-15 01:07:57
+    [category] => Javascript
+)
+
+[18-Jan-2021 07:00:08 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 34
+[18-Jan-2021 07:01:59 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 07:01:59 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 07:01:59 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 07:01:59 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:01:59 Asia/Tokyo] デバッグ：セッションID：c934m1g76hd50ej710g45h2n78
+[18-Jan-2021 07:01:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610920919
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:01:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610920919
+[18-Jan-2021 07:01:59 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613512919
+[18-Jan-2021 07:01:59 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 07:01:59 Asia/Tokyo] デバッグ：商品ID：2
+[18-Jan-2021 07:01:59 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:01:59 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 2
+    [name] => 柴犬
+    [category_id] => 3
+    [comment] => 可愛いワンコです
+    [price] => 3000
+    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+    [user_id] => 2
+    [create_date] => 2021-01-15 01:07:57
+    [update_date] => 2021-01-15 01:07:57
+    [category] => Javascript
+)
+
+[18-Jan-2021 07:01:59 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 07:02:37 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 07:02:37 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 07:02:37 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 07:02:37 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:02:37 Asia/Tokyo] デバッグ：セッションID：irm8fbavvu89etfshpqocn7kqk
+[18-Jan-2021 07:02:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610920957
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:02:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610920957
+[18-Jan-2021 07:02:37 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613512957
+[18-Jan-2021 07:02:37 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 07:02:37 Asia/Tokyo] デバッグ：商品ID：2
+[18-Jan-2021 07:02:37 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:02:37 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 2
+    [name] => 柴犬
+    [category_id] => 3
+    [comment] => 可愛いワンコです
+    [price] => 3000
+    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+    [user_id] => 2
+    [create_date] => 2021-01-15 01:07:57
+    [update_date] => 2021-01-15 01:07:57
+    [category] => Javascript
+)
+
+[18-Jan-2021 07:02:37 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 07:03:16 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 07:03:16 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 07:03:16 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 07:03:16 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:03:16 Asia/Tokyo] デバッグ：セッションID：m6bd865lf6o2hoofo9t68jsf9f
+[18-Jan-2021 07:03:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610920996
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:03:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610920996
+[18-Jan-2021 07:03:16 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613512996
+[18-Jan-2021 07:03:16 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 07:03:16 Asia/Tokyo] デバッグ：商品ID：2
+[18-Jan-2021 07:03:16 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:03:16 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 2
+    [name] => 柴犬
+    [category_id] => 3
+    [comment] => 可愛いワンコです
+    [price] => 3000
+    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+    [user_id] => 2
+    [create_date] => 2021-01-15 01:07:57
+    [update_date] => 2021-01-15 01:07:57
+    [category] => Javascript
+)
+
+[18-Jan-2021 07:03:16 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 07:03:27 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 07:03:27 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 07:03:27 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 07:03:27 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:03:27 Asia/Tokyo] デバッグ：セッションID：g37k2c43nmvr7qj00pb9744ret
+[18-Jan-2021 07:03:27 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921007
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:03:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610921007
+[18-Jan-2021 07:03:27 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513007
+[18-Jan-2021 07:03:27 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 07:03:27 Asia/Tokyo] デバッグ：商品ID：2
+[18-Jan-2021 07:03:27 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:03:27 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 2
+    [name] => 柴犬
+    [category_id] => 3
+    [comment] => 可愛いワンコです
+    [price] => 3000
+    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+    [user_id] => 2
+    [create_date] => 2021-01-15 01:07:57
+    [update_date] => 2021-01-15 01:07:57
+    [category] => Javascript
+)
+
+[18-Jan-2021 07:03:27 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 07:03:41 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 07:03:41 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 07:03:41 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 07:03:41 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:03:41 Asia/Tokyo] デバッグ：セッションID：vjl7gvovl9r2mq537h1r4m668v
+[18-Jan-2021 07:03:41 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921021
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:03:41 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610921021
+[18-Jan-2021 07:03:41 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513021
+[18-Jan-2021 07:03:41 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 07:03:41 Asia/Tokyo] デバッグ：商品ID：2
+[18-Jan-2021 07:03:41 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:03:41 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 2
+    [name] => 柴犬
+    [category_id] => 3
+    [comment] => 可愛いワンコです
+    [price] => 3000
+    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+    [user_id] => 2
+    [create_date] => 2021-01-15 01:07:57
+    [update_date] => 2021-01-15 01:07:57
+    [category] => Javascript
+)
+
+[18-Jan-2021 07:03:41 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 07:05:54 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:05:54 Asia/Tokyo] デバッグ：セッションID：oudkissmheb79srj9ge1r8v8ph
+[18-Jan-2021 07:05:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921021
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:05:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610921154
+[18-Jan-2021 07:05:54 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513021
+[18-Jan-2021 07:05:54 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:05:54 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:05:54 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:05:54 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:05:54 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:05:54 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:05:54 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:05:54 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:06:00 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 07:06:00 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 07:06:00 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 07:06:00 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:06:00 Asia/Tokyo] デバッグ：セッションID：g0dfe2e95rpl9p3j3gfab9oot1
+[18-Jan-2021 07:06:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921160
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:06:00 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610921160
+[18-Jan-2021 07:06:00 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513160
+[18-Jan-2021 07:06:00 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 07:06:00 Asia/Tokyo] デバッグ：商品ID：1
+[18-Jan-2021 07:06:00 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:06:00 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => 餅ゴマ
+    [category_id] => 2
+    [comment] => もちもちのゴマです
+    [price] => 300
+    [pic] => 
+    [user_id] => 2
+    [create_date] => 2021-01-11 10:36:24
+    [update_date] => 2021-01-11 10:36:24
+    [category] => CSS3
+)
+
+[18-Jan-2021 07:06:00 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 07:07:02 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 07:07:02 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 07:07:02 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 07:07:02 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:07:02 Asia/Tokyo] デバッグ：セッションID：39hlb9huqvnok0cgb2arikmmoh
+[18-Jan-2021 07:07:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921222
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:07:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610921222
+[18-Jan-2021 07:07:02 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513222
+[18-Jan-2021 07:07:02 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 07:07:02 Asia/Tokyo] デバッグ：商品ID：1
+[18-Jan-2021 07:07:02 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:07:02 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => 餅ゴマ
+    [category_id] => 2
+    [comment] => もちもちのゴマです
+    [price] => 300
+    [pic] => 
+    [user_id] => 2
+    [create_date] => 2021-01-11 10:36:24
+    [update_date] => 2021-01-11 10:36:24
+    [category] => CSS3
+)
+
+[18-Jan-2021 07:07:03 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 07:07:23 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 07:07:23 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 07:07:23 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 07:07:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:07:23 Asia/Tokyo] デバッグ：セッションID：6jn725f9a4gra5jhmq3sivs9b8
+[18-Jan-2021 07:07:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921243
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:07:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610921243
+[18-Jan-2021 07:07:23 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513243
+[18-Jan-2021 07:07:23 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 07:07:23 Asia/Tokyo] デバッグ：商品ID：1
+[18-Jan-2021 07:07:23 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:07:23 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => 餅ゴマ
+    [category_id] => 2
+    [comment] => もちもちのゴマです
+    [price] => 300
+    [pic] => 
+    [user_id] => 2
+    [create_date] => 2021-01-11 10:36:24
+    [update_date] => 2021-01-11 10:36:24
+    [category] => CSS3
+)
+
+[18-Jan-2021 07:07:23 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 07:07:33 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 07:07:33 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 07:07:33 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 07:07:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:07:33 Asia/Tokyo] デバッグ：セッションID：8n6di8lvlj3n1catsmvlfjrv28
+[18-Jan-2021 07:07:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:07:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610921253
+[18-Jan-2021 07:07:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:07:33 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 07:07:33 Asia/Tokyo] デバッグ：商品ID：1
+[18-Jan-2021 07:07:33 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:07:33 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => 餅ゴマ
+    [category_id] => 2
+    [comment] => もちもちのゴマです
+    [price] => 300
+    [pic] => 
+    [user_id] => 2
+    [create_date] => 2021-01-11 10:36:24
+    [update_date] => 2021-01-11 10:36:24
+    [category] => CSS3
+)
+
+[18-Jan-2021 07:07:33 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 07:07:54 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:07:54 Asia/Tokyo] デバッグ：セッションID：r6oj165oq972lt5r6e8mebr9cn
+[18-Jan-2021 07:07:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:07:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610921274
+[18-Jan-2021 07:07:54 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:07:54 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:07:54 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:07:54 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:07:54 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:07:54 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:07:54 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:07:54 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:07:54 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:11:30 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:11:30 Asia/Tokyo] デバッグ：セッションID：d92arif8ic6i01ncbjbsobsdq6
+[18-Jan-2021 07:11:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:11:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610921490
+[18-Jan-2021 07:11:30 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:11:30 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:11:30 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:11:30 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:11:30 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:11:30 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:11:30 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:11:30 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:11:30 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:11:30 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 20
+[18-Jan-2021 07:11:30 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 20
+[18-Jan-2021 07:11:30 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 52
+[18-Jan-2021 07:11:58 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:11:58 Asia/Tokyo] デバッグ：セッションID：6gphvnp851os2igd2icpscj566
+[18-Jan-2021 07:11:58 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:11:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610921518
+[18-Jan-2021 07:11:58 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:11:58 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:11:58 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:11:58 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:11:58 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:11:58 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:11:58 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:11:58 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:11:58 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:26:18 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:26:18 Asia/Tokyo] デバッグ：セッションID：k40hkbs3qj5pj52p9689dl09kf
+[18-Jan-2021 07:26:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:26:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610922378
+[18-Jan-2021 07:26:18 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:26:18 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:26:18 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:26:18 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:26:18 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:26:18 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:26:18 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:26:18 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:26:18 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:26:18 Asia/Tokyo] PHP Notice:  Undefined index: data in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 20
+[18-Jan-2021 07:26:18 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 20
+[18-Jan-2021 07:26:18 Asia/Tokyo] PHP Notice:  Undefined index: total_page in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 52
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：セッションID：nrac60k01f925pn3cv9eh7hqj4
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610922527
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：取得データ：1
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:28:47 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:28:47 Asia/Tokyo] PHP Notice:  Undefined index: data in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 20
+[18-Jan-2021 07:28:47 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 20
+[18-Jan-2021 07:28:47 Asia/Tokyo] PHP Notice:  Undefined index: total_page in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 52
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：セッションID：kkit0obamkngrub3d8tjbhn7ih
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610922552
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:29:12 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/PHP/ECsite/index.php on line 29
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：取得データ：Array
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:29:12 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:29:12 Asia/Tokyo] PHP Notice:  Undefined index: data in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 20
+[18-Jan-2021 07:29:12 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 20
+[18-Jan-2021 07:29:12 Asia/Tokyo] PHP Notice:  Undefined index: total_page in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 52
+[18-Jan-2021 07:32:57 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:32:57 Asia/Tokyo] デバッグ：セッションID：chbgbf1r04vfor0fvttntgv83s
+[18-Jan-2021 07:32:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:32:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610922777
+[18-Jan-2021 07:32:57 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:32:57 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:32:57 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:32:57 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:32:57 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:32:57 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:32:57 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:32:57 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:32:57 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:32:57 Asia/Tokyo] PHP Notice:  Undefined index: data in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 20
+[18-Jan-2021 07:32:57 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 20
+[18-Jan-2021 07:32:57 Asia/Tokyo] PHP Notice:  Undefined index: total_page in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 52
+[18-Jan-2021 07:35:11 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:35:11 Asia/Tokyo] デバッグ：セッションID：4attgebkhvkjcffb0v8q4fe0uc
+[18-Jan-2021 07:35:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:35:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610922911
+[18-Jan-2021 07:35:11 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:35:11 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:35:11 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:35:11 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:35:11 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:35:11 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:35:11 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:35:11 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:35:11 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:35:11 Asia/Tokyo] PHP Notice:  Undefined index: data in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 20
+[18-Jan-2021 07:35:11 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 20
+[18-Jan-2021 07:35:11 Asia/Tokyo] PHP Notice:  Undefined index: total_page in /Applications/MAMP/htdocs/PHP/ECsite/views/index.php on line 52
+[18-Jan-2021 07:36:11 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:36:11 Asia/Tokyo] デバッグ：セッションID：un4e54rmqm6f090rfei9rc5dho
+[18-Jan-2021 07:36:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:36:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610922971
+[18-Jan-2021 07:36:11 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:36:11 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:36:11 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:36:11 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:36:11 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:36:11 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:36:11 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:36:11 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:36:11 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：セッションID：fms5e4hta6b25kr3qr0uhhbrcg
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610923336
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:42:16 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/PHP/ECsite/lib/function.php on line 53
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：Array
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:42:16 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：セッションID：o6a84d7k36sc0p5n9657arf8mv
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610923482
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：Array
+(
+    [total] => 59
+    [total_page] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 餅ゴマ
+                    [category_id] => 2
+                    [comment] => もちもちのゴマです
+                    [price] => 300
+                    [pic] => 
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-11 10:36:24
+                    [update_date] => 2021-01-11 10:36:24
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 柴犬
+                    [category_id] => 3
+                    [comment] => 可愛いワンコです
+                    [price] => 3000
+                    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-15 01:07:57
+                    [update_date] => 2021-01-15 01:07:57
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [name] => HTML技術本①
+                    [category_id] => 1
+                    [comment] => 初学者におすすめの１冊です
+                    [price] => 2400
+                    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:39:28
+                    [update_date] => 2021-01-16 07:39:28
+                )
+
+            [3] => Array
+                (
+                    [id] => 4
+                    [name] => HTML技術本②
+                    [category_id] => 1
+                    [comment] => ステップアップにおすすめの１冊です
+                    [price] => 3200
+                    [pic] => uploads/17d60c511e43e70589ded27540d21ba80e5d7725.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:41:16
+                    [update_date] => 2021-01-16 07:41:16
+                )
+
+            [4] => Array
+                (
+                    [id] => 5
+                    [name] => HTML技術本③
+                    [category_id] => 1
+                    [comment] => デザインを学ぶのであればコチラがおすすめ！
+                    [price] => 2200
+                    [pic] => uploads/ce5a593fe51e845bf1914301f3cd0b6cfdeea5e1.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:42:17
+                    [update_date] => 2021-01-16 07:42:17
+                )
+
+            [5] => Array
+                (
+                    [id] => 6
+                    [name] => HTML技術本④
+                    [category_id] => 1
+                    [comment] => レスポンシブ対応しましょう！これで解決。
+                    [price] => 2600
+                    [pic] => uploads/501b490056dc6127b6fc3cc1bbdd9cfc4dce0c24.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:43:13
+                    [update_date] => 2021-01-16 07:43:13
+                )
+
+            [6] => Array
+                (
+                    [id] => 7
+                    [name] => HTML技術本⑤
+                    [category_id] => 1
+                    [comment] => sassなどのコンパイルを学びたいときはこれ！
+                    [price] => 4300
+                    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:11
+                    [update_date] => 2021-01-16 07:44:11
+                )
+
+            [7] => Array
+                (
+                    [id] => 8
+                    [name] => HTML技術本⑥
+                    [category_id] => 2
+                    [comment] => CSSに関してはこれでバッチリです。
+                    [price] => 1600
+                    [pic] => uploads/96b2a521ab25164a73a25dd9df42c35857d5d81d.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:53
+                    [update_date] => 2021-01-16 07:44:53
+                )
+
+            [8] => Array
+                (
+                    [id] => 9
+                    [name] => Linux①
+                    [category_id] => 8
+                    [comment] => DockerにおけるLinuxコマンドを学ぶならこれ。
+                    [price] => 3300
+                    [pic] => uploads/9f55be4a9d4bb421da19e72d761b3f2628f23b8f.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:45:41
+                    [update_date] => 2021-01-16 07:45:41
+                )
+
+        )
+
+)
+
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:44:42 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：セッションID：nprtcsi0of3f0e514km46dm68a
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610923990
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:53:10 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type int in /Applications/MAMP/htdocs/PHP/ECsite/lib/function.php on line 500
+[18-Jan-2021 07:53:10 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type float in /Applications/MAMP/htdocs/PHP/ECsite/lib/function.php on line 500
+[18-Jan-2021 07:53:10 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/lib/function.php on line 500
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：Array
+(
+    [total_page] => 7
+    [total] => 59
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 餅ゴマ
+                    [category_id] => 2
+                    [comment] => もちもちのゴマです
+                    [price] => 300
+                    [pic] => 
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-11 10:36:24
+                    [update_date] => 2021-01-11 10:36:24
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 柴犬
+                    [category_id] => 3
+                    [comment] => 可愛いワンコです
+                    [price] => 3000
+                    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-15 01:07:57
+                    [update_date] => 2021-01-15 01:07:57
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [name] => HTML技術本①
+                    [category_id] => 1
+                    [comment] => 初学者におすすめの１冊です
+                    [price] => 2400
+                    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:39:28
+                    [update_date] => 2021-01-16 07:39:28
+                )
+
+            [3] => Array
+                (
+                    [id] => 4
+                    [name] => HTML技術本②
+                    [category_id] => 1
+                    [comment] => ステップアップにおすすめの１冊です
+                    [price] => 3200
+                    [pic] => uploads/17d60c511e43e70589ded27540d21ba80e5d7725.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:41:16
+                    [update_date] => 2021-01-16 07:41:16
+                )
+
+            [4] => Array
+                (
+                    [id] => 5
+                    [name] => HTML技術本③
+                    [category_id] => 1
+                    [comment] => デザインを学ぶのであればコチラがおすすめ！
+                    [price] => 2200
+                    [pic] => uploads/ce5a593fe51e845bf1914301f3cd0b6cfdeea5e1.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:42:17
+                    [update_date] => 2021-01-16 07:42:17
+                )
+
+            [5] => Array
+                (
+                    [id] => 6
+                    [name] => HTML技術本④
+                    [category_id] => 1
+                    [comment] => レスポンシブ対応しましょう！これで解決。
+                    [price] => 2600
+                    [pic] => uploads/501b490056dc6127b6fc3cc1bbdd9cfc4dce0c24.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:43:13
+                    [update_date] => 2021-01-16 07:43:13
+                )
+
+            [6] => Array
+                (
+                    [id] => 7
+                    [name] => HTML技術本⑤
+                    [category_id] => 1
+                    [comment] => sassなどのコンパイルを学びたいときはこれ！
+                    [price] => 4300
+                    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:11
+                    [update_date] => 2021-01-16 07:44:11
+                )
+
+            [7] => Array
+                (
+                    [id] => 8
+                    [name] => HTML技術本⑥
+                    [category_id] => 2
+                    [comment] => CSSに関してはこれでバッチリです。
+                    [price] => 1600
+                    [pic] => uploads/96b2a521ab25164a73a25dd9df42c35857d5d81d.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:53
+                    [update_date] => 2021-01-16 07:44:53
+                )
+
+            [8] => Array
+                (
+                    [id] => 9
+                    [name] => Linux①
+                    [category_id] => 8
+                    [comment] => DockerにおけるLinuxコマンドを学ぶならこれ。
+                    [price] => 3300
+                    [pic] => uploads/9f55be4a9d4bb421da19e72d761b3f2628f23b8f.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:45:41
+                    [update_date] => 2021-01-16 07:45:41
+                )
+
+        )
+
+)
+
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:53:10 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：セッションID：j5gg2ssh3pe9040vpjkem8q6ns
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610924034
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:53:54 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type int in /Applications/MAMP/htdocs/PHP/ECsite/lib/function.php on line 500
+[18-Jan-2021 07:53:54 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type float in /Applications/MAMP/htdocs/PHP/ECsite/lib/function.php on line 500
+[18-Jan-2021 07:53:54 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/lib/function.php on line 500
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：Array
+(
+    [total_page] => 7
+    [total] => 59
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 餅ゴマ
+                    [category_id] => 2
+                    [comment] => もちもちのゴマです
+                    [price] => 300
+                    [pic] => 
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-11 10:36:24
+                    [update_date] => 2021-01-11 10:36:24
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 柴犬
+                    [category_id] => 3
+                    [comment] => 可愛いワンコです
+                    [price] => 3000
+                    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-15 01:07:57
+                    [update_date] => 2021-01-15 01:07:57
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [name] => HTML技術本①
+                    [category_id] => 1
+                    [comment] => 初学者におすすめの１冊です
+                    [price] => 2400
+                    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:39:28
+                    [update_date] => 2021-01-16 07:39:28
+                )
+
+            [3] => Array
+                (
+                    [id] => 4
+                    [name] => HTML技術本②
+                    [category_id] => 1
+                    [comment] => ステップアップにおすすめの１冊です
+                    [price] => 3200
+                    [pic] => uploads/17d60c511e43e70589ded27540d21ba80e5d7725.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:41:16
+                    [update_date] => 2021-01-16 07:41:16
+                )
+
+            [4] => Array
+                (
+                    [id] => 5
+                    [name] => HTML技術本③
+                    [category_id] => 1
+                    [comment] => デザインを学ぶのであればコチラがおすすめ！
+                    [price] => 2200
+                    [pic] => uploads/ce5a593fe51e845bf1914301f3cd0b6cfdeea5e1.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:42:17
+                    [update_date] => 2021-01-16 07:42:17
+                )
+
+            [5] => Array
+                (
+                    [id] => 6
+                    [name] => HTML技術本④
+                    [category_id] => 1
+                    [comment] => レスポンシブ対応しましょう！これで解決。
+                    [price] => 2600
+                    [pic] => uploads/501b490056dc6127b6fc3cc1bbdd9cfc4dce0c24.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:43:13
+                    [update_date] => 2021-01-16 07:43:13
+                )
+
+            [6] => Array
+                (
+                    [id] => 7
+                    [name] => HTML技術本⑤
+                    [category_id] => 1
+                    [comment] => sassなどのコンパイルを学びたいときはこれ！
+                    [price] => 4300
+                    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:11
+                    [update_date] => 2021-01-16 07:44:11
+                )
+
+            [7] => Array
+                (
+                    [id] => 8
+                    [name] => HTML技術本⑥
+                    [category_id] => 2
+                    [comment] => CSSに関してはこれでバッチリです。
+                    [price] => 1600
+                    [pic] => uploads/96b2a521ab25164a73a25dd9df42c35857d5d81d.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:53
+                    [update_date] => 2021-01-16 07:44:53
+                )
+
+            [8] => Array
+                (
+                    [id] => 9
+                    [name] => Linux①
+                    [category_id] => 8
+                    [comment] => DockerにおけるLinuxコマンドを学ぶならこれ。
+                    [price] => 3300
+                    [pic] => uploads/9f55be4a9d4bb421da19e72d761b3f2628f23b8f.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:45:41
+                    [update_date] => 2021-01-16 07:45:41
+                )
+
+        )
+
+)
+
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:53:54 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：セッションID：mdrk8r7dhdvt6bsv9iq8v4ka4v
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610921253
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610924097
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613513253
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：Array
+(
+    [total] => 59
+    [total_page] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 餅ゴマ
+                    [category_id] => 2
+                    [comment] => もちもちのゴマです
+                    [price] => 300
+                    [pic] => 
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-11 10:36:24
+                    [update_date] => 2021-01-11 10:36:24
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 柴犬
+                    [category_id] => 3
+                    [comment] => 可愛いワンコです
+                    [price] => 3000
+                    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-15 01:07:57
+                    [update_date] => 2021-01-15 01:07:57
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [name] => HTML技術本①
+                    [category_id] => 1
+                    [comment] => 初学者におすすめの１冊です
+                    [price] => 2400
+                    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:39:28
+                    [update_date] => 2021-01-16 07:39:28
+                )
+
+            [3] => Array
+                (
+                    [id] => 4
+                    [name] => HTML技術本②
+                    [category_id] => 1
+                    [comment] => ステップアップにおすすめの１冊です
+                    [price] => 3200
+                    [pic] => uploads/17d60c511e43e70589ded27540d21ba80e5d7725.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:41:16
+                    [update_date] => 2021-01-16 07:41:16
+                )
+
+            [4] => Array
+                (
+                    [id] => 5
+                    [name] => HTML技術本③
+                    [category_id] => 1
+                    [comment] => デザインを学ぶのであればコチラがおすすめ！
+                    [price] => 2200
+                    [pic] => uploads/ce5a593fe51e845bf1914301f3cd0b6cfdeea5e1.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:42:17
+                    [update_date] => 2021-01-16 07:42:17
+                )
+
+            [5] => Array
+                (
+                    [id] => 6
+                    [name] => HTML技術本④
+                    [category_id] => 1
+                    [comment] => レスポンシブ対応しましょう！これで解決。
+                    [price] => 2600
+                    [pic] => uploads/501b490056dc6127b6fc3cc1bbdd9cfc4dce0c24.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:43:13
+                    [update_date] => 2021-01-16 07:43:13
+                )
+
+            [6] => Array
+                (
+                    [id] => 7
+                    [name] => HTML技術本⑤
+                    [category_id] => 1
+                    [comment] => sassなどのコンパイルを学びたいときはこれ！
+                    [price] => 4300
+                    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:11
+                    [update_date] => 2021-01-16 07:44:11
+                )
+
+            [7] => Array
+                (
+                    [id] => 8
+                    [name] => HTML技術本⑥
+                    [category_id] => 2
+                    [comment] => CSSに関してはこれでバッチリです。
+                    [price] => 1600
+                    [pic] => uploads/96b2a521ab25164a73a25dd9df42c35857d5d81d.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:53
+                    [update_date] => 2021-01-16 07:44:53
+                )
+
+            [8] => Array
+                (
+                    [id] => 9
+                    [name] => Linux①
+                    [category_id] => 8
+                    [comment] => DockerにおけるLinuxコマンドを学ぶならこれ。
+                    [price] => 3300
+                    [pic] => uploads/9f55be4a9d4bb421da19e72d761b3f2628f23b8f.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:45:41
+                    [update_date] => 2021-01-16 07:45:41
+                )
+
+        )
+
+)
+
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 07:54:57 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 08:13:46 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 08:13:46 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 08:13:46 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 08:13:46 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 08:13:46 Asia/Tokyo] デバッグ：セッションID：okgluo4t6fuv3822jpprpftkbi
+[18-Jan-2021 08:13:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610925226
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 08:13:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610925226
+[18-Jan-2021 08:13:46 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613517226
+[18-Jan-2021 08:13:46 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 08:13:46 Asia/Tokyo] デバッグ：商品ID：3
+[18-Jan-2021 08:13:46 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:13:46 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 3
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[18-Jan-2021 08:13:46 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：セッションID：6pd0au8hid9ai2dh82jpl22rlg
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610925226
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610925242
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613517226
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：Array
+(
+    [total] => 59
+    [total_page] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 餅ゴマ
+                    [category_id] => 2
+                    [comment] => もちもちのゴマです
+                    [price] => 300
+                    [pic] => 
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-11 10:36:24
+                    [update_date] => 2021-01-11 10:36:24
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 柴犬
+                    [category_id] => 3
+                    [comment] => 可愛いワンコです
+                    [price] => 3000
+                    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-15 01:07:57
+                    [update_date] => 2021-01-15 01:07:57
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [name] => HTML技術本①
+                    [category_id] => 1
+                    [comment] => 初学者におすすめの１冊です
+                    [price] => 2400
+                    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:39:28
+                    [update_date] => 2021-01-16 07:39:28
+                )
+
+            [3] => Array
+                (
+                    [id] => 4
+                    [name] => HTML技術本②
+                    [category_id] => 1
+                    [comment] => ステップアップにおすすめの１冊です
+                    [price] => 3200
+                    [pic] => uploads/17d60c511e43e70589ded27540d21ba80e5d7725.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:41:16
+                    [update_date] => 2021-01-16 07:41:16
+                )
+
+            [4] => Array
+                (
+                    [id] => 5
+                    [name] => HTML技術本③
+                    [category_id] => 1
+                    [comment] => デザインを学ぶのであればコチラがおすすめ！
+                    [price] => 2200
+                    [pic] => uploads/ce5a593fe51e845bf1914301f3cd0b6cfdeea5e1.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:42:17
+                    [update_date] => 2021-01-16 07:42:17
+                )
+
+            [5] => Array
+                (
+                    [id] => 6
+                    [name] => HTML技術本④
+                    [category_id] => 1
+                    [comment] => レスポンシブ対応しましょう！これで解決。
+                    [price] => 2600
+                    [pic] => uploads/501b490056dc6127b6fc3cc1bbdd9cfc4dce0c24.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:43:13
+                    [update_date] => 2021-01-16 07:43:13
+                )
+
+            [6] => Array
+                (
+                    [id] => 7
+                    [name] => HTML技術本⑤
+                    [category_id] => 1
+                    [comment] => sassなどのコンパイルを学びたいときはこれ！
+                    [price] => 4300
+                    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:11
+                    [update_date] => 2021-01-16 07:44:11
+                )
+
+            [7] => Array
+                (
+                    [id] => 8
+                    [name] => HTML技術本⑥
+                    [category_id] => 2
+                    [comment] => CSSに関してはこれでバッチリです。
+                    [price] => 1600
+                    [pic] => uploads/96b2a521ab25164a73a25dd9df42c35857d5d81d.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:53
+                    [update_date] => 2021-01-16 07:44:53
+                )
+
+            [8] => Array
+                (
+                    [id] => 9
+                    [name] => Linux①
+                    [category_id] => 8
+                    [comment] => DockerにおけるLinuxコマンドを学ぶならこれ。
+                    [price] => 3300
+                    [pic] => uploads/9f55be4a9d4bb421da19e72d761b3f2628f23b8f.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:45:41
+                    [update_date] => 2021-01-16 07:45:41
+                )
+
+        )
+
+)
+
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:14:02 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 08:14:06 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 08:14:06 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 08:14:06 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 08:14:06 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 08:14:06 Asia/Tokyo] デバッグ：セッションID：ju8v0mbil9hfhql0hpuq8q3dql
+[18-Jan-2021 08:14:06 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610925246
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 08:14:06 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610925246
+[18-Jan-2021 08:14:06 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613517246
+[18-Jan-2021 08:14:06 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 08:14:06 Asia/Tokyo] デバッグ：商品ID：5
+[18-Jan-2021 08:14:06 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:14:06 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 5
+    [name] => HTML技術本③
+    [category_id] => 1
+    [comment] => デザインを学ぶのであればコチラがおすすめ！
+    [price] => 2200
+    [pic] => uploads/ce5a593fe51e845bf1914301f3cd0b6cfdeea5e1.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:42:17
+    [update_date] => 2021-01-16 07:42:17
+    [category] => HTML5
+)
+
+[18-Jan-2021 08:14:06 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 08:14:46 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 08:14:46 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 08:14:46 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 08:14:46 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 08:14:46 Asia/Tokyo] デバッグ：セッションID：o87tuocbrdo5scecvluiqrd6ks
+[18-Jan-2021 08:14:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610925286
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 08:14:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610925286
+[18-Jan-2021 08:14:46 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613517286
+[18-Jan-2021 08:14:46 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 08:14:46 Asia/Tokyo] デバッグ：商品ID：5
+[18-Jan-2021 08:14:46 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:14:46 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 5
+    [name] => HTML技術本③
+    [category_id] => 1
+    [comment] => デザインを学ぶのであればコチラがおすすめ！
+    [price] => 2200
+    [pic] => uploads/ce5a593fe51e845bf1914301f3cd0b6cfdeea5e1.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:42:17
+    [update_date] => 2021-01-16 07:42:17
+    [category] => HTML5
+)
+
+[18-Jan-2021 08:14:46 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：セッションID：ls2o8qudcnd7jjlultka58p7cn
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610925286
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610925288
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613517286
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：Array
+(
+    [total] => 59
+    [total_page] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 餅ゴマ
+                    [category_id] => 2
+                    [comment] => もちもちのゴマです
+                    [price] => 300
+                    [pic] => 
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-11 10:36:24
+                    [update_date] => 2021-01-11 10:36:24
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 柴犬
+                    [category_id] => 3
+                    [comment] => 可愛いワンコです
+                    [price] => 3000
+                    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-15 01:07:57
+                    [update_date] => 2021-01-15 01:07:57
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [name] => HTML技術本①
+                    [category_id] => 1
+                    [comment] => 初学者におすすめの１冊です
+                    [price] => 2400
+                    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:39:28
+                    [update_date] => 2021-01-16 07:39:28
+                )
+
+            [3] => Array
+                (
+                    [id] => 4
+                    [name] => HTML技術本②
+                    [category_id] => 1
+                    [comment] => ステップアップにおすすめの１冊です
+                    [price] => 3200
+                    [pic] => uploads/17d60c511e43e70589ded27540d21ba80e5d7725.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:41:16
+                    [update_date] => 2021-01-16 07:41:16
+                )
+
+            [4] => Array
+                (
+                    [id] => 5
+                    [name] => HTML技術本③
+                    [category_id] => 1
+                    [comment] => デザインを学ぶのであればコチラがおすすめ！
+                    [price] => 2200
+                    [pic] => uploads/ce5a593fe51e845bf1914301f3cd0b6cfdeea5e1.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:42:17
+                    [update_date] => 2021-01-16 07:42:17
+                )
+
+            [5] => Array
+                (
+                    [id] => 6
+                    [name] => HTML技術本④
+                    [category_id] => 1
+                    [comment] => レスポンシブ対応しましょう！これで解決。
+                    [price] => 2600
+                    [pic] => uploads/501b490056dc6127b6fc3cc1bbdd9cfc4dce0c24.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:43:13
+                    [update_date] => 2021-01-16 07:43:13
+                )
+
+            [6] => Array
+                (
+                    [id] => 7
+                    [name] => HTML技術本⑤
+                    [category_id] => 1
+                    [comment] => sassなどのコンパイルを学びたいときはこれ！
+                    [price] => 4300
+                    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:11
+                    [update_date] => 2021-01-16 07:44:11
+                )
+
+            [7] => Array
+                (
+                    [id] => 8
+                    [name] => HTML技術本⑥
+                    [category_id] => 2
+                    [comment] => CSSに関してはこれでバッチリです。
+                    [price] => 1600
+                    [pic] => uploads/96b2a521ab25164a73a25dd9df42c35857d5d81d.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:53
+                    [update_date] => 2021-01-16 07:44:53
+                )
+
+            [8] => Array
+                (
+                    [id] => 9
+                    [name] => Linux①
+                    [category_id] => 8
+                    [comment] => DockerにおけるLinuxコマンドを学ぶならこれ。
+                    [price] => 3300
+                    [pic] => uploads/9f55be4a9d4bb421da19e72d761b3f2628f23b8f.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:45:41
+                    [update_date] => 2021-01-16 07:45:41
+                )
+
+        )
+
+)
+
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:14:48 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 08:14:51 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 08:14:51 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 08:14:51 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 08:14:51 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 08:14:51 Asia/Tokyo] デバッグ：セッションID：ev2lr14nu60ds6jr24ofd5hv2v
+[18-Jan-2021 08:14:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610925291
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 08:14:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610925291
+[18-Jan-2021 08:14:51 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613517291
+[18-Jan-2021 08:14:51 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 08:14:51 Asia/Tokyo] デバッグ：商品ID：3
+[18-Jan-2021 08:14:51 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:14:51 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 3
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[18-Jan-2021 08:14:51 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：セッションID：3ld9o0vf7q1sob1j23vqrvb34e
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610925291
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610925305
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613517291
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：Array
+(
+    [total] => 59
+    [total_page] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 餅ゴマ
+                    [category_id] => 2
+                    [comment] => もちもちのゴマです
+                    [price] => 300
+                    [pic] => 
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-11 10:36:24
+                    [update_date] => 2021-01-11 10:36:24
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 柴犬
+                    [category_id] => 3
+                    [comment] => 可愛いワンコです
+                    [price] => 3000
+                    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-15 01:07:57
+                    [update_date] => 2021-01-15 01:07:57
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [name] => HTML技術本①
+                    [category_id] => 1
+                    [comment] => 初学者におすすめの１冊です
+                    [price] => 2400
+                    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:39:28
+                    [update_date] => 2021-01-16 07:39:28
+                )
+
+            [3] => Array
+                (
+                    [id] => 4
+                    [name] => HTML技術本②
+                    [category_id] => 1
+                    [comment] => ステップアップにおすすめの１冊です
+                    [price] => 3200
+                    [pic] => uploads/17d60c511e43e70589ded27540d21ba80e5d7725.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:41:16
+                    [update_date] => 2021-01-16 07:41:16
+                )
+
+            [4] => Array
+                (
+                    [id] => 5
+                    [name] => HTML技術本③
+                    [category_id] => 1
+                    [comment] => デザインを学ぶのであればコチラがおすすめ！
+                    [price] => 2200
+                    [pic] => uploads/ce5a593fe51e845bf1914301f3cd0b6cfdeea5e1.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:42:17
+                    [update_date] => 2021-01-16 07:42:17
+                )
+
+            [5] => Array
+                (
+                    [id] => 6
+                    [name] => HTML技術本④
+                    [category_id] => 1
+                    [comment] => レスポンシブ対応しましょう！これで解決。
+                    [price] => 2600
+                    [pic] => uploads/501b490056dc6127b6fc3cc1bbdd9cfc4dce0c24.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:43:13
+                    [update_date] => 2021-01-16 07:43:13
+                )
+
+            [6] => Array
+                (
+                    [id] => 7
+                    [name] => HTML技術本⑤
+                    [category_id] => 1
+                    [comment] => sassなどのコンパイルを学びたいときはこれ！
+                    [price] => 4300
+                    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:11
+                    [update_date] => 2021-01-16 07:44:11
+                )
+
+            [7] => Array
+                (
+                    [id] => 8
+                    [name] => HTML技術本⑥
+                    [category_id] => 2
+                    [comment] => CSSに関してはこれでバッチリです。
+                    [price] => 1600
+                    [pic] => uploads/96b2a521ab25164a73a25dd9df42c35857d5d81d.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:53
+                    [update_date] => 2021-01-16 07:44:53
+                )
+
+            [8] => Array
+                (
+                    [id] => 9
+                    [name] => Linux①
+                    [category_id] => 8
+                    [comment] => DockerにおけるLinuxコマンドを学ぶならこれ。
+                    [price] => 3300
+                    [pic] => uploads/9f55be4a9d4bb421da19e72d761b3f2628f23b8f.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:45:41
+                    [update_date] => 2021-01-16 07:45:41
+                )
+
+        )
+
+)
+
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:15:05 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 08:15:07 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 08:15:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 08:15:07 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 08:15:07 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 08:15:07 Asia/Tokyo] デバッグ：セッションID：bnq943magj1hkh5q3ida50r0mi
+[18-Jan-2021 08:15:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610925307
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 08:15:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610925307
+[18-Jan-2021 08:15:07 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613517307
+[18-Jan-2021 08:15:07 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 08:15:07 Asia/Tokyo] デバッグ：商品ID：8
+[18-Jan-2021 08:15:07 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:15:07 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 8
+    [name] => HTML技術本⑥
+    [category_id] => 2
+    [comment] => CSSに関してはこれでバッチリです。
+    [price] => 1600
+    [pic] => uploads/96b2a521ab25164a73a25dd9df42c35857d5d81d.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:53
+    [update_date] => 2021-01-16 07:44:53
+    [category] => CSS3
+)
+
+[18-Jan-2021 08:15:07 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：セッションID：fqi2no4g5slefsfn9jn42v47qd
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610925307
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610925334
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613517307
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：Array
+(
+    [total] => 59
+    [total_page] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 餅ゴマ
+                    [category_id] => 2
+                    [comment] => もちもちのゴマです
+                    [price] => 300
+                    [pic] => 
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-11 10:36:24
+                    [update_date] => 2021-01-11 10:36:24
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 柴犬
+                    [category_id] => 3
+                    [comment] => 可愛いワンコです
+                    [price] => 3000
+                    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-15 01:07:57
+                    [update_date] => 2021-01-15 01:07:57
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [name] => HTML技術本①
+                    [category_id] => 1
+                    [comment] => 初学者におすすめの１冊です
+                    [price] => 2400
+                    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:39:28
+                    [update_date] => 2021-01-16 07:39:28
+                )
+
+            [3] => Array
+                (
+                    [id] => 4
+                    [name] => HTML技術本②
+                    [category_id] => 1
+                    [comment] => ステップアップにおすすめの１冊です
+                    [price] => 3200
+                    [pic] => uploads/17d60c511e43e70589ded27540d21ba80e5d7725.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:41:16
+                    [update_date] => 2021-01-16 07:41:16
+                )
+
+            [4] => Array
+                (
+                    [id] => 5
+                    [name] => HTML技術本③
+                    [category_id] => 1
+                    [comment] => デザインを学ぶのであればコチラがおすすめ！
+                    [price] => 2200
+                    [pic] => uploads/ce5a593fe51e845bf1914301f3cd0b6cfdeea5e1.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:42:17
+                    [update_date] => 2021-01-16 07:42:17
+                )
+
+            [5] => Array
+                (
+                    [id] => 6
+                    [name] => HTML技術本④
+                    [category_id] => 1
+                    [comment] => レスポンシブ対応しましょう！これで解決。
+                    [price] => 2600
+                    [pic] => uploads/501b490056dc6127b6fc3cc1bbdd9cfc4dce0c24.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:43:13
+                    [update_date] => 2021-01-16 07:43:13
+                )
+
+            [6] => Array
+                (
+                    [id] => 7
+                    [name] => HTML技術本⑤
+                    [category_id] => 1
+                    [comment] => sassなどのコンパイルを学びたいときはこれ！
+                    [price] => 4300
+                    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:11
+                    [update_date] => 2021-01-16 07:44:11
+                )
+
+            [7] => Array
+                (
+                    [id] => 8
+                    [name] => HTML技術本⑥
+                    [category_id] => 2
+                    [comment] => CSSに関してはこれでバッチリです。
+                    [price] => 1600
+                    [pic] => uploads/96b2a521ab25164a73a25dd9df42c35857d5d81d.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:53
+                    [update_date] => 2021-01-16 07:44:53
+                )
+
+            [8] => Array
+                (
+                    [id] => 9
+                    [name] => Linux①
+                    [category_id] => 8
+                    [comment] => DockerにおけるLinuxコマンドを学ぶならこれ。
+                    [price] => 3300
+                    [pic] => uploads/9f55be4a9d4bb421da19e72d761b3f2628f23b8f.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:45:41
+                    [update_date] => 2021-01-16 07:45:41
+                )
+
+        )
+
+)
+
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:15:34 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：セッションID：prdtbiil55oljiald1afqojrqn
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610925307
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610925354
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613517307
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 18
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：Array
+(
+    [total] => 59
+    [total_page] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 19
+                    [name] => HTML技術本④
+                    [category_id] => 1
+                    [comment] => レスポンシブ対応しましょう！これで解決。
+                    [price] => 2600
+                    [pic] => uploads/501b490056dc6127b6fc3cc1bbdd9cfc4dce0c24.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:43:13
+                    [update_date] => 2021-01-16 07:43:13
+                )
+
+            [1] => Array
+                (
+                    [id] => 20
+                    [name] => HTML技術本⑤
+                    [category_id] => 1
+                    [comment] => sassなどのコンパイルを学びたいときはこれ！
+                    [price] => 4300
+                    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:11
+                    [update_date] => 2021-01-16 07:44:11
+                )
+
+            [2] => Array
+                (
+                    [id] => 21
+                    [name] => HTML技術本⑥
+                    [category_id] => 2
+                    [comment] => CSSに関してはこれでバッチリです。
+                    [price] => 1600
+                    [pic] => uploads/96b2a521ab25164a73a25dd9df42c35857d5d81d.png
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:44:53
+                    [update_date] => 2021-01-16 07:44:53
+                )
+
+            [3] => Array
+                (
+                    [id] => 22
+                    [name] => Linux①
+                    [category_id] => 8
+                    [comment] => DockerにおけるLinuxコマンドを学ぶならこれ。
+                    [price] => 3300
+                    [pic] => uploads/9f55be4a9d4bb421da19e72d761b3f2628f23b8f.jpeg
+                    [user_id] => 2
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 07:45:41
+                    [update_date] => 2021-01-16 07:45:41
+                )
+
+            [4] => Array
+                (
+                    [id] => 23
+                    [name] => Js①
+                    [category_id] => 3
+                    [comment] => きっかけとしておすすめです
+                    [price] => 1000
+                    [pic] => uploads/5f557db5ce2c883896a0b6dcbf52d1b8bc8d5078.jpeg
+                    [user_id] => 3
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 09:21:01
+                    [update_date] => 2021-01-16 09:21:01
+                )
+
+            [5] => Array
+                (
+                    [id] => 24
+                    [name] => Js②
+                    [category_id] => 3
+                    [comment] => ステップアップにおすすめです！
+                    [price] => 2200
+                    [pic] => uploads/94824896b631e97dd611b42636687936667e1b27.jpeg
+                    [user_id] => 3
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 09:21:57
+                    [update_date] => 2021-01-16 09:21:57
+                )
+
+            [6] => Array
+                (
+                    [id] => 25
+                    [name] => Js③
+                    [category_id] => 3
+                    [comment] => 応用力がつきます
+                    [price] => 4400
+                    [pic] => uploads/932de594c2f480dae5ad6bf006bb094f0986c8c0.jpeg
+                    [user_id] => 3
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 09:23:13
+                    [update_date] => 2021-01-16 09:23:13
+                )
+
+            [7] => Array
+                (
+                    [id] => 26
+                    [name] => Js④
+                    [category_id] => 3
+                    [comment] => 少々難しいです
+                    [price] => 2300
+                    [pic] => uploads/2ef30be2242159d6722a58a5ab1626adf3d8408b.jpeg
+                    [user_id] => 3
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 09:23:43
+                    [update_date] => 2021-01-16 09:23:43
+                )
+
+            [8] => Array
+                (
+                    [id] => 27
+                    [name] => Js⑤
+                    [category_id] => 3
+                    [comment] => Jsをマスターしたいなら
+                    [price] => 1600
+                    [pic] => uploads/49dfc40d3be7256d4b32028b99bb9608c40a82f6.jpeg
+                    [user_id] => 3
+                    [delete_flg] => 0
+                    [create_date] => 2021-01-16 09:24:29
+                    [update_date] => 2021-01-16 09:24:29
+                )
+
+        )
+
+)
+
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:15:54 Asia/Tokyo] デバッグ：現在ページ：3
+[18-Jan-2021 08:16:07 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 08:16:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 08:16:07 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 08:16:07 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 08:16:07 Asia/Tokyo] デバッグ：セッションID：np4vj7sch9hp48ts0860prmjdn
+[18-Jan-2021 08:16:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610925367
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 08:16:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610925367
+[18-Jan-2021 08:16:07 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613517367
+[18-Jan-2021 08:16:07 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 08:16:07 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 08:16:07 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:16:07 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:25:53 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 08:25:53 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 08:25:53 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 08:25:53 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 08:25:53 Asia/Tokyo] デバッグ：セッションID：unqdf0hcc9qhr552fuie5c048i
+[18-Jan-2021 08:25:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610925953
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 08:25:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610925953
+[18-Jan-2021 08:25:53 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613517953
+[18-Jan-2021 08:25:53 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 08:25:53 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 08:25:53 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:25:53 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE user_id = :u_id AND delete_flg = 0 LIMIT 6 OFFSET 1
+[18-Jan-2021 08:25:53 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':u_id AND delete_flg = 0 LIMIT 6 OFFSET 1' at line 1
+[18-Jan-2021 08:25:53 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:26:33 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 08:26:33 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 08:26:33 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 08:26:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 08:26:33 Asia/Tokyo] デバッグ：セッションID：4ucslq8leije7d8a0keaaq8vgh
+[18-Jan-2021 08:26:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610925993
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 08:26:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610925993
+[18-Jan-2021 08:26:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613517993
+[18-Jan-2021 08:26:33 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 08:26:33 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 08:26:33 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 08:26:33 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE user_id = :u_id AND delete_flg = 0 LIMIT 6 OFFSET 1
+[18-Jan-2021 08:26:33 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':u_id AND delete_flg = 0 LIMIT 6 OFFSET 1' at line 1
+[18-Jan-2021 08:26:33 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:04:26 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:04:26 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:04:26 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:04:26 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:04:26 Asia/Tokyo] デバッグ：セッションID：bo7boep461ic40ecueimn5cmt8
+[18-Jan-2021 21:04:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610971466
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:04:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610971466
+[18-Jan-2021 21:04:26 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613563466
+[18-Jan-2021 21:04:26 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:04:26 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:04:26 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:04:26 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE user_id = :u_id AND delete_flg = 0 LIMIT 6 OFFSET 1
+[18-Jan-2021 21:04:26 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':u_id AND delete_flg = 0 LIMIT 6 OFFSET 1' at line 1
+[18-Jan-2021 21:04:26 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:09:03 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:09:03 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:09:03 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:09:03 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:09:03 Asia/Tokyo] デバッグ：セッションID：26lrsvakgcgon36ia1467d94sh
+[18-Jan-2021 21:09:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610971743
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:09:03 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610971743
+[18-Jan-2021 21:09:03 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613563743
+[18-Jan-2021 21:09:03 Asia/Tokyo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getProduct(), 1 passed in /Applications/MAMP/htdocs/PHP/ECsite/mypage.php on line 18 and exactly 2 expected in /Applications/MAMP/htdocs/PHP/ECsite/lib/function.php:221
+Stack trace:
+#0 /Applications/MAMP/htdocs/PHP/ECsite/mypage.php(18): getProduct('2')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/PHP/ECsite/lib/function.php on line 221
+[18-Jan-2021 21:09:50 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:09:50 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:09:50 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:09:50 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:09:50 Asia/Tokyo] デバッグ：セッションID：e1vls5d0fdo20srdcoev52pt4g
+[18-Jan-2021 21:09:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610971790
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:09:50 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610971790
+[18-Jan-2021 21:09:50 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613563790
+[18-Jan-2021 21:09:50 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:09:50 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:09:50 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:09:50 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:14:03 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:14:03 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:14:03 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:14:03 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:14:03 Asia/Tokyo] デバッグ：セッションID：8mi7ufsetuenuoeup2rrnotr54
+[18-Jan-2021 21:14:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610972043
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:14:03 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610972043
+[18-Jan-2021 21:14:03 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613564043
+[18-Jan-2021 21:14:03 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:14:03 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:14:03 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:14:03 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:14:36 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:14:36 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:14:36 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:14:36 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:14:36 Asia/Tokyo] デバッグ：セッションID：jifugl3brn9l6j1c7a7b2v3raa
+[18-Jan-2021 21:14:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610972076
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:14:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610972076
+[18-Jan-2021 21:14:36 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613564076
+[18-Jan-2021 21:14:36 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:14:36 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:14:36 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:14:36 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:14:54 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:14:54 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:14:54 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[18-Jan-2021 21:14:54 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:14:54 Asia/Tokyo] デバッグ：セッションID：ircr730o5k4oh3mo13abcp518n
+[18-Jan-2021 21:14:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610972094
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:14:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610972094
+[18-Jan-2021 21:14:54 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613564094
+[18-Jan-2021 21:14:54 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 21:14:54 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:14:57 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:14:57 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:14:57 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:14:57 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:14:57 Asia/Tokyo] デバッグ：セッションID：v80617eh236ih4f0e978as48pr
+[18-Jan-2021 21:14:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610972097
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:14:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610972097
+[18-Jan-2021 21:14:57 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613564097
+[18-Jan-2021 21:14:57 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:14:57 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:14:57 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:14:57 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:14:59 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:14:59 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:14:59 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[18-Jan-2021 21:14:59 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:14:59 Asia/Tokyo] デバッグ：セッションID：03tqnt8otpe78jvqf244mtgfrg
+[18-Jan-2021 21:14:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610972099
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:14:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610972099
+[18-Jan-2021 21:14:59 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613564099
+[18-Jan-2021 21:14:59 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:14:59 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 2
+    [username] => ゴマじろう
+    [age] => 24
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[18-Jan-2021 21:15:05 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:15:05 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:15:05 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:15:05 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:15:05 Asia/Tokyo] デバッグ：セッションID：66sgqrau1eq72kov6ijaefr6lh
+[18-Jan-2021 21:15:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610972105
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:15:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610972105
+[18-Jan-2021 21:15:05 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613564105
+[18-Jan-2021 21:15:05 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:15:05 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:15:05 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:15:05 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:18:20 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:18:20 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:18:20 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:18:20 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:18:20 Asia/Tokyo] デバッグ：セッションID：0dqg4niebvq1suecngqoidvthb
+[18-Jan-2021 21:18:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610972300
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:18:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610972300
+[18-Jan-2021 21:18:20 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613564300
+[18-Jan-2021 21:18:20 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:18:20 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:18:20 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:18:20 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:20:06 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:20:06 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:20:06 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:20:06 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:20:06 Asia/Tokyo] デバッグ：セッションID：49cck0ga5309jcpbfvjuimhmqf
+[18-Jan-2021 21:20:06 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610972406
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:20:06 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610972406
+[18-Jan-2021 21:20:06 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613564406
+[18-Jan-2021 21:20:06 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:20:06 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:20:06 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:20:06 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:24:41 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:24:41 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:24:41 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:24:41 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:24:41 Asia/Tokyo] デバッグ：セッションID：j5qojjhtoh6oi6b9r2rndt6o6n
+[18-Jan-2021 21:24:41 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610972681
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:24:41 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610972681
+[18-Jan-2021 21:24:41 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613564681
+[18-Jan-2021 21:24:41 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:24:41 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:24:41 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:24:41 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:25:23 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:25:23 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:25:23 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:25:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:25:23 Asia/Tokyo] デバッグ：セッションID：nnlu3bgjjlrmt26b2ir03co5ud
+[18-Jan-2021 21:25:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610972723
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:25:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610972723
+[18-Jan-2021 21:25:23 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613564723
+[18-Jan-2021 21:25:23 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:25:23 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:25:23 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:25:23 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:27:07 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:27:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:27:07 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:27:07 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:27:07 Asia/Tokyo] デバッグ：セッションID：doji3g8mbjigj21ruvjkqc80g1
+[18-Jan-2021 21:27:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610972827
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:27:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610972827
+[18-Jan-2021 21:27:07 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613564827
+[18-Jan-2021 21:27:07 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:27:07 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:27:07 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:27:07 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:30:37 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:30:37 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:30:37 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:30:37 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:30:37 Asia/Tokyo] デバッグ：セッションID：45v9vp6d9rinqujvhjfm5dauvb
+[18-Jan-2021 21:30:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610973037
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:30:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610973037
+[18-Jan-2021 21:30:37 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613565037
+[18-Jan-2021 21:30:37 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:30:37 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:30:37 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:30:37 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:31:26 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:31:26 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:31:26 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:31:26 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:31:26 Asia/Tokyo] デバッグ：セッションID：p26n55kb2ubh12qll2kpqtpqde
+[18-Jan-2021 21:31:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610973086
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:31:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610973086
+[18-Jan-2021 21:31:26 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613565086
+[18-Jan-2021 21:31:26 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:31:26 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:31:26 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:31:26 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:35:59 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:35:59 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:35:59 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:35:59 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:35:59 Asia/Tokyo] デバッグ：セッションID：3k0vr62im4j3o3kgjug1qfnkr2
+[18-Jan-2021 21:35:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610973359
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:35:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610973359
+[18-Jan-2021 21:35:59 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613565359
+[18-Jan-2021 21:35:59 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:35:59 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:35:59 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:35:59 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:36:19 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:36:19 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:36:19 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:36:19 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:36:19 Asia/Tokyo] デバッグ：セッションID：227u7jnccd9df40pqop9faeqt7
+[18-Jan-2021 21:36:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610973379
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:36:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610973379
+[18-Jan-2021 21:36:19 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613565379
+[18-Jan-2021 21:36:19 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:36:19 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:36:19 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:36:19 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:37:43 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:37:43 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:37:43 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:37:43 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:37:43 Asia/Tokyo] デバッグ：セッションID：dl01m7v1r367pc5iuj738f7m7m
+[18-Jan-2021 21:37:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610973463
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:37:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610973463
+[18-Jan-2021 21:37:43 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613565463
+[18-Jan-2021 21:37:43 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:37:43 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:37:43 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:37:43 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:41:04 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:41:04 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:41:04 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[18-Jan-2021 21:41:04 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:41:04 Asia/Tokyo] デバッグ：セッションID：o5b6ji6vpjmlmpo58rvvht58gs
+[18-Jan-2021 21:41:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610973664
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:41:04 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610973664
+[18-Jan-2021 21:41:04 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613565664
+[18-Jan-2021 21:41:04 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 21:41:04 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:41:09 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 21:41:09 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 21:41:09 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 21:41:09 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 21:41:09 Asia/Tokyo] デバッグ：セッションID：j07ls8t8ev4qlof9rbqephcv2q
+[18-Jan-2021 21:41:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610973669
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 21:41:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610973669
+[18-Jan-2021 21:41:09 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613565669
+[18-Jan-2021 21:41:09 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 21:41:09 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 21:41:09 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 21:41:09 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:15:47 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:15:47 Asia/Tokyo] デバッグ：セッションID：j79sqj5f0ejivg9pmf1bqi7qle
+[18-Jan-2021 22:15:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610973669
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:15:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610975747
+[18-Jan-2021 22:15:47 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613565669
+[18-Jan-2021 22:15:47 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 22:15:47 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 22:15:47 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:15:47 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 22:15:47 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:15:47 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 22:15:47 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:15:47 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 22:19:26 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:19:26 Asia/Tokyo] デバッグ：セッションID：h7oenps8ij3hc8oi7c4vu1en13
+[18-Jan-2021 22:19:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610973669
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:19:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610975966
+[18-Jan-2021 22:19:26 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613565669
+[18-Jan-2021 22:19:26 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 22:19:26 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 22:19:26 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:26 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 22:19:26 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:26 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 22:19:26 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:26 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 22:19:28 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 22:19:28 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 22:19:28 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 22:19:28 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:19:28 Asia/Tokyo] デバッグ：セッションID：5no2ck5ms4bp00vomhtd1748ik
+[18-Jan-2021 22:19:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610975968
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:19:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610975968
+[18-Jan-2021 22:19:28 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613567968
+[18-Jan-2021 22:19:28 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 22:19:28 Asia/Tokyo] デバッグ：商品ID：5
+[18-Jan-2021 22:19:28 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:28 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 5
+    [name] => HTML技術本③
+    [category_id] => 1
+    [comment] => デザインを学ぶのであればコチラがおすすめ！
+    [price] => 2200
+    [pic] => uploads/ce5a593fe51e845bf1914301f3cd0b6cfdeea5e1.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:42:17
+    [update_date] => 2021-01-16 07:42:17
+    [category] => HTML5
+)
+
+[18-Jan-2021 22:19:28 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 22:19:32 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:19:32 Asia/Tokyo] デバッグ：セッションID：rpos7g60l2f7tdd9io9475jgi0
+[18-Jan-2021 22:19:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610975968
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:19:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610975972
+[18-Jan-2021 22:19:32 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613567968
+[18-Jan-2021 22:19:32 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 22:19:32 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 22:19:32 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:32 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 22:19:32 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:32 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 22:19:32 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:32 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 22:19:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:19:34 Asia/Tokyo] デバッグ：セッションID：286ngt43ala5697m8f9os9ojjg
+[18-Jan-2021 22:19:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610975968
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:19:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610975974
+[18-Jan-2021 22:19:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613567968
+[18-Jan-2021 22:19:34 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 22:19:34 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 22:19:34 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:34 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 18
+[18-Jan-2021 22:19:34 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:34 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 22:19:34 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:34 Asia/Tokyo] デバッグ：現在ページ：3
+[18-Jan-2021 22:19:36 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 22:19:36 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 22:19:36 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 22:19:36 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:19:36 Asia/Tokyo] デバッグ：セッションID：9v9ga17mjmbclibqfr59echp2e
+[18-Jan-2021 22:19:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610975976
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:19:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610975976
+[18-Jan-2021 22:19:36 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613567976
+[18-Jan-2021 22:19:36 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 22:19:36 Asia/Tokyo] デバッグ：商品ID：20
+[18-Jan-2021 22:19:36 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:36 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 20
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[18-Jan-2021 22:19:36 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 22:19:39 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:19:39 Asia/Tokyo] デバッグ：セッションID：90s6ot4ai9c449j4c2qetkh5j5
+[18-Jan-2021 22:19:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610975976
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:19:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610975979
+[18-Jan-2021 22:19:39 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613567976
+[18-Jan-2021 22:19:39 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 22:19:39 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 22:19:39 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:39 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 18
+[18-Jan-2021 22:19:39 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:39 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 22:19:39 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:39 Asia/Tokyo] デバッグ：現在ページ：3
+[18-Jan-2021 22:19:45 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 22:19:45 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 22:19:45 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 22:19:45 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:19:45 Asia/Tokyo] デバッグ：セッションID：0eohaqin1rc6437rfnmh8pejo6
+[18-Jan-2021 22:19:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610975985
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:19:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610975985
+[18-Jan-2021 22:19:45 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613567985
+[18-Jan-2021 22:19:45 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 22:19:45 Asia/Tokyo] デバッグ：商品ID：23
+[18-Jan-2021 22:19:45 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:19:45 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 23
+    [name] => Js①
+    [category_id] => 3
+    [comment] => きっかけとしておすすめです
+    [price] => 1000
+    [pic] => uploads/5f557db5ce2c883896a0b6dcbf52d1b8bc8d5078.jpeg
+    [user_id] => 3
+    [create_date] => 2021-01-16 09:21:01
+    [update_date] => 2021-01-16 09:21:01
+    [category] => Javascript
+)
+
+[18-Jan-2021 22:19:45 Asia/Tokyo] PHP Notice:  Undefined variable: editFlg in /Applications/MAMP/htdocs/PHP/ECsite/views/productDetail.php on line 36
+[18-Jan-2021 22:34:16 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 22:34:16 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 22:34:16 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 22:34:16 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:34:16 Asia/Tokyo] デバッグ：セッションID：2bp3aeoqdqqo0j4i43ccp6j130
+[18-Jan-2021 22:34:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610976856
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:34:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610976856
+[18-Jan-2021 22:34:16 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613568856
+[18-Jan-2021 22:34:16 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 22:34:16 Asia/Tokyo] デバッグ：商品ID：23
+[18-Jan-2021 22:34:16 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:34:16 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 23
+    [name] => Js①
+    [category_id] => 3
+    [comment] => きっかけとしておすすめです
+    [price] => 1000
+    [pic] => uploads/5f557db5ce2c883896a0b6dcbf52d1b8bc8d5078.jpeg
+    [user_id] => 3
+    [create_date] => 2021-01-16 09:21:01
+    [update_date] => 2021-01-16 09:21:01
+    [category] => Javascript
+)
+
+[18-Jan-2021 22:34:47 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 22:34:47 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 22:34:47 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 22:34:47 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:34:47 Asia/Tokyo] デバッグ：セッションID：7uesdpsdjccrm0ukefmhrhptbj
+[18-Jan-2021 22:34:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610976887
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:34:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610976887
+[18-Jan-2021 22:34:47 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613568887
+[18-Jan-2021 22:34:47 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 22:34:47 Asia/Tokyo] デバッグ：商品ID：23
+[18-Jan-2021 22:34:47 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:34:47 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 23
+    [name] => Js①
+    [category_id] => 3
+    [comment] => きっかけとしておすすめです
+    [price] => 1000
+    [pic] => uploads/5f557db5ce2c883896a0b6dcbf52d1b8bc8d5078.jpeg
+    [user_id] => 3
+    [create_date] => 2021-01-16 09:21:01
+    [update_date] => 2021-01-16 09:21:01
+    [category] => Javascript
+)
+
+[18-Jan-2021 22:36:27 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:36:27 Asia/Tokyo] デバッグ：セッションID：bqh5kk190umsnlmd1qrsh5fcju
+[18-Jan-2021 22:36:27 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610976887
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:36:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610976987
+[18-Jan-2021 22:36:27 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613568887
+[18-Jan-2021 22:36:27 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 22:36:27 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 22:36:27 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:36:27 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 18
+[18-Jan-2021 22:36:27 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:36:27 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 22:36:27 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:36:27 Asia/Tokyo] デバッグ：現在ページ：3
+[18-Jan-2021 22:36:30 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:36:30 Asia/Tokyo] デバッグ：セッションID：27vampc46c1bj81v1lpephhut8
+[18-Jan-2021 22:36:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610976887
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:36:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610976990
+[18-Jan-2021 22:36:30 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613568887
+[18-Jan-2021 22:36:30 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 22:36:30 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 22:36:30 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:36:30 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 36
+[18-Jan-2021 22:36:30 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:36:30 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 22:36:30 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:36:30 Asia/Tokyo] デバッグ：現在ページ：5
+[18-Jan-2021 22:36:33 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 22:36:33 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 22:36:33 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 22:36:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:36:33 Asia/Tokyo] デバッグ：セッションID：64eut9b1e686qcodiq3f9tdd9d
+[18-Jan-2021 22:36:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610976993
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:36:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610976993
+[18-Jan-2021 22:36:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613568993
+[18-Jan-2021 22:36:33 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 22:36:33 Asia/Tokyo] デバッグ：商品ID：44
+[18-Jan-2021 22:36:33 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:36:33 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 44
+    [name] => HTML技術本③
+    [category_id] => 1
+    [comment] => デザインを学ぶのであればコチラがおすすめ！
+    [price] => 2200
+    [pic] => uploads/ce5a593fe51e845bf1914301f3cd0b6cfdeea5e1.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:42:17
+    [update_date] => 2021-01-16 07:42:17
+    [category] => HTML5
+)
+
+[18-Jan-2021 22:36:35 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:36:35 Asia/Tokyo] デバッグ：セッションID：g4jcfrustspk88fpcnggjol401
+[18-Jan-2021 22:36:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610976993
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:36:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610976995
+[18-Jan-2021 22:36:35 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613568993
+[18-Jan-2021 22:36:35 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 22:36:35 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 22:36:35 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:36:35 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 36
+[18-Jan-2021 22:36:35 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:36:35 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 22:36:35 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:36:35 Asia/Tokyo] デバッグ：現在ページ：5
+[18-Jan-2021 22:38:25 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 22:38:25 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 22:38:25 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 22:38:25 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:38:25 Asia/Tokyo] デバッグ：セッションID：ppq85a7pu2f1lpt9ihoiljo3v2
+[18-Jan-2021 22:38:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610977105
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:38:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610977105
+[18-Jan-2021 22:38:25 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613569105
+[18-Jan-2021 22:38:25 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 22:38:25 Asia/Tokyo] デバッグ：商品ID：41
+[18-Jan-2021 22:38:25 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:38:25 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 41
+    [name] => Js⑥
+    [category_id] => 3
+    [comment] => ノウハウが詰まった１冊！
+    [price] => 2000
+    [pic] => uploads/7f59aa2f3ddff9def75a1e847a09791239703a35.jpeg
+    [user_id] => 3
+    [create_date] => 2021-01-16 09:25:08
+    [update_date] => 2021-01-16 09:25:08
+    [category] => Javascript
+)
+
+[18-Jan-2021 22:40:02 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 22:40:02 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 22:40:02 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 22:40:02 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:40:02 Asia/Tokyo] デバッグ：セッションID：5teb7t5f20rdnag2f5la5pdsev
+[18-Jan-2021 22:40:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610977202
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:40:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610977202
+[18-Jan-2021 22:40:02 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613569202
+[18-Jan-2021 22:40:02 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 22:40:02 Asia/Tokyo] デバッグ：商品ID：41
+[18-Jan-2021 22:40:02 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:40:02 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 41
+    [name] => Js⑥
+    [category_id] => 3
+    [comment] => ノウハウが詰まった１冊！
+    [price] => 2000
+    [pic] => uploads/7f59aa2f3ddff9def75a1e847a09791239703a35.jpeg
+    [user_id] => 3
+    [create_date] => 2021-01-16 09:25:08
+    [update_date] => 2021-01-16 09:25:08
+    [category] => Javascript
+)
+
+[18-Jan-2021 22:40:28 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 22:40:28 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 22:40:28 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[18-Jan-2021 22:40:28 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:40:28 Asia/Tokyo] デバッグ：セッションID：gutrdka1qdkcnbmo8klmt93rft
+[18-Jan-2021 22:40:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610977228
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:40:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610977228
+[18-Jan-2021 22:40:28 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613569228
+[18-Jan-2021 22:40:28 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 22:40:28 Asia/Tokyo] デバッグ：商品ID：41
+[18-Jan-2021 22:40:28 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:40:28 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 41
+    [name] => Js⑥
+    [category_id] => 3
+    [comment] => ノウハウが詰まった１冊！
+    [price] => 2000
+    [pic] => uploads/7f59aa2f3ddff9def75a1e847a09791239703a35.jpeg
+    [user_id] => 3
+    [create_date] => 2021-01-16 09:25:08
+    [update_date] => 2021-01-16 09:25:08
+    [category] => Javascript
+)
+
+[18-Jan-2021 22:41:19 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:41:19 Asia/Tokyo] デバッグ：セッションID：gfmbt14l9a5h5d15eh5mb593hs
+[18-Jan-2021 22:41:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610977228
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:41:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610977279
+[18-Jan-2021 22:41:19 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613569228
+[18-Jan-2021 22:41:19 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 22:41:19 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 22:41:19 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:41:19 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 36
+[18-Jan-2021 22:41:19 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:41:19 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 22:41:19 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:41:19 Asia/Tokyo] デバッグ：現在ページ：5
+[18-Jan-2021 22:41:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:41:34 Asia/Tokyo] デバッグ：セッションID：itb7o3a96g5iqjvb3snta6o4bh
+[18-Jan-2021 22:41:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610977228
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:41:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610977294
+[18-Jan-2021 22:41:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613569228
+[18-Jan-2021 22:41:34 Asia/Tokyo] デバッグ：TOPページを表示します
+[18-Jan-2021 22:41:34 Asia/Tokyo] デバッグ：商品情報の取得します
+[18-Jan-2021 22:41:34 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:41:34 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[18-Jan-2021 22:41:34 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:41:34 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 22:41:34 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:41:34 Asia/Tokyo] デバッグ：現在ページ：1
+[18-Jan-2021 22:45:13 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 22:45:13 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 22:45:13 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 22:45:13 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:45:13 Asia/Tokyo] デバッグ：セッションID：3mtf707hnat9obaf7o0jn448qn
+[18-Jan-2021 22:45:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610977513
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:45:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610977513
+[18-Jan-2021 22:45:13 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613569513
+[18-Jan-2021 22:45:13 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 22:45:13 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 22:45:13 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:45:13 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：セッションID：1mp8rn7fh9nq8odagsucrkhro4
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610977516
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610977516
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613569516
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：商品情報を取得します
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：ユーザーID：2
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：商品ID：2
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：商品ID：2
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：フォーム用DBデータ：Array
+(
+    [id] => 2
+    [name] => 柴犬
+    [category_id] => 3
+    [comment] => 可愛いワンコです
+    [price] => 3000
+    [pic] => uploads/dccb607f8c78cf3648a86a67a687fcb8a34aa932.jpeg
+    [user_id] => 2
+    [delete_flg] => 0
+    [create_date] => 2021-01-15 01:07:57
+    [update_date] => 2021-01-15 01:07:57
+)
+
+[18-Jan-2021 22:45:16 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HTML5
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:03:40
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => CSS3
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:03:40
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Javascript
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:05
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => jQuery
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:05
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => PHP
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:23
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => AWS
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:23
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => Laravel
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:52
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => Docker
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:52
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => Git
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:05:02
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => Ruby
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:05:02
+        )
+
+)
+
+[18-Jan-2021 22:45:20 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[18-Jan-2021 22:45:20 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[18-Jan-2021 22:45:20 Asia/Tokyo] デバッグ：MyPageを表示します
+[18-Jan-2021 22:45:20 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[18-Jan-2021 22:45:20 Asia/Tokyo] デバッグ：セッションID：vno42gbdr6cqcbp0amic7pbo3t
+[18-Jan-2021 22:45:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1610977520
+    [login_limit] => 2592000
+    [user_id] => 2
+)
+
+[18-Jan-2021 22:45:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1610977520
+[18-Jan-2021 22:45:20 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613569520
+[18-Jan-2021 22:45:20 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[18-Jan-2021 22:45:20 Asia/Tokyo] デバッグ：ユーザID：2
+[18-Jan-2021 22:45:20 Asia/Tokyo] デバッグ：クエリ成功
+[18-Jan-2021 22:45:20 Asia/Tokyo] デバッグ：クエリ成功

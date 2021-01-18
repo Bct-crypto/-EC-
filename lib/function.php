@@ -300,6 +300,38 @@ function getMyProduct($u_id)
     }
 }
 
+// 商品詳細情報の取得
+function getProductOne($p_id)
+{
+
+    debug('商品情報を取得します');
+    debug('商品ID：' . $p_id);
+    global $errMsg;
+
+    try {
+        // DB接続
+        $dbh = dbConnect();
+        // SQL作成
+        $sql = 'SELECT p.id , p.name , p.category_id , p.comment , p.price , p.pic , p.user_id , p.create_date , p.update_date , c.name AS category FROM product AS p LEFT JOIN category AS c ON p.category_id = c.id WHERE p.id = :p_id AND p.delete_flg = 0 AND c.delete_flg = 0';
+        // 値の流し込み
+        $data = [
+            ':p_id' => $p_id
+        ];
+        // クエリの実行
+        $stmt = queryPost($dbh, $sql, $data);
+
+        if ($stmt) {
+            // 取得したレコードの返却
+            return $stmt->fetch(PDO::FETCH_ASSOC);
+        } else {
+            return false;
+        }
+    } catch (Exception $e) {
+        error_log('エラー発生：' . $e->getMessage());
+        $errMsg['common'] = MSG07;
+    }
+}
+
 // Formの入力保持
 function getFormData($str)
 {
@@ -458,5 +490,32 @@ function upLoadImage($file, $key)
             global $errMsg;
             $errMsg[$key] = $e->getMessage();
         }
+    }
+}
+
+// 指定キーによる配列のソート
+function sortByKey($key_name, $sort_order, $array)
+{
+    foreach ($array as $key => $val) {
+        $standard_key_array[$key] = $val[$key_name];
+    }
+    array_multisort($standard_key_array, $sort_order, $array);
+    return $array;
+}
+
+
+// Getパラメータ付与
+// $del_key : 付与から取り除きたいGETパラメータキー
+function appendGetParam($arr_del_key = array())
+{
+    if (!empty($_GET)) {
+        $str = '?';
+        foreach ($_GET as $key => $val) {
+            if (!in_array($key, $arr_del_key, true)) {
+                $str .= $key . '=' . $val . '&';
+            }
+        }
+        $str = mb_substr($str, 0, -1, "UTF-8");
+        return $str;
     }
 }

@@ -28,9 +28,10 @@
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo sanitize($val['name']); ?></h5>
                                 <p class="card-text"><?php echo sanitize($val['comment']); ?></p>
+                                <p class="card-text">¥<?php echo sanitize($val['price']); ?>円</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="productDetail.php" class="btn btn-info">詳細</a>
+                                        <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam() . '&p_id=' . $val['id'] : '?p_id=' . $val['id']; ?>" class="btn btn-info">詳細</a>
                                     </div>
                                     <small class="text-muted">最終更新日：<?php echo sanitize(date('Y年n月j日', strtotime($val['update_date']))); ?></small>
                                 </div>
