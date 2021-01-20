@@ -43,10 +43,11 @@ if (!empty($_POST)) {
     // 画像をアップロードし、パスを格納する
     $pic = (!empty($_FILES['pic']['name'])) ? upLoadImage($_FILES['pic'], 'pic') : '';
     // 画像をPOSTしていない（登録していない）がすでにDBに登録されている場合、DBのパスを入れてあげる（POSTに反映されないため）
-    $pic = (empty($pic)) && (!empty($dbFormData('pic'))) ? $dbFormData('pic') : $pic;
+    $pic = (empty($pic)) && (!empty($dbFormData['pic'])) ? $dbFormData['pic'] : $pic;
 
     // 更新の場合はDBから取得してきた情報と異なるためバリデーションチェックを行う
 
+    debug('バリデーションチェックを開始します');
     // 新規登録
     if (empty($dbFormData)) {
         // 未入力チェック
@@ -76,7 +77,7 @@ if (!empty($_POST)) {
         }
         if ($dbFormData['comment'] !== $comment) {
             // 最大文字数チェック
-            validMaxLen($comment, 'comment');
+            validMaxLen($comment, 'comment', 500);
         }
         if ($dbFormData['price'] !== $price) {
             // 未入力チェック
@@ -102,7 +103,7 @@ if (!empty($_POST)) {
                     ':price' => $price,
                     ':pic' => $pic,
                     ':u_id' => $_SESSION['user_id'],
-                    '::p_id' => $p_id
+                    ':p_id' => $p_id
                 ];
             } else {
                 // false=新規登録なのでINSERT文を実行する

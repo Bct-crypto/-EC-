@@ -3,42 +3,80 @@
     <section class="jumbotron-fluid text-center">
         <div class="container">
             <h1 class="jumbotron-heading">技術を次のエンジニアへ</h1>
-            <p class="lead text-white h5">
+            <p class="lead text-white h5 mb-5">
                 Tech Circleはエンジニアが学習で使用する技術書に関する情報を共有・購入できるサイトです。<br>
                 先輩エンジニアの書籍レビューを参考に、学習中の言語をより効率的に改善しましょう！
             </p>
-            <p>
-                <a href="#" class="btn btn-primary my-2">早速探してみる</a>
-            </p>
+            <form action="" method="get" class="bg-light px-4 py-2 rounded border border-info">
+                <div class="row">
+                    <div class="col-md-4 mb-2">
+                        <p class="h5 text-dark text-left">技術カテゴリ</p>
+                        <select name="c_id" id="" class="custom-select">
+                            <option value="0" <?php if (getFormData('c_id', true) == 0) {
+                                                    echo 'selected';
+                                                } ?>>選択してください</option>
+                            <?php foreach ($dbCategoryData as $key => $val) : ?>
+                                <option value="<?php echo $val['id'] ?>" <?php if (getFormData('c_id', true) == $val['id']) {
+                                                                                echo 'selected';
+                                                                            } ?>><?php echo $val['name']; ?></option>
+                            <?php endforeach; ?>
+                        </select>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <p class="h5 text-dark text-left">金額</p>
+                        <select name="sort" id="" class="custom-select">
+                            <option value="0" <?php if (getFormData('sort', true) == 0) {
+                                                    echo 'selected';
+                                                } ?>>選択してください</option>
+                            <option value="1" <?php if (getFormData('sort', true) == 1) {
+                                                    echo 'selected';
+                                                } ?>>金額が安い順</option>
+                            <option value="2" <?php if (getFormData('sort', true) == 2) {
+                                                    echo 'selected';
+                                                } ?>>金額が高い順</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <input class="btn btn-success" type="submit" name="" value="早速検索する" id="">
+                    </div>
+            </form>
         </div>
     </section>
 
-    <div class="album py-5 bg-light">
+    <div class="album py-3 bg-light" style="margin-bottom: 120px;">
+        <div class="h5 text-center mb-3 py-3">
+            <span class="text-dark"><?php echo (!empty($dbProductData['data'])) ? $currentMinNum + 1 : 0; ?></span> - <span class="text-dark"><?php echo $currentMinNum + count($dbProductData['data']); ?>件</span> / <span class="text-dark"><?php echo sanitize($dbProductData['total']); ?>件</span>
+        </div>
         <div class="container">
             <div class="row">
-
-                <?php foreach ($dbProductData['data'] as $key => $val) : ?>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <?php if (!empty($val['pic'])) : ?>
-                                <img class="card-img-top" src="<?php echo sanitize($val['pic']); ?>" alt="" style="min-height: 160px;max-height: 160px; object-fit :cover;">
-                            <?php else : ?>
-                                <img class="card-img-top" src="img/sample-img.png" alt="" style="max-height: 160px; object-fit :cover;">
-                            <?php endif; ?>
-                            <div class="card-body">
-                                <h5 class="card-title"><?php echo sanitize($val['name']); ?></h5>
-                                <p class="card-text"><?php echo sanitize($val['comment']); ?></p>
-                                <p class="card-text">¥<?php echo sanitize($val['price']); ?>円</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam() . '&p_id=' . $val['id'] : '?p_id=' . $val['id']; ?>" class="btn btn-info">詳細</a>
+                <?php if (!empty($dbProductData['data'])) : ?>
+                    <?php foreach ($dbProductData['data'] as $key => $val) : ?>
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <?php if (!empty($val['pic'])) : ?>
+                                    <img class="card-img-top" src="<?php echo sanitize($val['pic']); ?>" alt="" style="min-height: 160px;max-height: 160px; object-fit :cover;">
+                                <?php else : ?>
+                                    <img class="card-img-top" src="img/sample-img.png" alt="" style="max-height: 160px; object-fit :cover;">
+                                <?php endif; ?>
+                                <div class="card-body">
+                                    <h5 class="card-title"><?php echo sanitize($val['name']); ?></h5>
+                                    <p class="card-text"><?php echo sanitize($val['comment']); ?></p>
+                                    <p class="card-text">¥<?php echo sanitize($val['price']); ?>円</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam() . '&p_id=' . $val['id'] : '?p_id=' . $val['id']; ?>" class="btn btn-info">詳細</a>
+                                        </div>
+                                        <small class="text-muted">最終更新日：<?php echo sanitize(date('Y年n月j日', strtotime($val['update_date']))); ?></small>
                                     </div>
-                                    <small class="text-muted">最終更新日：<?php echo sanitize(date('Y年n月j日', strtotime($val['update_date']))); ?></small>
                                 </div>
                             </div>
                         </div>
+                    <?php endforeach; ?>
+                <?php else : ?>
+                    <div class="text-dark text-center">
+                        <p>登録されている商品がありませんでした</p>
                     </div>
-                <?php endforeach; ?>
+                <?php endif; ?>
 
             </div>
         </div>

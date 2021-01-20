@@ -21,6 +21,8 @@ $userInfo = getUserInfo($user_id);
 // お気に入りデータ
 // $getFavorite = getMyFavorite($user_id);
 
+var_dump($userInfo);
+
 $title = 'MyPage';
 $content = __DIR__ . '/views/mypage.php';
 include __DIR__ . '/views/layout.php';

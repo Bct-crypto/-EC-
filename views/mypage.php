@@ -9,10 +9,11 @@
             <div class="card mb-3">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
-                        </svg>
+                        <?php if (!empty($userInfo['pic'])) : ?>
+                            <img class="card-img-top" src="<?php echo sanitize($userInfo['pic']); ?>" alt="" style="min-height: 160px;max-height: 160px; object-fit :cover;">
+                        <?php else : ?>
+                            <img class="card-img-top" src="img/sample-img.png" alt="" style="max-height: 160px; object-fit :cover;">
+                        <?php endif; ?>
                     </div>
                     <div class="col-md-8 text-left">
                         <div class="card-body">

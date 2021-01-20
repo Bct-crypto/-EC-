@@ -333,8 +333,14 @@ function getProductOne($p_id)
 }
 
 // Formの入力保持
-function getFormData($str)
+function getFormData($str, $flg = false)
 {
+    if ($flg) {
+        $method = $_GET;
+    } else {
+        $method = $_POST;
+    }
+
     global $dbFormData;
 
     // ユーザーデータがある場合
@@ -342,38 +348,48 @@ function getFormData($str)
         // フォームエラーがある場合
         if (!empty($errMsg[$str])) {
             // POSTされたデータがある場合
-            if (isset($_POST[$str])) {
-                return sanitize($_POST[$str]);
+            if (isset($method[$str])) {
+                return sanitize($method[$str]);
             } else {
                 return sanitize($dbFormData[$str]);
             }
         } else {
             // フォームエラーがない場合
             // POSTされており、尚且つPOSTされた値とDBの差異をチェック
-            if (isset($_POST[$str]) && $dbFormData[$str] !== $_POST[$str]) {
-                return sanitize($_POST[$str]);
+            if (isset($method[$str]) && $dbFormData[$str] !== $method[$str]) {
+                return sanitize($method[$str]);
             } else {
                 return sanitize($dbFormData[$str]);
             }
         }
     } else {
-        if (isset($_POST[$str])) {
-            return sanitize($_POST[$str]);
+        if (isset($method[$str])) {
+            return sanitize($method[$str]);
         }
     }
 }
 
 // TOPページ用の商品情報の取得
-function getProductList($currentMinNum = 1, $span = 9)
+function getProductList($currentMinNum = 1, $category, $sort, $span = 9)
 {
-    debug('商品情報の取得します');
+    debug('商品情報を取得します');
 
     try {
         // DB接続
         $dbh = dbConnect();
-        // SQL作成
+        // 件数用のSQL文を作成
         $sql = 'SELECT id FROM product';
-        // if(!empty($category)) $sql .= ' WHERE category_id = '.$category;
+        if (!empty($category)) $sql .= ' WHERE category_id = ' . $category;
+        if (!empty($sort)) {
+            switch ($sort) {
+                case 1:
+                    $sql .= ' ORDER BY price ASC';
+                    break;
+                case 2:
+                    $sql .= ' ORDER BY price DESC';
+                    break;
+            }
+        }
         $data = [];
         // クエリ実行
         $stmt = queryPost($dbh, $sql, $data);
@@ -387,20 +403,17 @@ function getProductList($currentMinNum = 1, $span = 9)
 
         // ページング用のSQLを作成
         $sql = 'SELECT * FROM product';
-        //    if(!empty($category)) $sql .= ' WHERE category = '.$category;
-        //    if(!empty($sort)){
-        //      switch($sort){
-        //        case 1:
-        //          $sql .= ' ORDER BY price ASC';
-        //          break;
-        //        case 2:
-        //          $sql .= ' ORDER BY price DESC';
-        //          break;
-        //        case 3:
-        //          $sql .= ' ORDER BY create_date DESC';
-        //          break;
-        //      }
-        //    }
+        if (!empty($category)) $sql .= ' WHERE category_id = ' . $category;
+        if (!empty($sort)) {
+            switch ($sort) {
+                case 1:
+                    $sql .= ' ORDER BY price ASC';
+                    break;
+                case 2:
+                    $sql .= ' ORDER BY price DESC';
+                    break;
+            }
+        }
         // SQL条件を追加する
         $sql .= ' LIMIT ' . $span . ' OFFSET ' . $currentMinNum;
         // 値の入れ込み

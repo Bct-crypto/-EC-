@@ -17,7 +17,7 @@ if (!empty($_POST)) {
 
     debug('POST送信があります');
     debug('POST情報：' . print_r($_POST, true));
-    debug('FILE情報：');
+    debug('FILE情報：' . print_r($_FILES, true));
 
     // 変数に情報を格納する
     $username = $_POST['username'];
@@ -26,10 +26,13 @@ if (!empty($_POST)) {
     $zip = (!empty($_POST['zip'])) ? $_POST['zip'] : 0;
     $addr = $_POST['addr'];
     $email = $_POST['email'];
+    // 画像をアップロードしパスを格納する
+    $pic = (!empty($_FILES['pic']['name'])) ? upLoadImage($_FILES['pic'], 'pic') : '';
+    // 画像をPOSTしていないがすでにDBに登録がある場合、DBのパスを入れる
+    $pic = (empty($pic) && !empty($dbFormData['pic'])) ? $dbFormData['pic'] : $pic;
 
-    var_dump($tel);
+
     // DBの情報と新たにPOSTされた情報が異なる場合にバリデーションチェックを行う
-
     // 名前
     if ($dbFormData['username'] !== $username) {
         validMaxLen($username, 'username');
@@ -60,13 +63,14 @@ if (!empty($_POST)) {
     }
     // メールアドレス
     if ($dbFormData['email'] !== $email) {
+        validRequired($email, 'email');
         validMaxLen($email, 'email');
+        validEmail($email, 'email');
+
         // DB接続はサーバーに負担をかけるので最低限にする
         if (empty($errMsg['email'])) {
             validEmailDup($email);
         }
-        validEmail($email, 'email');
-        validRequired($email, 'email');
     }
 
     if (empty($errMsg)) {
@@ -77,7 +81,7 @@ if (!empty($_POST)) {
             // DB接続
             $dbh = dbConnect();
             // SQL作成
-            $sql = 'UPDATE users SET username = :u_name, age = :age,tel = :tel,zip = :zip,addr = :addr,email = :email WHERE id = :u_id';
+            $sql = 'UPDATE users SET username = :u_name, age = :age,tel = :tel,zip = :zip,addr = :addr,email = :email,pic = :pic WHERE id = :u_id';
             // 値の入れ込み
             $data = [
                 ':u_name' => $username,
@@ -86,8 +90,11 @@ if (!empty($_POST)) {
                 ':zip' => $zip,
                 ':addr' => $addr,
                 ':email' => $email,
+                ':pic' => $pic,
                 ':u_id' => $dbFormData['id']
             ];
+
+            debug('流し込みデータ：' . print_r($data));
             // クエリの実行
             $stmt = queryPost($dbh, $sql, $data);
 
