@@ -50,14 +50,16 @@
             <!-- 写真 -->
             <label for="pic" class="">商品画像<span class="ml-3 text-danger"><?php if (!empty($errMsg['pic'])) echo $errMsg['pic']; ?></span></label>
             <input type="file" class="form-control-file mb-3" id="pic" name="pic">
-            <?php if (!empty($p_id)) : ?>
-                <img src="<?php getFormData('pic'); ?>" alt="" class="img-rounded d-block mx-auto mb-3" style="width:250px;">
+            <?php if (!empty(getFormData('pic'))) : ?>
+                <img src="<?php echo getFormData('pic'); ?>" alt="" class="img-rounded d-block mx-auto mb-3" style="width:250px;">
+                <p class="small text-center">登録済の商品画像</p>
             <?php else : ?>
                 <img src="img/no-image.png" alt="" class="img-rounded d-block mx-auto mb-3" style="width:250px;">
+                <p class="small text-center">商品画像が登録されていません</p>
             <?php endif; ?>
 
             <button type="submit" class="btn btn-lg btn-block btn-primary">
-                <?php echo (!$editFlg) ? '出品登録する' : '編集内容を更新する'; ?>
+                <?php echo (!$editFlg) ? '出品登録する' : '商品内容を更新する'; ?>
             </button>
         </form>
     </main>

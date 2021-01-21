@@ -18,6 +18,7 @@ $category = (!empty($_GET['c_id'])) ? $_GET['c_id'] : '';
 // 金額ソート
 $sort = (!empty($_GET['sort'])) ? $_GET['sort'] : '';
 
+
 // パラメータに不正な値が入っていないかチェック
 if (!is_int((int)$currentPageNum)) {
     error_log('エラー発生：不正な値が入力されました');

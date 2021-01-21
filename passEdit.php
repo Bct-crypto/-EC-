@@ -66,6 +66,7 @@ if (!empty($_POST)) {
                     debug('クエリ成功：パスワードを更新しました');
                     $_SESSION['msg_success'] = SUC01;
                     header('Location:mypage.php');
+                    exit();
                 } else {
                     debug('クエリ失敗：パスワード更新処理ができませんでした');
                 }

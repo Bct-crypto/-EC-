@@ -86,8 +86,13 @@
             <ul class="pagination justify-content-center">
 
                 <?php
-                $pageColNum = 5; // 表示リンク数
+                // 表示リンク数
+                $pageColNum = 5;
+                // そうページ数
                 $totalPageNum = $dbProductData['total_page'];
+                // 検索用GETパラメータリンク用
+                $link = '&c_id=' . $category . '&sort=' . $sort;
+
                 // 現在のページが、総ページ数と同じ　かつ　総ページ数が表示項目数以上なら、左にリンク４個出す
                 if ($currentPageNum == $totalPageNum && $totalPageNum >= $pageColNum) {
                     $minPageNum = $currentPageNum - 4;
@@ -120,19 +125,19 @@
                 <!-- 現在のページが１ページ目でなければ、最初へ戻るリンクを表示 -->
                 <?php if ($currentPageNum != 1) : ?>
                     <li class="page-item">
-                        <a class="page-link" href="?p=1">最初へ</a>
+                        <a class="page-link" href="?p=1<?php echo $link; ?>">最初へ</a>
                     </li>
                 <?php endif; ?>
 
                 <!-- 表示リンク生成部分 -->
                 <?php for ($i = $minPageNum; $i <= $maxPageNum; $i++) : ?>
-                    <li class="page-item <?php if ($currentPageNum == $i) echo 'active'; ?>"><a class="page-link" href="?p=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+                    <li class="page-item <?php if ($currentPageNum == $i) echo 'active'; ?>"><a class="page-link" href="?p=<?php echo $i . $link; ?>"><?php echo $i; ?></a></li>
                 <?php endfor; ?>
 
                 <!-- 現在のページが最大ページでなければ、最終ページへ進むリンクを表示 -->
                 <?php if ($currentPageNum != $maxPageNum) : ?>
                     <li class="page-item">
-                        <a class="page-link" href="?p=<?php echo $totalPageNum; ?>">最後へ</a>
+                        <a class="page-link" href="?p=<?php echo $totalPageNum . $link; ?>">最後へ</a>
                     </li>
                 <?php endif; ?>
             </ul>

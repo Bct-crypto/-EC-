@@ -71,9 +71,10 @@ if (!empty($_POST)) {
 
                     // 取得したユーザーIDを格納する
                     $_SESSION['user_id'] = $result['id'];
-                    debug('セッション変数の中身：' . print_r($_SESSION, true));
+                    $_SESSION['msg_success'] = SUC06;
                     debug('マイページへ遷移します');
                     header('Location:mypage.php');
+                    exit();
                 } else {
                     debug('パスワードがアンマッチです');
                     $errMsg['common'] = MSG09;

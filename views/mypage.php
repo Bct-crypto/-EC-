@@ -10,9 +10,9 @@
                 <div class="row no-gutters">
                     <div class="col-md-4">
                         <?php if (!empty($userInfo['pic'])) : ?>
-                            <img class="card-img-top" src="<?php echo sanitize($userInfo['pic']); ?>" alt="" style="min-height: 160px;max-height: 160px; object-fit :cover;">
+                            <img class="card-img-top" src="<?php echo sanitize($userInfo['pic']); ?>" alt="" style="height:100%; object-fit :cover;">
                         <?php else : ?>
-                            <img class="card-img-top" src="img/sample-img.png" alt="" style="max-height: 160px; object-fit :cover;">
+                            <img class="card-img-top" src="img/sample-img.png" alt="" style="height: 100%; object-fit :cover;">
                         <?php endif; ?>
                     </div>
                     <div class="col-md-8 text-left">
@@ -22,7 +22,7 @@
                             <p class="card-text">年齢：<?php echo sanitize($userInfo['age']); ?></p>
                             <p class="card-text">Mail：<?php echo sanitize($userInfo['email']); ?></p>
 
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text"><small class="text-muted">登録商品数：<?php echo $productData['total']; ?>件</small></p>
                         </div>
                     </div>
                 </div>
@@ -30,8 +30,13 @@
 
             <p class="h4 text-left">登録した商品</p>
             <div class="row">
-                <?php if (!empty($productData)) :  ?>
-                    <?php foreach ($productData as $key => $val) : ?>
+                <?php if (!empty($productData['data'])) :  ?>
+                    <!-- 取得した登録商品を展開する -->
+                    <?php foreach ($productData['data'] as $key => $val) : ?>
+                        <!-- ３種だけ登録商品を展開する　※ページを圧迫するため -->
+                        <?php if ($loop >= 3) {
+                            break;
+                        } ?>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
                                 <?php if (!empty($val['pic'])) : ?>
@@ -52,6 +57,7 @@
                                 </div>
                             </div>
                         </div>
+                        <?php $loop++; ?>
                     <?php endforeach; ?>
                 <?php else : ?>
                     <div class="h4 my-2">登録商品なし</div>

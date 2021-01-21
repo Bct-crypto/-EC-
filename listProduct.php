@@ -125,8 +125,9 @@ if (!empty($_POST)) {
             // クエリの実行
             $stmt = queryPost($dbh, $sql, $data);
             if ($stmt) {
-                debug('クエリ成功');
+                $_SESSION['msg_success'] = SUC04;
                 header('Location:mypage.php');
+                exit();
             }
         } catch (Exception $e) {
             error_log('エラー発生：' . $e->getMessage());

@@ -23,11 +23,12 @@ define('MSG14', '古いパスワードと同じです');
 define('MSG15', '対象のカテゴリを選択してください');
 define('MSG16', '正しくありません');
 define('MSG17', '有効期限が切れています');
-define('SUC01', 'パスワードを変更しました');
-define('SUC02', 'プロフィールを変更しました');
+define('SUC01', 'パスワードを変更しました!');
+define('SUC02', 'プロフィールを変更しました！');
 define('SUC03', 'メールを送信しました');
-define('SUC04', '登録しました');
+define('SUC04', '登録しました!');
 define('SUC05', '購入しました！相手と連絡を取りましょう！');
+define('SUC06', 'ログインに成功しました！');
 
 // エラーメッセージ格納用の配列
 $errMsg = [];
@@ -290,7 +291,11 @@ function getMyProduct($u_id)
         $stmt = queryPost($dbh, $sql, $data);
 
         if ($stmt) {
-            return $stmt->fetchAll();
+            // レコード数のカウント
+            $rst['total'] = $stmt->rowCount();
+            // レコード情報の格納
+            $rst['data'] = $stmt->fetchAll();
+            return $rst;
         } else {
             return false;
         }
@@ -441,15 +446,15 @@ function sanitize($str)
 }
 
 
-// // sessionを一度だけ取得
-// function getSessionFlash($key)
-// {
-//     if (!empty($_SESSION[$key])) {
-//         $data = $_SESSION[$key];
-//         $_SESSION = '';
-//         return $data;
-//     }
-// }
+// sessionを一度だけ取得
+function getSessionFlash($key)
+{
+    if (!empty($_SESSION[$key])) {
+        $data = $_SESSION[$key];
+        $_SESSION[$key] = '';
+        return $data;
+    }
+}
 
 function upLoadImage($file, $key)
 {

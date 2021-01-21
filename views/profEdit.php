@@ -1,5 +1,5 @@
 <div class="container">
-    <main class="form">
+    <main class="form" style="margin-bottom: 100px;">
         <form action="#" method="post" enctype="multipart/form-data">
             <img src="" alt="">
 
@@ -16,8 +16,8 @@
                     <!-- 写真 -->
                     <label for="pic" class="">プロフィール画像<span class="ml-3 text-danger"><?php if (!empty($errMsg['pic'])) echo $errMsg['pic']; ?></span></label>
                     <input type="file" class="form-control-file mb-5" id="pic" name="pic">
-                    <?php if (!empty($p_id)) : ?>
-                        <img src="<?php getFormData('pic'); ?>" alt="" class="img-rounded d-block mx-auto mb-3" style="width:200px;">
+                    <?php if (!empty($dbFormData['pic'])) : ?>
+                        <img src="<?php echo $dbFormData['pic']; ?>" alt="" class="img-rounded d-block mx-auto mb-3" style="max-width:250px;">
                     <?php else : ?>
                         <img src="img/no-image.png" alt="" class="img-rounded d-block mx-auto mb-3" style="width:200px;">
                     <?php endif; ?>

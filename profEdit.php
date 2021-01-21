@@ -99,8 +99,9 @@ if (!empty($_POST)) {
             $stmt = queryPost($dbh, $sql, $data);
 
             if ($stmt) {
-                debug('クエリ成功：ユーザー情報を更新しました');
+                $_SESSION['msg_success'] = SUC02;
                 header('Location:mypage.php');
+                exit();
             }
         } catch (Exception $e) {
             error_log('エラー発生：' . $e->getMessage());
