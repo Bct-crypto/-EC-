@@ -60,7 +60,7 @@
                                 <?php endif; ?>
                                 <div class="card-body">
                                     <h5 class="card-title"><?php echo sanitize($val['name']); ?></h5>
-                                    <p class="card-text"><?php echo sanitize($val['comment']); ?></p>
+                                    <p class="card-text"><?php echo sanitize(mb_substr($val['comment'], 0, 10)); ?>...</p>
                                     <p class="card-text">¥<?php echo sanitize($val['price']); ?>円</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">

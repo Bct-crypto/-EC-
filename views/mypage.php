@@ -44,7 +44,7 @@
                                 <?php else : ?>
                                     <img class="card-img-top" src="img/sample-img.png" alt="" style="min-height: 200px;max-height: 200px; object-fit :cover;">
                                 <?php endif; ?>
-                                <div class="card-body">
+                                <div class="card-body" style="min-height:240px; max-height: 240px;">
                                     <h5 class="card-title"><?php echo sanitize($val['name']); ?></h5>
                                     <p class="card-text"><?php echo sanitize(mb_substr($val['comment'], 0, 10)); ?>...</p>
                                     <p class="card-text">¥<?php echo sanitize($val['price']); ?>円</p>
@@ -63,6 +63,9 @@
                     <div class="h4 my-2">登録商品なし</div>
                 <?php endif; ?>
             </div>
+            <a class="d-block mb-3 small text-right text-dark" href="myProductList.php">
+                登録済の全ての商品をみる &gt;&gt;
+            </a>
 
 
         </form>

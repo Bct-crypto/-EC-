@@ -179,7 +179,7 @@ function validCheck($str, $key)
 // セレクトボックスチェック
 function validSelect($str, $key)
 {
-    if (!preg_match("/^[1-9]+$/", $str)) {
+    if (!preg_match("/^[1-10]+$/", $str)) {
         global $errMsg;
         $errMsg[$key] = MSG15;
     }
