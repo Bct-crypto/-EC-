@@ -34022,3 +34022,1028 @@ Stack trace:
 [23-Jan-2021 23:16:37 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
 [23-Jan-2021 23:16:37 Asia/Tokyo] PHP Warning:  Illegal string offset 'update_date' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
 [23-Jan-2021 23:16:37 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[23-Jan-2021 23:59:46 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[23-Jan-2021 23:59:46 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[23-Jan-2021 23:59:46 Asia/Tokyo] デバッグ：セッションID：53jva6nhm32ribqrvso60933jl
+[23-Jan-2021 23:59:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611352977
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[23-Jan-2021 23:59:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611413986
+[23-Jan-2021 23:59:46 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613944977
+[23-Jan-2021 23:59:46 Asia/Tokyo] PHP Warning:  Illegal string offset 'name' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[23-Jan-2021 23:59:46 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[23-Jan-2021 23:59:46 Asia/Tokyo] PHP Warning:  Illegal string offset 'category' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[23-Jan-2021 23:59:46 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[23-Jan-2021 23:59:46 Asia/Tokyo] PHP Warning:  Illegal string offset 'comment' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[23-Jan-2021 23:59:46 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[23-Jan-2021 23:59:46 Asia/Tokyo] PHP Warning:  Illegal string offset 'price' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[23-Jan-2021 23:59:46 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[23-Jan-2021 23:59:46 Asia/Tokyo] PHP Warning:  Illegal string offset 'update_date' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[23-Jan-2021 23:59:46 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:00:34 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[24-Jan-2021 00:00:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 00:00:34 Asia/Tokyo] デバッグ：セッションID：vv4lhhhau7mernahmjao7n45nt
+[24-Jan-2021 00:00:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611352977
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 00:00:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611414034
+[24-Jan-2021 00:00:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613944977
+[24-Jan-2021 00:00:34 Asia/Tokyo] PHP Warning:  Illegal string offset 'name' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:00:34 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:00:34 Asia/Tokyo] PHP Warning:  Illegal string offset 'category' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:00:34 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:00:34 Asia/Tokyo] PHP Warning:  Illegal string offset 'comment' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:00:34 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:00:34 Asia/Tokyo] PHP Warning:  Illegal string offset 'price' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:00:34 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:00:34 Asia/Tokyo] PHP Warning:  Illegal string offset 'update_date' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:00:34 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:01:02 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[24-Jan-2021 00:01:02 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 00:01:02 Asia/Tokyo] デバッグ：セッションID：0rtmblj48aetrs5lc53lnhtnu0
+[24-Jan-2021 00:01:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611352977
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 00:01:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611414062
+[24-Jan-2021 00:01:02 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613944977
+[24-Jan-2021 00:01:02 Asia/Tokyo] PHP Warning:  Illegal string offset 'name' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:01:02 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:01:02 Asia/Tokyo] PHP Warning:  Illegal string offset 'category' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:01:02 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:01:02 Asia/Tokyo] PHP Warning:  Illegal string offset 'comment' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:01:02 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:01:02 Asia/Tokyo] PHP Warning:  Illegal string offset 'price' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:01:02 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:01:02 Asia/Tokyo] PHP Warning:  Illegal string offset 'update_date' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:01:02 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:03:38 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[24-Jan-2021 00:03:38 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 00:03:38 Asia/Tokyo] デバッグ：セッションID：pmricub4gg1u6jj9e9q7pcukii
+[24-Jan-2021 00:03:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611352977
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 00:03:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611414218
+[24-Jan-2021 00:03:38 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613944977
+[24-Jan-2021 00:03:38 Asia/Tokyo] PHP Warning:  Illegal string offset 'name' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:03:38 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:03:38 Asia/Tokyo] PHP Warning:  Illegal string offset 'category' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:03:38 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:03:38 Asia/Tokyo] PHP Warning:  Illegal string offset 'comment' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:03:38 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:03:38 Asia/Tokyo] PHP Warning:  Illegal string offset 'price' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:03:38 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:03:38 Asia/Tokyo] PHP Warning:  Illegal string offset 'update_date' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:03:38 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:05:35 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[24-Jan-2021 00:05:35 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 00:05:35 Asia/Tokyo] デバッグ：セッションID：6lqs7u8rtd6f45p9c56d5c2d49
+[24-Jan-2021 00:05:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611352977
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 00:05:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611414335
+[24-Jan-2021 00:05:35 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613944977
+[24-Jan-2021 00:05:35 Asia/Tokyo] PHP Warning:  Illegal string offset 'name' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:05:35 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:05:35 Asia/Tokyo] PHP Warning:  Illegal string offset 'category' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:05:35 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:05:35 Asia/Tokyo] PHP Warning:  Illegal string offset 'comment' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:05:35 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:05:35 Asia/Tokyo] PHP Warning:  Illegal string offset 'price' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:05:35 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:05:35 Asia/Tokyo] PHP Warning:  Illegal string offset 'update_date' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:05:35 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:07:59 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[24-Jan-2021 00:07:59 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 00:07:59 Asia/Tokyo] デバッグ：セッションID：6607ektcc1virc08qc4mek4cn8
+[24-Jan-2021 00:07:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611352977
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 00:07:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611414479
+[24-Jan-2021 00:07:59 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613944977
+[24-Jan-2021 00:07:59 Asia/Tokyo] PHP Warning:  Illegal string offset 'name' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:07:59 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:07:59 Asia/Tokyo] PHP Warning:  Illegal string offset 'category' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:07:59 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:07:59 Asia/Tokyo] PHP Warning:  Illegal string offset 'comment' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:07:59 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:07:59 Asia/Tokyo] PHP Warning:  Illegal string offset 'price' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:07:59 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:07:59 Asia/Tokyo] PHP Warning:  Illegal string offset 'update_date' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:07:59 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:08:14 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[24-Jan-2021 00:08:14 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 00:08:14 Asia/Tokyo] デバッグ：セッションID：bh5ka3jmv9kua3g1l8o8aqqn9b
+[24-Jan-2021 00:08:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611352977
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 00:08:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611414494
+[24-Jan-2021 00:08:14 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613944977
+[24-Jan-2021 00:08:14 Asia/Tokyo] PHP Warning:  Illegal string offset 'name' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:08:14 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:08:14 Asia/Tokyo] PHP Warning:  Illegal string offset 'category' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:08:14 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:08:14 Asia/Tokyo] PHP Warning:  Illegal string offset 'comment' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:08:14 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:08:14 Asia/Tokyo] PHP Warning:  Illegal string offset 'price' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:08:14 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:08:14 Asia/Tokyo] PHP Warning:  Illegal string offset 'update_date' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:08:14 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:08:31 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[24-Jan-2021 00:08:31 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 00:08:31 Asia/Tokyo] デバッグ：セッションID：lo2vpl08e09379ve2nk48qejl1
+[24-Jan-2021 00:08:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611352977
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 00:08:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611414511
+[24-Jan-2021 00:08:31 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613944977
+[24-Jan-2021 00:08:31 Asia/Tokyo] PHP Warning:  Illegal string offset 'name' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:08:31 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:08:31 Asia/Tokyo] PHP Warning:  Illegal string offset 'category' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:08:31 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:08:31 Asia/Tokyo] PHP Warning:  Illegal string offset 'comment' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:08:31 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:08:31 Asia/Tokyo] PHP Warning:  Illegal string offset 'price' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:08:31 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:08:31 Asia/Tokyo] PHP Warning:  Illegal string offset 'update_date' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:08:31 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:10:28 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[24-Jan-2021 00:10:28 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 00:10:28 Asia/Tokyo] デバッグ：セッションID：cdnmne6aq4g3udevlaptv50608
+[24-Jan-2021 00:10:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611352977
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 00:10:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611414628
+[24-Jan-2021 00:10:28 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613944977
+[24-Jan-2021 00:10:28 Asia/Tokyo] PHP Warning:  Illegal string offset 'name' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:10:28 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 00:10:28 Asia/Tokyo] PHP Warning:  Illegal string offset 'category' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:10:28 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 00:10:28 Asia/Tokyo] PHP Warning:  Illegal string offset 'comment' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:10:28 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 00:10:28 Asia/Tokyo] PHP Warning:  Illegal string offset 'price' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:10:28 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 00:10:28 Asia/Tokyo] PHP Warning:  Illegal string offset 'update_date' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 00:10:28 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 20:33:11 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[24-Jan-2021 20:33:11 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:33:11 Asia/Tokyo] デバッグ：セッションID：2334s8u95f4451i9kvh18tr0tf
+[24-Jan-2021 20:33:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611352977
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:33:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611487992
+[24-Jan-2021 20:33:12 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613944977
+[24-Jan-2021 20:33:12 Asia/Tokyo] PHP Warning:  Illegal string offset 'name' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 20:33:12 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 20:33:12 Asia/Tokyo] PHP Warning:  Illegal string offset 'category' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 20:33:12 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 20:33:12 Asia/Tokyo] PHP Warning:  Illegal string offset 'comment' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 20:33:12 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 20:33:12 Asia/Tokyo] PHP Warning:  Illegal string offset 'price' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 20:33:12 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 20:33:13 Asia/Tokyo] PHP Warning:  Illegal string offset 'update_date' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 20:33:13 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 20:46:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:46:33 Asia/Tokyo] デバッグ：セッションID：ji76sqh3t80jddvpbo25sjqf6b
+[24-Jan-2021 20:46:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611352977
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:46:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488793
+[24-Jan-2021 20:46:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613944977
+[24-Jan-2021 20:46:33 Asia/Tokyo] デバッグ：TOPページを表示します
+[24-Jan-2021 20:46:33 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:46:33 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:46:33 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[24-Jan-2021 20:46:33 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:46:33 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[24-Jan-2021 20:46:33 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:46:33 Asia/Tokyo] デバッグ：現在ページ：1
+[24-Jan-2021 20:46:43 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:46:43 Asia/Tokyo] デバッグ：セッションID：rmitpsmpjf76e398ucg8kkbv1b
+[24-Jan-2021 20:46:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611352977
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:46:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488803
+[24-Jan-2021 20:46:43 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613944977
+[24-Jan-2021 20:46:43 Asia/Tokyo] デバッグ：TOPページを表示します
+[24-Jan-2021 20:46:43 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:46:43 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:46:43 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product WHERE category_id = 2 LIMIT 9 OFFSET 0
+[24-Jan-2021 20:46:43 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:46:43 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[24-Jan-2021 20:46:43 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:46:43 Asia/Tokyo] デバッグ：現在ページ：1
+[24-Jan-2021 20:46:51 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:46:51 Asia/Tokyo] デバッグ：セッションID：kp0o3dnaa31d5b6vmij9v12cp4
+[24-Jan-2021 20:46:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611352977
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:46:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488811
+[24-Jan-2021 20:46:51 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1613944977
+[24-Jan-2021 20:46:51 Asia/Tokyo] デバッグ：TOPページを表示します
+[24-Jan-2021 20:46:51 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:46:51 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:46:51 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product WHERE category_id = 3 LIMIT 9 OFFSET 0
+[24-Jan-2021 20:46:51 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:46:51 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[24-Jan-2021 20:46:51 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:46:51 Asia/Tokyo] デバッグ：現在ページ：1
+[24-Jan-2021 20:47:00 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:47:00 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:47:00 Asia/Tokyo] デバッグ：MyPageを表示します
+[24-Jan-2021 20:47:00 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:47:00 Asia/Tokyo] デバッグ：セッションID：0p0sbr6vmi1e89jl40a8uvr0p8
+[24-Jan-2021 20:47:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611488820
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:47:00 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488820
+[24-Jan-2021 20:47:00 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614080820
+[24-Jan-2021 20:47:00 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[24-Jan-2021 20:47:00 Asia/Tokyo] デバッグ：ユーザID：4
+[24-Jan-2021 20:47:00 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:00 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:06 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:47:06 Asia/Tokyo] デバッグ：セッションID：ppmcr05h8lf0rkvrkap36u35b3
+[24-Jan-2021 20:47:06 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611488820
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:47:06 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488826
+[24-Jan-2021 20:47:06 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614080820
+[24-Jan-2021 20:47:06 Asia/Tokyo] デバッグ：TOPページを表示します
+[24-Jan-2021 20:47:06 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:47:06 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:06 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[24-Jan-2021 20:47:06 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:06 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[24-Jan-2021 20:47:06 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:06 Asia/Tokyo] デバッグ：現在ページ：1
+[24-Jan-2021 20:47:09 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:47:09 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:47:09 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:47:09 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:47:09 Asia/Tokyo] デバッグ：セッションID：r0j6ui5kqao1ik4s1vfhld9kr5
+[24-Jan-2021 20:47:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611488829
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:47:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488829
+[24-Jan-2021 20:47:09 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614080829
+[24-Jan-2021 20:47:09 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:47:09 Asia/Tokyo] デバッグ：商品ID：2
+[24-Jan-2021 20:47:09 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:09 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 2
+    [name] => 柴犬
+    [category_id] => 3
+    [comment] => 可愛いワンコです
+    [price] => 0
+    [pic] => uploads/d6ff5d006c8753b01230b89ee827a1fd7401ee68.png
+    [user_id] => 2
+    [create_date] => 2021-01-15 01:07:57
+    [update_date] => 2021-01-15 01:07:57
+    [category] => Javascript
+)
+
+[24-Jan-2021 20:47:13 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:47:13 Asia/Tokyo] デバッグ：セッションID：bluura5112e97r76ochpg1f24c
+[24-Jan-2021 20:47:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611488829
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:47:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488833
+[24-Jan-2021 20:47:13 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614080829
+[24-Jan-2021 20:47:13 Asia/Tokyo] デバッグ：TOPページを表示します
+[24-Jan-2021 20:47:13 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:47:13 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:13 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[24-Jan-2021 20:47:13 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:13 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[24-Jan-2021 20:47:13 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:13 Asia/Tokyo] デバッグ：現在ページ：1
+[24-Jan-2021 20:47:14 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:47:14 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:47:14 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:47:14 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:47:14 Asia/Tokyo] デバッグ：セッションID：6m3qb4jbsruob3rs83v301lgpj
+[24-Jan-2021 20:47:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611488834
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:47:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488834
+[24-Jan-2021 20:47:14 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614080834
+[24-Jan-2021 20:47:14 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:47:14 Asia/Tokyo] デバッグ：商品ID：1
+[24-Jan-2021 20:47:14 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:14 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => 餅ゴマ
+    [category_id] => 5
+    [comment] => もちもちのゴマです。もふもふして遊ぶことができます。お子様から大人まで癒しの存在。旅のお供にもおすすめ。
+    [price] => 300
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [user_id] => 2
+    [create_date] => 2021-01-11 10:36:24
+    [update_date] => 2021-01-11 10:36:24
+    [category] => PHP
+)
+
+[24-Jan-2021 20:47:16 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:47:16 Asia/Tokyo] デバッグ：セッションID：evl457o7eo9lhr8qmlrentaogg
+[24-Jan-2021 20:47:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611488834
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:47:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488836
+[24-Jan-2021 20:47:16 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614080834
+[24-Jan-2021 20:47:16 Asia/Tokyo] デバッグ：TOPページを表示します
+[24-Jan-2021 20:47:16 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:47:16 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:16 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[24-Jan-2021 20:47:16 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:16 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[24-Jan-2021 20:47:16 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:16 Asia/Tokyo] デバッグ：現在ページ：1
+[24-Jan-2021 20:47:19 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:47:19 Asia/Tokyo] デバッグ：セッションID：io0vsg2salceska4994rc5gm3f
+[24-Jan-2021 20:47:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611488834
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:47:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488839
+[24-Jan-2021 20:47:19 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614080834
+[24-Jan-2021 20:47:19 Asia/Tokyo] デバッグ：TOPページを表示します
+[24-Jan-2021 20:47:19 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:47:19 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:19 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 27
+[24-Jan-2021 20:47:19 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:19 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[24-Jan-2021 20:47:19 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:19 Asia/Tokyo] デバッグ：現在ページ：4
+[24-Jan-2021 20:47:20 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:47:20 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:47:20 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:47:20 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:47:20 Asia/Tokyo] デバッグ：セッションID：qjcjeff2hrn0s9vgbcm9bolb1c
+[24-Jan-2021 20:47:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611488840
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:47:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488840
+[24-Jan-2021 20:47:20 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614080840
+[24-Jan-2021 20:47:20 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:47:20 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 20:47:20 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:20 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 20:47:22 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:47:22 Asia/Tokyo] デバッグ：セッションID：ha3fg0rjcfcjk4gfu24klpl6c7
+[24-Jan-2021 20:47:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611488840
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:47:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488842
+[24-Jan-2021 20:47:22 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614080840
+[24-Jan-2021 20:47:22 Asia/Tokyo] デバッグ：TOPページを表示します
+[24-Jan-2021 20:47:22 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:47:22 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:22 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 27
+[24-Jan-2021 20:47:22 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:22 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[24-Jan-2021 20:47:22 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:22 Asia/Tokyo] デバッグ：現在ページ：4
+[24-Jan-2021 20:47:46 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:47:46 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:47:46 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:47:46 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:47:46 Asia/Tokyo] デバッグ：セッションID：b8urjoiqfsnfme73dmeg3khm2l
+[24-Jan-2021 20:47:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611488866
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:47:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488866
+[24-Jan-2021 20:47:46 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614080866
+[24-Jan-2021 20:47:46 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:47:46 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 20:47:46 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:47:46 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 20:48:58 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:48:58 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:48:58 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:48:58 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:48:58 Asia/Tokyo] デバッグ：セッションID：0bsvfjakh3b2drrs3qlo8h4cmp
+[24-Jan-2021 20:48:58 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611488938
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:48:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488938
+[24-Jan-2021 20:48:58 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614080938
+[24-Jan-2021 20:48:58 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:48:58 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 20:48:58 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:48:58 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 20:49:23 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:49:23 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:49:23 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:49:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:49:23 Asia/Tokyo] デバッグ：セッションID：1npdp5oopli9uk1pa67hfe9so9
+[24-Jan-2021 20:49:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611488963
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:49:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488963
+[24-Jan-2021 20:49:23 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614080963
+[24-Jan-2021 20:49:23 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:49:23 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 20:49:23 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:49:23 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 20:49:43 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:49:43 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:49:43 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:49:43 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:49:43 Asia/Tokyo] デバッグ：セッションID：b5ebbn4kkmauecarkltfolplqm
+[24-Jan-2021 20:49:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611488983
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:49:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611488983
+[24-Jan-2021 20:49:43 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614080983
+[24-Jan-2021 20:49:43 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:49:43 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 20:49:43 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:49:43 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 20:51:02 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:51:02 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:51:02 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:51:02 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:51:02 Asia/Tokyo] デバッグ：セッションID：iia7vnpb9j31jmj03mu8vv8qp3
+[24-Jan-2021 20:51:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489062
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:51:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611489062
+[24-Jan-2021 20:51:02 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081062
+[24-Jan-2021 20:51:02 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:51:02 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 20:51:02 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:51:02 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 20:51:38 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:51:38 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:51:38 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:51:38 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:51:38 Asia/Tokyo] デバッグ：セッションID：f2950m7ln44ig9vbhkmli4b57t
+[24-Jan-2021 20:51:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489098
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:51:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611489098
+[24-Jan-2021 20:51:38 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081098
+[24-Jan-2021 20:51:38 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:51:38 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 20:51:38 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:51:38 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 20:52:25 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:52:25 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:52:25 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:52:25 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:52:25 Asia/Tokyo] デバッグ：セッションID：il9gk90srp3flmg06r74duq9uv
+[24-Jan-2021 20:52:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489145
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:52:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611489145
+[24-Jan-2021 20:52:25 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081145
+[24-Jan-2021 20:52:25 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:52:25 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 20:52:25 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:52:25 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 20:54:05 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:54:05 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:54:05 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:54:05 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:54:05 Asia/Tokyo] デバッグ：セッションID：ecrn4l1t7kpdr46qh889sbbbtb
+[24-Jan-2021 20:54:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489245
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:54:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611489245
+[24-Jan-2021 20:54:05 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081245
+[24-Jan-2021 20:54:05 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:54:05 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 20:54:05 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:54:05 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 20:54:33 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:54:33 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:54:33 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:54:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:54:33 Asia/Tokyo] デバッグ：セッションID：efa9t86501hd0r0cq2fp92cr6f
+[24-Jan-2021 20:54:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489273
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:54:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611489273
+[24-Jan-2021 20:54:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081273
+[24-Jan-2021 20:54:33 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:54:33 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 20:54:33 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:54:33 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 20:56:51 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:56:51 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:56:51 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:56:51 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:56:51 Asia/Tokyo] デバッグ：セッションID：gkpibfkpnekakq44pe4feeea49
+[24-Jan-2021 20:56:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489411
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:56:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611489411
+[24-Jan-2021 20:56:51 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081411
+[24-Jan-2021 20:56:51 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:56:51 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 20:56:51 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:56:51 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 20:59:24 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:59:24 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:59:24 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:59:24 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:59:24 Asia/Tokyo] デバッグ：セッションID：goivhmaonv656qifg5uhoi3ik6
+[24-Jan-2021 20:59:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489564
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:59:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611489564
+[24-Jan-2021 20:59:24 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081564
+[24-Jan-2021 20:59:24 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:59:24 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 20:59:24 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:59:24 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 20:59:53 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:59:53 Asia/Tokyo] デバッグ：セッションID：t8rm67butcqhob5him25981p21
+[24-Jan-2021 20:59:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489564
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:59:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611489593
+[24-Jan-2021 20:59:53 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081564
+[24-Jan-2021 20:59:53 Asia/Tokyo] デバッグ：TOPページを表示します
+[24-Jan-2021 20:59:53 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:59:53 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:59:53 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 27
+[24-Jan-2021 20:59:53 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:59:53 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[24-Jan-2021 20:59:53 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:59:53 Asia/Tokyo] デバッグ：現在ページ：4
+[24-Jan-2021 20:59:56 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 20:59:56 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 20:59:56 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 20:59:56 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:59:56 Asia/Tokyo] デバッグ：セッションID：n7jr5td3itt5lm0d58at542755
+[24-Jan-2021 20:59:56 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489596
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:59:56 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611489596
+[24-Jan-2021 20:59:56 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081596
+[24-Jan-2021 20:59:56 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:59:56 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 20:59:56 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:59:56 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 20:59:59 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 20:59:59 Asia/Tokyo] デバッグ：セッションID：2o2td7iekmokj1fkbutsu36kgq
+[24-Jan-2021 20:59:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489596
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 20:59:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611489599
+[24-Jan-2021 20:59:59 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081596
+[24-Jan-2021 20:59:59 Asia/Tokyo] デバッグ：TOPページを表示します
+[24-Jan-2021 20:59:59 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 20:59:59 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:59:59 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 27
+[24-Jan-2021 20:59:59 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:59:59 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[24-Jan-2021 20:59:59 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 20:59:59 Asia/Tokyo] デバッグ：現在ページ：4
+[24-Jan-2021 21:00:01 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 21:00:01 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 21:00:01 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 21:00:01 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 21:00:01 Asia/Tokyo] デバッグ：セッションID：uj4bdsdj6auu1urrrik9d7k5od
+[24-Jan-2021 21:00:01 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489601
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 21:00:01 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611489601
+[24-Jan-2021 21:00:01 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081601
+[24-Jan-2021 21:00:01 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 21:00:01 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 21:00:01 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 21:00:01 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 21:02:20 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 21:02:20 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 21:02:20 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 21:02:20 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 21:02:20 Asia/Tokyo] デバッグ：セッションID：h01jomasp9rq6p0c2a77fp724a
+[24-Jan-2021 21:02:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489740
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 21:02:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611489740
+[24-Jan-2021 21:02:20 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081740
+[24-Jan-2021 21:02:20 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 21:02:20 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 21:02:20 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 21:02:20 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 21:03:05 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 21:03:05 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 21:03:05 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 21:03:05 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 21:03:05 Asia/Tokyo] デバッグ：セッションID：0j60ceabogkfq4sv02q8681dnr
+[24-Jan-2021 21:03:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489785
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 21:03:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611489785
+[24-Jan-2021 21:03:05 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081785
+[24-Jan-2021 21:03:05 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 21:03:05 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 21:03:05 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 21:03:05 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+

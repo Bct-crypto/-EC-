@@ -32,7 +32,10 @@
     </div>
 
 
-    <div class="col-4">
-        <a class="btn btn-primary text-dark" href="index.php<?php echo appendGetParam(array('p_id')); ?>">&lt; 商品一覧に戻る</a>
-    </div>
+    <form action="" method="POST">
+        <div class="d-flex justify-content-between">
+            <a class="btn btn-primary text-dark" href="index.php<?php echo appendGetParam(array('p_id')); ?>">&lt; 商品一覧に戻る</a>
+            <input type="submit" value="&#xf157; 購入する" name="submit" class="fas btn btn-warning text-dark">
+        </div>
+    </form>
 </div>
