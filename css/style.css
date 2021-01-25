@@ -1,9 +1,6 @@
 .header{
   display: flex;
 }
-.text-danger{
-  position: absolute;
-}
 
 .msg-slide {
   position: absolute;
@@ -16,4 +13,12 @@
     border: 2px solid;
     border-radius: 10px;
     transform: translate(-50%, -50%);
+}
+
+#msg-submit{
+  left: 50%;
+    position: fixed;
+    margin-bottom: 100px;
+    bottom: 0px;
+    transform: translateX(-50%);
 }

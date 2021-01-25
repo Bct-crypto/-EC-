@@ -29,6 +29,7 @@ define('SUC03', 'メールを送信しました');
 define('SUC04', '登録しました!');
 define('SUC05', '購入しました！相手と連絡を取りましょう！');
 define('SUC06', 'ログインに成功しました！');
+define('SUC07', 'メッセージを投稿しました');
 
 // エラーメッセージ格納用の配列
 $errMsg = [];
@@ -246,6 +247,34 @@ function getProduct($u_id, $p_id)
     } catch (Exception $e) {
         error_log('エラー発生：' . $e->getMessage());
         $errMsg['common'] = MSG07;
+    }
+}
+
+function getMsgsAndBoard($id)
+{
+    debug('MSG情報を取得します');
+    debug('掲示板ID：' . $id);
+
+    try {
+        // DB接続
+        $dbh = dbConnect();
+        // SQL作成
+        $sql = 'SELECT m.id AS m_id, send_date, to_user, from_user, msg, board_id, sale_user, buy_user, product_id, b.create_date FROM message AS m RIGHT JOIN board AS b ON b.id = m.board_id WHERE b.id = :id ORDER BY send_date ASC';
+        // 値の入れ込み
+        $data = [
+            ':id' => $id
+        ];
+        // クエリの実行
+        $stmt = queryPost($dbh, $sql, $data);
+
+        if ($stmt) {
+            // クエリ結果の返却
+            return $stmt->fetchAll();
+        } else {
+            return false;
+        }
+    } catch (Exception $e) {
+        error_log('エラー発生：' . $e->getMessage());
     }
 }
 

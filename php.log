@@ -35047,3 +35047,2533 @@ Stack trace:
     [category] => HTML5
 )
 
+[24-Jan-2021 22:45:42 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 22:45:42 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 22:45:42 Asia/Tokyo] デバッグ：セッションID：l0jaafp2u24qpqfpp03ti1h1ru
+[24-Jan-2021 22:45:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611489785
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 22:45:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611495942
+[24-Jan-2021 22:45:42 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614081785
+[24-Jan-2021 22:45:42 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 22:45:42 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 22:45:42 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 22:45:42 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 22:45:42 Asia/Tokyo] デバッグ：POST送信があります（購入ボタンを押下）
+[24-Jan-2021 22:45:42 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 22:45:42 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 22:45:42 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_id' in 'field list'
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：セッションID：5mhvf2vcvmp1e2620qms2qvm58
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611495942
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611496025
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614087942
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：商品情報を取得します
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：商品ID：29
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：POST送信があります（購入ボタンを押下）
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：クエリ成功
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：連絡掲示板へ遷移します
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：セッションID：koc219lr5opuimdh12omtch11p
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611496025
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 購入しました！相手と連絡を取りましょう！
+)
+
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611496025
+[24-Jan-2021 22:47:05 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614088025
+[24-Jan-2021 22:47:05 Asia/Tokyo] PHP Warning:  Illegal string offset 'name' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 22:47:05 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 22:47:05 Asia/Tokyo] PHP Warning:  Illegal string offset 'category' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 22:47:05 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 22:47:05 Asia/Tokyo] PHP Warning:  Illegal string offset 'comment' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 22:47:05 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 22:47:05 Asia/Tokyo] PHP Warning:  Illegal string offset 'price' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 22:47:05 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 22:47:05 Asia/Tokyo] PHP Warning:  Illegal string offset 'update_date' in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 22:47:05 Asia/Tokyo] PHP Notice:  Uninitialized string offset: 0 in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 23:30:21 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[24-Jan-2021 23:30:21 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 23:30:21 Asia/Tokyo] デバッグ：セッションID：p79jqi0jns813s0pi09dfag38b
+[24-Jan-2021 23:30:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611496025
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 23:30:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611498621
+[24-Jan-2021 23:30:21 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614088025
+[24-Jan-2021 23:30:21 Asia/Tokyo] デバッグ：MSG情報を取得します
+[24-Jan-2021 23:30:21 Asia/Tokyo] デバッグ：掲示板ID：1
+[24-Jan-2021 23:30:21 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm_id' in 'field list'
+[24-Jan-2021 23:30:21 Asia/Tokyo] デバッグ：取得したデータ：
+[24-Jan-2021 23:30:21 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 23:30:21 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 23:30:21 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 23:30:21 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 23:30:21 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[24-Jan-2021 23:31:08 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[24-Jan-2021 23:31:08 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[24-Jan-2021 23:31:08 Asia/Tokyo] デバッグ：セッションID：p62j2rjit0j7r90iaqrj6dobta
+[24-Jan-2021 23:31:08 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611496025
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[24-Jan-2021 23:31:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611498668
+[24-Jan-2021 23:31:08 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614088025
+[24-Jan-2021 23:31:08 Asia/Tokyo] デバッグ：MSG情報を取得します
+[24-Jan-2021 23:31:08 Asia/Tokyo] デバッグ：掲示板ID：1
+[24-Jan-2021 23:31:08 Asia/Tokyo] エラー発生：SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'board_id' in field list is ambiguous
+[24-Jan-2021 23:31:08 Asia/Tokyo] デバッグ：取得したデータ：
+[24-Jan-2021 23:31:08 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[24-Jan-2021 23:31:08 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[24-Jan-2021 23:31:08 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[24-Jan-2021 23:31:08 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[24-Jan-2021 23:31:08 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 00:43:32 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 00:43:32 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 00:43:32 Asia/Tokyo] デバッグ：セッションID：pj94s7s20lqqmqf0lja3p7bufv
+[25-Jan-2021 00:43:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611496025
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 00:43:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611503012
+[25-Jan-2021 00:43:32 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614088025
+[25-Jan-2021 00:43:32 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 00:43:32 Asia/Tokyo] デバッグ：掲示板ID：1
+[25-Jan-2021 00:43:32 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 00:43:32 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+)
+
+[25-Jan-2021 00:43:32 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 00:43:32 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 00:43:32 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 00:43:32 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 00:43:32 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 00:43:40 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[25-Jan-2021 00:43:40 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 00:43:40 Asia/Tokyo] デバッグ：セッションID：f4ui6g43kt2vv79hf8ma2klff3
+[25-Jan-2021 00:43:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611496025
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 00:43:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611503020
+[25-Jan-2021 00:43:40 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614088025
+[25-Jan-2021 00:43:40 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 00:43:40 Asia/Tokyo] デバッグ：商品ID：29
+[25-Jan-2021 00:43:40 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 00:43:40 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：セッションID：ui6m2dck4288h2hj21tlodkli7
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611496025
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611503022
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614088025
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：商品ID：29
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：POST送信があります（購入ボタンを押下）
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：連絡掲示板へ遷移します
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：セッションID：s9d3aa6520eqvfara2nhs41kq2
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611503022
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 購入しました！相手と連絡を取りましょう！
+)
+
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611503022
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614095022
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：掲示板ID：2
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 00:43:42 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+)
+
+[25-Jan-2021 00:43:42 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 00:43:42 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 00:43:42 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 00:43:42 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 00:43:42 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 00:43:56 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 00:43:56 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 00:43:56 Asia/Tokyo] デバッグ：セッションID：g6aksfm3577uv52pq1s5crp9ri
+[25-Jan-2021 00:43:56 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611503022
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 00:43:56 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611503036
+[25-Jan-2021 00:43:56 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614095022
+[25-Jan-2021 00:43:56 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 00:43:56 Asia/Tokyo] デバッグ：掲示板ID：2
+[25-Jan-2021 00:43:56 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 00:43:56 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 
+            [send_date] => 
+            [to_user] => 
+            [from_user] => 
+            [msg] => 
+            [board_id] => 
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 29
+            [create_date] => 2021-01-25 00:43:42
+        )
+
+)
+
+[25-Jan-2021 00:43:56 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 00:43:56 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 00:43:56 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 00:43:56 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 00:43:56 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 00:44:09 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 00:44:09 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 00:44:09 Asia/Tokyo] デバッグ：セッションID：e8flnt59465qqr5bditahuktcf
+[25-Jan-2021 00:44:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611503022
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 00:44:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611503049
+[25-Jan-2021 00:44:09 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614095022
+[25-Jan-2021 00:44:09 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 00:44:09 Asia/Tokyo] デバッグ：掲示板ID：2
+[25-Jan-2021 00:44:09 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 00:44:09 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 
+            [send_date] => 
+            [to_user] => 
+            [from_user] => 
+            [msg] => 
+            [board_id] => 
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 29
+            [create_date] => 2021-01-25 00:43:42
+        )
+
+)
+
+[25-Jan-2021 00:44:09 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 00:44:09 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 00:44:09 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 00:44:09 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 00:44:09 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 08:06:29 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[25-Jan-2021 08:06:29 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 08:06:29 Asia/Tokyo] デバッグ：セッションID：12ue2jt9u38aod337o3bfs9105
+[25-Jan-2021 08:06:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611503022
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 08:06:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611529589
+[25-Jan-2021 08:06:29 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614095022
+[25-Jan-2021 08:06:29 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 08:06:29 Asia/Tokyo] デバッグ：商品ID：29
+[25-Jan-2021 08:06:29 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:29 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 29
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 2400
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[25-Jan-2021 08:06:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 08:06:33 Asia/Tokyo] デバッグ：セッションID：k8mdlambjteg6l45gpd30i3kqm
+[25-Jan-2021 08:06:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611503022
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 08:06:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611529593
+[25-Jan-2021 08:06:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614095022
+[25-Jan-2021 08:06:33 Asia/Tokyo] デバッグ：TOPページを表示します
+[25-Jan-2021 08:06:33 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 08:06:33 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:33 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[25-Jan-2021 08:06:33 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:33 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[25-Jan-2021 08:06:33 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:33 Asia/Tokyo] デバッグ：現在ページ：1
+[25-Jan-2021 08:06:36 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[25-Jan-2021 08:06:36 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 08:06:36 Asia/Tokyo] デバッグ：セッションID：1f29hd0f80el8tllfcqtkj0i26
+[25-Jan-2021 08:06:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611503022
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 08:06:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611529596
+[25-Jan-2021 08:06:36 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614095022
+[25-Jan-2021 08:06:36 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 08:06:36 Asia/Tokyo] デバッグ：商品ID：3
+[25-Jan-2021 08:06:36 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:36 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 3
+    [name] => HTML技術本①
+    [category_id] => 1
+    [comment] => 初学者におすすめの１冊です
+    [price] => 3000
+    [pic] => uploads/871b5e4b6b321b81a9dd9b407022a0d2ec2137b8.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:39:28
+    [update_date] => 2021-01-16 07:39:28
+    [category] => HTML5
+)
+
+[25-Jan-2021 08:06:38 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 08:06:38 Asia/Tokyo] デバッグ：セッションID：ed4b9r1h8ipjap9hlg7kmf0uo1
+[25-Jan-2021 08:06:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611503022
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 08:06:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611529598
+[25-Jan-2021 08:06:38 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614095022
+[25-Jan-2021 08:06:38 Asia/Tokyo] デバッグ：TOPページを表示します
+[25-Jan-2021 08:06:38 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 08:06:38 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:38 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[25-Jan-2021 08:06:38 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:38 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[25-Jan-2021 08:06:38 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:38 Asia/Tokyo] デバッグ：現在ページ：1
+[25-Jan-2021 08:06:41 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[25-Jan-2021 08:06:41 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[25-Jan-2021 08:06:41 Asia/Tokyo] デバッグ：MyPageを表示します
+[25-Jan-2021 08:06:41 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 08:06:41 Asia/Tokyo] デバッグ：セッションID：4jasvnien43v5fesq3ee62479h
+[25-Jan-2021 08:06:41 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529601
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 08:06:41 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611529601
+[25-Jan-2021 08:06:41 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121601
+[25-Jan-2021 08:06:41 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[25-Jan-2021 08:06:41 Asia/Tokyo] デバッグ：ユーザID：4
+[25-Jan-2021 08:06:41 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:41 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:45 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 08:06:45 Asia/Tokyo] デバッグ：セッションID：cbn7360gtacvt6jlv7k0s6babf
+[25-Jan-2021 08:06:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529601
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 08:06:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611529605
+[25-Jan-2021 08:06:45 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121601
+[25-Jan-2021 08:06:45 Asia/Tokyo] デバッグ：TOPページを表示します
+[25-Jan-2021 08:06:45 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 08:06:45 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:45 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[25-Jan-2021 08:06:45 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:45 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[25-Jan-2021 08:06:45 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:45 Asia/Tokyo] デバッグ：現在ページ：1
+[25-Jan-2021 08:06:49 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[25-Jan-2021 08:06:49 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 08:06:49 Asia/Tokyo] デバッグ：セッションID：pvgqvp8ah2lpt2ge9e7979n7ga
+[25-Jan-2021 08:06:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529601
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 08:06:49 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611529609
+[25-Jan-2021 08:06:49 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121601
+[25-Jan-2021 08:06:49 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 08:06:49 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 08:06:49 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:49 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：セッションID：tf9hujm1bfaq2355jt0mlc0776
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529601
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611529610
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121601
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：POST送信があります（購入ボタンを押下）
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：連絡掲示板へ遷移します
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 08:06:50 Asia/Tokyo] デバッグ：セッションID：o5314ss5sqi9ovnluieuo0i57n
+[25-Jan-2021 08:06:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 購入しました！相手と連絡を取りましょう！
+)
+
+[25-Jan-2021 08:06:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611529611
+[25-Jan-2021 08:06:51 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 08:06:51 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 08:06:51 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 08:06:51 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:06:51 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 
+            [send_date] => 
+            [to_user] => 
+            [from_user] => 
+            [msg] => 
+            [board_id] => 
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 08:06:51 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 08:06:51 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 08:06:51 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 08:06:51 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 08:06:51 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 08:12:25 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 08:12:25 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 08:12:25 Asia/Tokyo] デバッグ：セッションID：7be5251gkk4ru1tkd8hmv3720d
+[25-Jan-2021 08:12:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 08:12:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611529945
+[25-Jan-2021 08:12:25 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 08:12:25 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 08:12:25 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 08:12:25 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:12:25 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [delete_flg] => 0
+            [create_date] => 2021-01-25 08:06:50
+            [update_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 08:12:25 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 08:12:25 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 08:12:25 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 08:12:25 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 08:12:25 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 08:37:58 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 08:37:58 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 08:37:58 Asia/Tokyo] デバッグ：セッションID：cicgjmpmnruiuf2kpeeee8nt5e
+[25-Jan-2021 08:37:58 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 08:37:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611531478
+[25-Jan-2021 08:37:58 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 08:37:58 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 08:37:58 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 08:37:58 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 08:37:58 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 08:37:58 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 08:37:58 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 08:37:58 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 08:37:58 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 08:37:58 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：セッションID：clraegcuc5ap9bu92nq704mc8i
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611537076
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:11:16 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:11:16 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 10:11:16 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 10:11:16 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 10:11:16 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 10:11:16 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：セッションID：0907cg8jmuq82qsbr9d4uuv9ub
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611538242
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:30:42 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:30:42 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 10:30:42 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 10:30:42 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 10:30:42 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 10:30:42 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：セッションID：oac1kpdtsvv0ccsrgggm2im1m3
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611538264
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:31:04 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:31:04 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 10:31:04 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 10:31:04 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 10:31:04 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 10:31:04 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：セッションID：0n49d3p200n9834p6sk1sq2g8j
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611538276
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:31:16 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:31:16 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 10:31:16 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 10:31:16 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 10:31:16 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 10:31:16 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：セッションID：ta1shidrru44iq6g4vj7fj6v2r
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611538364
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:32:44 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:32:44 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 10:32:44 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 10:32:44 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 10:32:44 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 10:32:44 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：セッションID：i41s768qp4lahsj01p5alinctv
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611538401
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:33:21 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:33:21 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 10:33:21 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 10:33:21 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 10:33:21 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 10:33:21 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：セッションID：o7dmifm0j9msphfesi24t09ec9
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611538444
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:34:04 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:34:04 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 10:34:04 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 10:34:04 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 10:34:04 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 10:34:04 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：セッションID：qvdfr4sh08sg8ru3offhhhr9cg
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611539709
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:55:09 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 10:55:09 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 10:55:09 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 10:55:09 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 10:55:09 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 10:55:09 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：セッションID：cd4rldu5lc4q8pnpd15840tus6
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540083
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:01:23 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:01:23 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:01:23 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:01:23 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:01:23 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:01:23 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：セッションID：8jg192dusglhdcnjf4nq51iqu9
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540147
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:02:27 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:02:27 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:02:27 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:02:27 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:02:27 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:02:27 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：セッションID：v38kfmu5h2thckor55oc8p64mj
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540199
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:03:19 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:03:19 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:03:19 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:03:19 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:03:19 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:03:19 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：セッションID：tkdv9hktm1jhc417o0v28ce1op
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540236
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:03:56 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:03:56 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:03:56 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:03:56 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:03:56 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:03:56 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：セッションID：441vi6asvb0gfgqnqss8tejt0v
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540265
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:04:25 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:04:25 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:04:25 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:04:25 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:04:25 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:04:25 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：セッションID：9e920og1bl4l1urs9s1s06s5k8
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540290
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:04:50 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:04:50 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:04:50 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:04:50 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:04:50 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:04:50 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：セッションID：5nefof11bm81uo5989p2mtkqtq
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540320
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:05:20 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:05:20 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:05:20 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:05:20 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:05:20 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:05:20 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：セッションID：3oif8f2dhuqdlpa8j0nkvc5pdc
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540431
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:07:11 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:07:11 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:07:11 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:07:11 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:07:11 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:07:11 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：セッションID：qfoh5kudnnm9uu445djretgma3
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540455
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:07:35 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:07:35 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:07:35 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:07:35 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:07:35 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:07:35 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：セッションID：dmes9235bi9fh0n7lnpbculb06
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540475
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:07:55 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:07:55 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:07:55 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:07:55 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:07:55 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:07:55 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：セッションID：ili6pqfd8vm3ni3n1cen72qm98
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540482
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:08:02 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:08:02 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:08:02 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:08:02 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:08:02 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:08:02 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：セッションID：9rsuq4rjmj4p2mlm8b6k995d35
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540526
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:08:46 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:08:46 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:08:46 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:08:46 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:08:46 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:08:46 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：セッションID：s9agqe8mt4hc59d1l6u1d8eg7e
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540580
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:09:40 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:09:40 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:09:40 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:09:40 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:09:40 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：セッションID：7lq1k2m5urd2h8meb8fj7ij3oj
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611540588
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:09:48 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:09:48 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:09:48 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:09:48 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:09:48 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:09:48 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：セッションID：jmmlilbmaojv2tbteh49kqtjjc
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611543260
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:54:20 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:54:20 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:54:20 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:54:20 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:54:20 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:54:20 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：セッションID：ofsifjjq5cn2miofb9g4juq8mc
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611543304
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:55:04 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 11:55:04 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 11:55:04 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 11:55:04 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 11:55:04 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 11:55:04 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：セッションID：4okbk7sppvnhke8j41th5fmpts
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611543700
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:01:40 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:01:40 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 12:01:40 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 12:01:40 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 12:01:40 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 12:01:40 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：セッションID：7r947rk96tupoqdte4guvjdqpl
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611529610
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611543745
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1614121610
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：掲示板ID：3
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 2
+            [send_date] => 0000-00-00 00:00:00
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 取得完了？
+            [board_id] => 3
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 7
+            [create_date] => 2021-01-25 08:06:50
+        )
+
+)
+
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：商品ID：7
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 7
+    [name] => HTML技術本⑤
+    [category_id] => 1
+    [comment] => sassなどのコンパイルを学びたいときはこれ！
+    [price] => 4300
+    [pic] => uploads/d141715ef8625fae22575f5b6afd07c398cb7f3c.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:44:11
+    [update_date] => 2021-01-16 07:44:11
+    [category] => HTML5
+)
+
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:02:25 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:02:25 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 12:02:25 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 12:02:25 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 12:02:25 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 12:02:25 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：セッションID：l6vi16pjlr2lae6a8l6j9rfaeu
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611543749
+[25-Jan-2021 12:02:29 Asia/Tokyo] 未ログインユーザーです
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：$_SESSIONの中身：Array
+(
+)
+
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：セッションID：7ktm8mus23im8n1cq3l2defrje
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611543749
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：TOPページを表示します
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:02:29 Asia/Tokyo] デバッグ：現在ページ：1
+[25-Jan-2021 12:02:32 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:02:32 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:02:32 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:02:32 Asia/Tokyo] デバッグ：セッションID：e8fltgn0bfsvdp84jp18cdt43p
+[25-Jan-2021 12:02:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:02:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611543752
+[25-Jan-2021 12:02:42 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:02:42 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:02:42 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:02:42 Asia/Tokyo] デバッグ：セッションID：g2uf5iiasu2gji72tstms1qno9
+[25-Jan-2021 12:02:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:02:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611543762
+[25-Jan-2021 12:02:42 Asia/Tokyo] デバッグ：POST送信があります
+[25-Jan-2021 12:02:42 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[25-Jan-2021 12:02:42 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:02:42 Asia/Tokyo] デバッグ：クエリ結果の中身：
+[25-Jan-2021 12:02:42 Asia/Tokyo] デバッグ：パスワードがアンマッチです
+[25-Jan-2021 12:06:54 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:06:54 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:06:54 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:06:54 Asia/Tokyo] デバッグ：セッションID：m5033hmvqt1t8rhv0arpgb646c
+[25-Jan-2021 12:06:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:06:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611544014
+[25-Jan-2021 12:06:54 Asia/Tokyo] デバッグ：POST送信があります
+[25-Jan-2021 12:06:54 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[25-Jan-2021 12:06:54 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:06:54 Asia/Tokyo] デバッグ：クエリ結果の中身：
+[25-Jan-2021 12:06:54 Asia/Tokyo] デバッグ：パスワードがアンマッチです
+[25-Jan-2021 12:07:19 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:07:19 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:07:19 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:07:19 Asia/Tokyo] デバッグ：セッションID：d73k2mh1v0mvhk3plsk54qt840
+[25-Jan-2021 12:07:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:07:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611544039
+[25-Jan-2021 12:07:19 Asia/Tokyo] デバッグ：POST送信があります
+[25-Jan-2021 12:07:19 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[25-Jan-2021 12:07:19 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:07:19 Asia/Tokyo] デバッグ：クエリ結果の中身：
+[25-Jan-2021 12:07:19 Asia/Tokyo] デバッグ：パスワードがアンマッチです
+[25-Jan-2021 12:07:21 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:07:21 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:07:21 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:07:21 Asia/Tokyo] デバッグ：セッションID：ho9900facb2jit6rddirqgug3c
+[25-Jan-2021 12:07:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:07:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611544041
+[25-Jan-2021 12:07:21 Asia/Tokyo] デバッグ：POST送信があります
+[25-Jan-2021 12:07:21 Asia/Tokyo] PHP Notice:  Undefined index: email in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 9
+[25-Jan-2021 12:07:27 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:07:27 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:07:27 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:07:27 Asia/Tokyo] デバッグ：セッションID：apoavala9sc7huie0ihdebjjmo
+[25-Jan-2021 12:07:27 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:07:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611544047
+[25-Jan-2021 12:07:27 Asia/Tokyo] デバッグ：POST送信があります
+[25-Jan-2021 12:07:27 Asia/Tokyo] PHP Notice:  Undefined index: email in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 9
+[25-Jan-2021 12:07:35 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:07:35 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:07:35 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:07:35 Asia/Tokyo] デバッグ：セッションID：3ddtjiaialss8r794iaq0248nq
+[25-Jan-2021 12:07:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:07:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611544055
+[25-Jan-2021 12:07:35 Asia/Tokyo] デバッグ：POST送信があります
+[25-Jan-2021 12:07:35 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[25-Jan-2021 12:07:35 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:07:35 Asia/Tokyo] デバッグ：クエリ結果の中身：
+[25-Jan-2021 12:07:35 Asia/Tokyo] デバッグ：パスワードがアンマッチです
+[25-Jan-2021 12:10:31 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:10:31 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:10:31 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:10:31 Asia/Tokyo] デバッグ：セッションID：e12cpi74ghffkf5u5gi9sq2pcg
+[25-Jan-2021 12:10:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:10:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611544231
+[25-Jan-2021 12:10:31 Asia/Tokyo] デバッグ：POST送信があります
+[25-Jan-2021 12:10:31 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[25-Jan-2021 12:10:31 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:10:31 Asia/Tokyo] デバッグ：クエリ結果の中身：
+[25-Jan-2021 12:10:31 Asia/Tokyo] デバッグ：パスワードがアンマッチです
+[25-Jan-2021 12:11:48 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:11:48 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:11:48 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:11:48 Asia/Tokyo] デバッグ：セッションID：alfo0pbtu2jie258goma4tn1pk
+[25-Jan-2021 12:11:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:11:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611544308
+[25-Jan-2021 12:11:48 Asia/Tokyo] デバッグ：POST送信があります
+[25-Jan-2021 12:11:48 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[25-Jan-2021 12:11:48 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:11:48 Asia/Tokyo] デバッグ：クエリ結果の中身：
+[25-Jan-2021 12:11:48 Asia/Tokyo] デバッグ：パスワードがアンマッチです
+[25-Jan-2021 12:11:57 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:11:57 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:11:57 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:11:57 Asia/Tokyo] デバッグ：セッションID：dhmq74i1upqgfe8pttsdpq6cqe
+[25-Jan-2021 12:11:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:11:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611544317
+[25-Jan-2021 12:12:05 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:12:05 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:12:05 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:12:05 Asia/Tokyo] デバッグ：セッションID：ao4s1iaq5soneq5mho2eg1chcn
+[25-Jan-2021 12:12:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:12:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611544325
+[25-Jan-2021 12:12:05 Asia/Tokyo] デバッグ：POST送信があります
+[25-Jan-2021 12:12:05 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[25-Jan-2021 12:12:05 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:12:05 Asia/Tokyo] デバッグ：クエリ結果の中身：
+[25-Jan-2021 12:12:05 Asia/Tokyo] デバッグ：パスワードがアンマッチです
+[25-Jan-2021 12:12:08 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:12:08 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:12:08 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:12:08 Asia/Tokyo] デバッグ：セッションID：t07e66siqe3qh8igbn5qntvb48
+[25-Jan-2021 12:12:08 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:12:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611544328
+[25-Jan-2021 12:12:08 Asia/Tokyo] デバッグ：POST送信があります
+[25-Jan-2021 12:12:08 Asia/Tokyo] PHP Notice:  Undefined index: common in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 9
+[25-Jan-2021 12:12:08 Asia/Tokyo] PHP Notice:  Undefined index: email in /Applications/MAMP/htdocs/PHP/ECsite/views/login.php on line 13
+[25-Jan-2021 12:22:54 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:22:54 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:22:54 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:22:54 Asia/Tokyo] デバッグ：セッションID：o6mukic2j9h4afrb1pgb7a4e3m
+[25-Jan-2021 12:22:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:22:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611544974
+[25-Jan-2021 12:22:54 Asia/Tokyo] デバッグ：POST送信があります
+[25-Jan-2021 12:22:54 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[25-Jan-2021 12:22:54 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:22:54 Asia/Tokyo] デバッグ：クエリ結果の中身：
+[25-Jan-2021 12:22:54 Asia/Tokyo] デバッグ：パスワードがアンマッチです
+[25-Jan-2021 12:23:20 Asia/Tokyo] デバッグ：未ログインユーザーです
+[25-Jan-2021 12:23:20 Asia/Tokyo] デバッグ：Login Page.
+[25-Jan-2021 12:23:20 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:23:20 Asia/Tokyo] デバッグ：セッションID：2ukj8a48gao73t9s1jkd3mk0gu
+[25-Jan-2021 12:23:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[25-Jan-2021 12:23:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611545000
+[25-Jan-2021 12:23:20 Asia/Tokyo] デバッグ：POST送信があります
+[25-Jan-2021 12:23:20 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[25-Jan-2021 12:23:20 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:23:20 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$Q9QkbwN9b/mCHAgpkZHFVOqM9FHb2lZiYL5rROxyIt5/obBJJFVWa
+    [id] => 4
+)
+
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：マイページへ遷移します
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：MyPageを表示します
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：セッションID：tavjlggbj2oj02je5ssjrkvd67
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611545001
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => ログインに成功しました！
+)
+
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611545001
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1611548601
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：ユーザID：4
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:23:21 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:23:28 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:23:28 Asia/Tokyo] デバッグ：セッションID：t1hkmqqmpk6qps6kitrmbdqc81
+[25-Jan-2021 12:23:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611545001
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 12:23:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611545008
+[25-Jan-2021 12:23:28 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1611548601
+[25-Jan-2021 12:23:28 Asia/Tokyo] デバッグ：TOPページを表示します
+[25-Jan-2021 12:23:28 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 12:23:28 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:23:28 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[25-Jan-2021 12:23:28 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:23:28 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[25-Jan-2021 12:23:28 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:23:28 Asia/Tokyo] デバッグ：現在ページ：1
+[25-Jan-2021 12:23:32 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[25-Jan-2021 12:23:32 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:23:32 Asia/Tokyo] デバッグ：セッションID：2h0skd3q3lnh8olmvkl7t9used
+[25-Jan-2021 12:23:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611545001
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 12:23:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611545012
+[25-Jan-2021 12:23:32 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1611548601
+[25-Jan-2021 12:23:32 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 12:23:32 Asia/Tokyo] デバッグ：商品ID：6
+[25-Jan-2021 12:23:32 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:23:32 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 6
+    [name] => HTML技術本④
+    [category_id] => 1
+    [comment] => レスポンシブ対応しましょう！これで解決。
+    [price] => 2600
+    [pic] => uploads/501b490056dc6127b6fc3cc1bbdd9cfc4dce0c24.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:43:13
+    [update_date] => 2021-01-16 07:43:13
+    [category] => HTML5
+)
+
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：商品詳細ページを表示します
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：セッションID：gmnaq3jeth2fdo9rmib4dq0gpp
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611545001
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611545013
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1611548601
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：商品ID：6
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 6
+    [name] => HTML技術本④
+    [category_id] => 1
+    [comment] => レスポンシブ対応しましょう！これで解決。
+    [price] => 2600
+    [pic] => uploads/501b490056dc6127b6fc3cc1bbdd9cfc4dce0c24.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:43:13
+    [update_date] => 2021-01-16 07:43:13
+    [category] => HTML5
+)
+
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：POST送信があります（購入ボタンを押下）
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：連絡掲示板へ遷移します
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：セッションID：4n5u6mdhcj09ftutq281l5m456
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1611545013
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 購入しました！相手と連絡を取りましょう！
+)
+
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1611545013
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1611548613
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：MSG情報を取得します
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：掲示板ID：4
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：取得したデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 
+            [send_date] => 
+            [to_user] => 
+            [from_user] => 
+            [msg] => 
+            [board_id] => 
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 6
+            [create_date] => 2021-01-25 12:23:33
+        )
+
+)
+
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：商品情報を取得します
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：商品ID：6
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [id] => 6
+    [name] => HTML技術本④
+    [category_id] => 1
+    [comment] => レスポンシブ対応しましょう！これで解決。
+    [price] => 2600
+    [pic] => uploads/501b490056dc6127b6fc3cc1bbdd9cfc4dce0c24.png
+    [user_id] => 2
+    [create_date] => 2021-01-16 07:43:13
+    [update_date] => 2021-01-16 07:43:13
+    [category] => HTML5
+)
+
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:23:33 Asia/Tokyo] デバッグ：クエリ成功
+[25-Jan-2021 12:23:33 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 15
+[25-Jan-2021 12:23:33 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 16
+[25-Jan-2021 12:23:33 Asia/Tokyo] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 17
+[25-Jan-2021 12:23:33 Asia/Tokyo] PHP Notice:  Undefined index: price in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 19
+[25-Jan-2021 12:23:33 Asia/Tokyo] PHP Notice:  Undefined index: update_date in /Applications/MAMP/htdocs/PHP/ECsite/views/msg.php on line 20
