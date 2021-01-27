@@ -1,7 +1,6 @@
 <div class="container">
     <main class="form-signIn">
         <form action="#" method="post">
-            <img src="" alt="">
 
             <h1 class="h2 text-dark mb-3 text-center">ログイン</h1>
             <div class="area-msg text-danger">

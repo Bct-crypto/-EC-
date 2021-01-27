@@ -566,3 +566,34 @@ function appendGetParam($arr_del_key = array())
         return $str;
     }
 }
+
+function isLike($u_id, $p_id)
+{
+    debug('お気に入り登録を調べます');
+    debug('ユーザーID：' . $u_id);
+    debug('商品ID：' . $p_id);
+
+    try {
+        // DB接続
+        $dbh = dbConnect();
+        // SQL作成
+        $sql = 'SELECT * FROM favorite WHERE product_id = :p_id AND user_id = :u_id';
+        // 値の入れ込み
+        $data = [
+            ':p_id' => $p_id,
+            ':u_id' => $u_id
+        ];
+        // クエリの実行
+        $stmt = queryPost($dbh, $sql, $data);
+
+        if ($stmt->rowCount()) {
+            debug('お気に入り登録済です');
+            return true;
+        } else {
+            debug('特に気に入っていません');
+            return false;
+        }
+    } catch (Exception $e) {
+        error_log('エラー発生：' . $e->getMessage());
+    }
+}

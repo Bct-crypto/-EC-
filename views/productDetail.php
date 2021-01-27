@@ -13,7 +13,7 @@
         <div class="row no-gutters">
             <div class="col-md-4">
                 <?php if (!empty($viewData['pic'])) : ?>
-                    <img class="card-img-top" src="<?php echo sanitize($viewData['pic']); ?>" alt="" style="min-height: 200px;object-fit :cover;">
+                    <img class="card-img-top" src="<?php echo sanitize($viewData['pic']); ?>" alt="" style="height: 100%;object-fit :cover;">
                 <?php else : ?>
                     <img class="card-img-top" src="img/sample-img.png" alt="" style="min-height: 220px; object-fit :cover;">
                 <?php endif; ?>
@@ -26,6 +26,11 @@
 
                     <p class="card-text">料　　金：<?php echo sanitize($viewData['price']); ?>円</p>
                     <p class="card-text"><small class="text-muted">最終更新日：<?php echo sanitize(date('Y年n月j日', strtotime($viewData['update_date']))); ?></small></p>
+                    <p class="text-right" id="js-click-like" data-productId="<?php echo sanitize($viewData['id']); ?>" style="cursor: pointer;">Good to me!&nbsp;
+                        <i class="far fa-heart fa-lg <?php if (isLike($_SESSION['user_id'], $viewData['id'])) {
+                                                            echo 'active';
+                                                        } ?>" aria-hidden="true"></i>
+                    </p>
                 </div>
             </div>
         </div>

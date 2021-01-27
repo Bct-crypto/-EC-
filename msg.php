@@ -29,13 +29,14 @@ if (empty($_SESSION['user_id'])) {
 $m_id = (!empty($_GET['m_id'])) ? $_GET['m_id'] : '';
 // DBから掲示板データとメッセージデータを取得する
 $viewData = getMsgsAndBoard($m_id);
-debug('取得したデータ：' . print_r($viewData, true));
 
 if (empty($viewData)) {
     error_log('不正な値が入っています');
     header('Location:mypage.php');
     exit();
 }
+
+debug('$viewData:' . print_r($viewData, true));
 
 // 商品情報の取得
 $productInfo = getProductOne($viewData[0]['product_id']);
@@ -67,6 +68,14 @@ if (empty($partnerUserInfo) || empty($myUserInfo)) {
 
 if (!empty($_POST)) {
     debug('POST送信があります');
+
+    //　ログイン認証
+    require __DIR__ . '/lib/auth.php';
+    // 変数への格納
+    $msg = $_POST['msg'];
+    // バリデーションチェック
+    validRequired($msg, 'msg');
+    validMaxLen($msg, 'msg', 500);
 
     try {
         // DB接続

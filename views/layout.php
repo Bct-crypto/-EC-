@@ -64,6 +64,31 @@
                     $jsShowMsg.slideToggle('slow');
                 }, 5000);
             }
+
+            // お気に入り
+            var $like,
+                likeProductId;
+            $like = $('#js-click-like') || null;
+            likeProductId = $like.data('productId') || null;
+
+            // 数値の0はfalseと判例されるため、productIdが０になる可能性もあることから、0がtrueの際はundefinedとnullを判定
+            if (likeProductId !== undefined && likeProductId !== null) {
+                $like.on('click', function() {
+                    var $this = $(this);
+                    $.ajax({
+                        type: 'POST',
+                        url: 'ajax.php',
+                        data: {
+                            productId: likeProductId
+                        }
+                    }).done(function(data) {
+                        console.log('Ajax Success.');
+                        $this.toggleClass('active');
+                    }).fail(function(msg) {
+                        console.log('Ajax Error.')
+                    });
+                });
+            }
         });
     </script>
 </body>
