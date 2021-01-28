@@ -597,3 +597,70 @@ function isLike($u_id, $p_id)
         error_log('エラー発生：' . $e->getMessage());
     }
 }
+
+function getMyFavorite($u_id)
+{
+    debug('お気に入り情報を取得します');
+
+    try {
+        // DB接続
+        $dbh = dbConnect();
+        // SQL作成
+        $sql = 'SELECT * FROM favorite AS f LEFT JOIN product AS p ON f.product_id = p.id WHERE f.user_id = :u_id';
+        // 値の入れ込み
+        $data = [
+            ':u_id' => $u_id
+        ];
+        // クエリの実行
+        $stmt = queryPost($dbh, $sql, $data);
+
+        if ($stmt) {
+            return $stmt->fetchAll();
+        } else {
+            return false;
+        }
+    } catch (Exception $e) {
+        error_log('エラー発生：' . $e->getMessage());
+    }
+}
+
+function getMyMsgsAndBoard($u_id)
+{
+    debug('自分の掲示板情報を取得します');
+
+    try {
+        // DB接続
+        $dbh = dbConnect();
+        // SQL作成
+        $sql = 'SELECT * FROM board AS b WHERE b.sale_user = :id OR b.buy_user = :id AND b.delete_flg = 0';
+        // 値の入れ込み
+        $data = [
+            ':id' => $u_id
+        ];
+        // クエリの実行
+        $stmt = queryPost($dbh, $sql, $data);
+        $rst = $stmt->fetchAll();
+
+        if (!empty($rst)) {
+            foreach ($rst as $key => $val) {
+                // SQL作成
+                $sql = 'SELECT * FROM message WHERE board_id = :id AND delete_flg = 0 ORDER BY send_date DESC';
+                // 値の入れ込み
+                $data = [
+                    ':id' => $val['id']
+                ];
+                // クエリの実行
+                $stmt = queryPost($dbh, $sql, $data);
+                $rst[$key]['msg'] = $stmt->fetchAll();
+            }
+        }
+
+        if ($stmt) {
+            return $rst;
+        } else {
+            return false;
+        }
+    } catch (Exception $e) {
+        error_log('エラー発生：' . $e->getMessage());
+    }
+}

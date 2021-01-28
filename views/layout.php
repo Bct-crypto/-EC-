@@ -25,8 +25,6 @@
             <h5 class="my-0 mr-md-auto font-weight-normal text-white">Tech Circle.</h5>
             <nav class="my-2 my-md-0 mr-md-3">
                 <a class="p-2 text-white" href="index.php">Home</a>
-                <a class="p-2 text-white" href="about.php">About</a>
-                <a class="p-2 text-white" href="contact.php">Support</a>
             </nav>
             <?php if (empty($_SESSION['user_id'])) :  ?>
                 <a class="btn btn-success mr-3" href="signup.php">SignUp</a>
@@ -65,30 +63,35 @@
                 }, 5000);
             }
 
-            // お気に入り
+            // お気に入り登録・削除
             var $like,
                 likeProductId;
-            $like = $('#js-click-like') || null;
-            likeProductId = $like.data('productId') || null;
+            $like = $('#js-click-like') || null; //nullというのはnull値という値で、「変数の中身は空ですよ」と明示するためにつかう値
 
-            // 数値の0はfalseと判例されるため、productIdが０になる可能性もあることから、0がtrueの際はundefinedとnullを判定
+            console.log($like);
+            likeProductId = $like.attr('data-product_id') || null;
+            // 数値の0はfalseと判定されてしまう。product_idが0の場合もありえるので、0もtrueとする場合にはundefinedとnullを判定する
+            console.log(likeProductId);
             if (likeProductId !== undefined && likeProductId !== null) {
                 $like.on('click', function() {
                     var $this = $(this);
                     $.ajax({
-                        type: 'POST',
-                        url: 'ajax.php',
+                        type: "POST",
+                        url: "ajax.php",
                         data: {
                             productId: likeProductId
                         }
                     }).done(function(data) {
-                        console.log('Ajax Success.');
+                        console.log('Ajax Success');
+                        // クラス属性をtoggleでつけ外しする
                         $this.toggleClass('active');
                     }).fail(function(msg) {
-                        console.log('Ajax Error.')
+                        console.log('Ajax Error');
                     });
                 });
             }
+
+
         });
     </script>
 </body>

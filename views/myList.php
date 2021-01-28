@@ -1,74 +1,13 @@
 <div class="container text-center" style="margin-bottom: 120px;">
     <main class="form">
         <form action="#" method="post">
-            <img src="" alt="">
-
-            <h1 class="h2 text-dark mb-3">MyPage</h1>
-
-            <!-- Profile -->
-            <div class="card mb-3">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <?php if (!empty($userInfo['pic'])) : ?>
-                            <img class="card-img-top" src="<?php echo sanitize($userInfo['pic']); ?>" alt="" style="height:100%; object-fit :cover;">
-                        <?php else : ?>
-                            <img class="card-img-top" src="img/sample-img.png" alt="" style="height: 100%; object-fit :cover;">
-                        <?php endif; ?>
-                    </div>
-                    <div class="col-md-8 text-left">
-                        <div class="card-body">
-                            <h5 class="card-title">プロフィール</h5>
-                            <p class="card-text">名前：<?php echo sanitize($userInfo['username']); ?></p>
-                            <p class="card-text">年齢：<?php echo sanitize($userInfo['age']); ?></p>
-                            <p class="card-text">Mail：<?php echo sanitize($userInfo['email']); ?></p>
-
-                            <p class="card-text"><small class="text-muted">登録商品数：<?php echo $productData['total']; ?>件</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 掲示板やり取り -->
-            <p class="h5 text-left text-dark mb-2">掲示板メッセージ</p>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">最新送信日時</th>
-                        <th scope="col">取引相手</th>
-                        <th scope="col">メッセージ内容</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <?php if (!empty($msgData)) : ?>
-                        <?php foreach ($msgData as $key => $val) : ?>
-                            <?php if (!empty($val['msg'])) {
-                                $msg = array_shift($val['msg']);
-                            }
-                            ?>
-                            <tr>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
-                        <?php endforeach; ?>
-                    <?php else : ?>
-                        <tr>
-                            <td>取引中のデータはありません</td>
-                        </tr>
-                    <?php endif; ?>
-                </tbody>
-            </table>
-
+            <h1 class="h2 text-dark my-3">お気に入り・登録商品一覧</h1>
             <!-- お気に入り -->
-            <p class="h5 text-left text-dark mb-2">お気に入り一覧</p>
+            <p class="h4 text-left mb-2">お気に入り一覧</p>
             <div class="row">
                 <?php if (!empty($favoriteData)) :  ?>
                     <!-- 取得した登録商品を展開する -->
                     <?php foreach ($favoriteData as $key => $val) : ?>
-                        <!-- ３種だけ登録商品を展開する　※ページを圧迫するため -->
-                        <?php if ($likeLoop >= 3) {
-                            break;
-                        } ?>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
                                 <?php if (!empty($val['pic'])) : ?>
@@ -95,20 +34,13 @@
                     <div class="h4 my-2">お気に入り登録なし</div>
                 <?php endif; ?>
             </div>
-            <a class="d-block mb-3 small text-right text-dark" href="myList.php">
-                お気に入り登録した全ての商品をみる &gt;&gt;
-            </a>
 
             <!-- 登録した商品 -->
-            <p class="h5 text-left text-dark mb-2">登録した商品</p>
+            <p class="h4 text-left mb-2">登録した商品</p>
             <div class="row">
                 <?php if (!empty($productData['data'])) :  ?>
                     <!-- 取得した登録商品を展開する -->
                     <?php foreach ($productData['data'] as $key => $val) : ?>
-                        <!-- ３種だけ登録商品を展開する　※ページを圧迫するため -->
-                        <?php if ($productLoop >= 3) {
-                            break;
-                        } ?>
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
                                 <?php if (!empty($val['pic'])) : ?>
@@ -135,21 +67,9 @@
                     <div class="h4 my-2">登録商品なし</div>
                 <?php endif; ?>
             </div>
-            <a class="d-block mb-3 small text-right text-dark" href="myList.php">
-                登録済の全ての商品をみる &gt;&gt;
-            </a>
-
-
         </form>
+
+        <a href="mypage.php" class="btn btn-info btn-inline-block text-left">戻る</a>
+
     </main>
-
-    <a href="listProduct.php" class=" btn btn-warning btn-block mb-2">商品を登録する<i class="fas fa-gift ml-2"></i></a>
-
-    <a href="profEdit.php" class="btn btn-info btn-block mb-2">プロフィールの編集<i class="far fa-address-card ml-2"></i></a>
-
-
-    <a href="passEdit.php" class="btn btn-success btn-block mb-2">パスワード変更<i class="fas fa-key ml-2"></i></a>
-
-    <a href="withdraw.php" class="btn btn-danger btn-block">退会ページ<i class="fas fa-dove ml-2"></i></a>
-
 </div>

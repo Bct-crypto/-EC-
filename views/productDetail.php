@@ -26,12 +26,12 @@
 
                     <p class="card-text">料　　金：<?php echo sanitize($viewData['price']); ?>円</p>
                     <p class="card-text"><small class="text-muted">最終更新日：<?php echo sanitize(date('Y年n月j日', strtotime($viewData['update_date']))); ?></small></p>
-                    <p class="text-right" id="js-click-like" data-productId="<?php echo sanitize($viewData['id']); ?>" style="cursor: pointer;">Good to me!&nbsp;
-                        <i class="far fa-heart fa-lg <?php if (isLike($_SESSION['user_id'], $viewData['id'])) {
-                                                            echo 'active';
-                                                        } ?>" aria-hidden="true"></i>
-                    </p>
+
+
                 </div>
+                <i id="js-click-like" class="fas fa-heart fa-lg likeIcon text-right d-block <?php if (isLike($_SESSION['user_id'], $viewData['id'])) {
+                                                                                                echo 'active';
+                                                                                            } ?>" aria-hidden="true" data-product_id="<?php echo sanitize($viewData['id']); ?>" style="cursor: pointer;"></i>
             </div>
         </div>
     </div>

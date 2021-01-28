@@ -29,3 +29,17 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+.likeIcon{
+  cursor: pointer;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+
+}
+
+.likeIcon.active{
+  color: deeppink;
+}
