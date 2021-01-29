@@ -72,9 +72,17 @@ if (!empty($_POST)) {
                     // 取得したユーザーIDを格納する
                     $_SESSION['user_id'] = $result['id'];
                     $_SESSION['msg_success'] = SUC06;
-                    debug('マイページへ遷移します');
-                    header('Location:mypage.php');
-                    exit();
+                    if (!empty($_SESSION['return'])) {
+                        debug('ログイン前の画面に戻ります');
+                        $url = $_SESSION['return'];
+                        debug('$urlの中身：' . print_r($url, true));
+                        header('Location:' . $url);
+                        exit();
+                    } else {
+                        debug('マイページへ遷移します');
+                        header('Location:mypage.php');
+                        exit();
+                    }
                 } else {
                     debug('パスワードがアンマッチです');
                     $errMsg['common'] = MSG09;

@@ -58,7 +58,7 @@
                                 <?php else : ?>
                                     <img class="card-img-top" src="img/sample-img.png" alt="" style="max-height: 160px; object-fit :cover;">
                                 <?php endif; ?>
-                                <div class="card-body">
+                                <div class="card-body text-center">
                                     <h5 class="card-title"><?php echo sanitize($val['name']); ?></h5>
                                     <p class="card-text"><?php echo sanitize(mb_substr($val['comment'], 0, 10)); ?>...</p>
                                     <p class="card-text">¥<?php echo sanitize($val['price']); ?>円</p>

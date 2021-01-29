@@ -30,6 +30,9 @@ if (!empty($_SESSION['login_date'])) {
 } else {
     debug('未ログインユーザーです');
     if (basename($_SERVER['PHP_SELF']) !== 'login.php') {
+        if (!isset($_SESSION['name'])) {
+            $_SESSION['return'] = $_SERVER['REQUEST_URI'];
+        }
         header('Location:login.php');
         exit();
     }
