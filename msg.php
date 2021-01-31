@@ -40,7 +40,7 @@ debug('$viewData:' . print_r($viewData, true));
 
 // 商品情報の取得
 $productInfo = getProductOne($viewData[0]['product_id']);
-debug('取得した商品データ：' . print_r($productInfo, true));
+// debug('取得した商品データ：' . print_r($productInfo, true));
 
 if (empty($productInfo)) {
     error_log('商品情報が取得できませんでした');
@@ -67,43 +67,49 @@ if (empty($partnerUserInfo) || empty($myUserInfo)) {
 }
 
 if (!empty($_POST)) {
-    debug('POST送信があります');
+    debug('POST送信---投稿メッセージ');
 
     //　ログイン認証
-    require __DIR__ . '/lib/auth.php';
+    isLogin();
     // 変数への格納
-    $msg = $_POST['msg'];
+    $msg = (!empty($_POST['msg'])) ? $_POST['msg'] : '';
+
+    debug('$msgの中身：' . print_r($msg, true));
+
     // バリデーションチェック
     validRequired($msg, 'msg');
-    validMaxLen($msg, 'msg', 500);
+    validMaxLen($msg, 'msg', 200);
 
-    try {
-        // DB接続
-        $dbh = dbConnect();
-        // SQL作成
-        $sql = 'INSERT INTO message (board_id, send_date, to_user, from_user, msg, create_date) VALUES (:b_id, :send_date, :to_user, :from_user, :msg, :date)';
-        // 値の入れ込み
-        $data = [
-            ':b_id' => $m_id,
-            ':send_date' => date('Y-m-d H:i:s'),
-            ':to_user' => $partnerUserId,
-            ':from_user' => $myUserId,
-            ':msg' => $msg,
-            ':date' => date('Y-m-d H:i:s')
-        ];
-        // クエリの実行
-        $stmt = queryPost($dbh, $sql, $data);
+    if (empty($errMsg)) {
+        debug('バリデーションOKです--メッセージ登録を開始します');
+        try {
+            // DB接続
+            $dbh = dbConnect();
+            // SQL作成
+            $sql = 'INSERT INTO message (board_id, send_date, to_user, from_user, msg, create_date) VALUES (:b_id, :send_date, :to_user, :from_user, :msg, :date)';
+            // 値の入れ込み
+            $data = [
+                ':b_id' => $m_id,
+                ':send_date' => date('Y-m-d H:i:s'),
+                ':to_user' => $partnerUserId,
+                ':from_user' => $myUserId,
+                ':msg' => $msg,
+                ':date' => date('Y-m-d H:i:s')
+            ];
+            // クエリの実行
+            $stmt = queryPost($dbh, $sql, $data);
 
-        if ($stmt) {
-            // POST内容をクリア
-            $_POST = [];
-            debug('連絡掲示板へ遷移します');
-            $_SESSION['msg_success'] = SUC07;
-            header('Location:' . $_SERVER['PHP_SELF'] . '?m_id=' . $m_id);
+            if ($stmt) {
+                // POST内容をクリア
+                $_POST = [];
+                debug('連絡掲示板へ遷移します');
+                $_SESSION['msg_success'] = SUC07;
+                header('Location:' . $_SERVER['PHP_SELF'] . '?m_id=' . $m_id);
+            }
+        } catch (Exception $e) {
+            error_log('エラー発生：' . $e->getMessage());
+            $errMsg['common'] = MSG07;
         }
-    } catch (Exception $e) {
-        error_log('エラー発生：' . $e->getMessage());
-        $errMsg['common'] = MSG07;
     }
 }
 

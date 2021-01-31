@@ -14,13 +14,19 @@
     border-radius: 10px;
     transform: translate(-50%, -50%);
 }
+#msg-overflow{
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow: scroll;
+  border: 3px solid #dee2e6;
+}
 
 #msg-submit{
   left: 50%;
-    position: fixed;
     margin-bottom: 100px;
     bottom: 0px;
-    transform: translateX(-50%);
 }
 
 #avatar{

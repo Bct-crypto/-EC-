@@ -91,6 +91,12 @@
                 });
             }
 
+            var jsMsgCount = $('#js-count-msg'),
+                jsCountView = $('#js-count-view');
+            jsMsgCount.on('keyup', function(e) {
+                jsCountView.html($(this).val().length);
+            });
+
 
         });
     </script>

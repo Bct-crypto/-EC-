@@ -11,7 +11,7 @@ define('MSG02', 'Emailの形式で入力してください');
 define('MSG03', 'パスワード（再入力）が合っていません');
 define('MSG04', '半角英数字のみご利用いただけます');
 define('MSG05', '6文字以上で入力してください');
-define('MSG06', '256文字以内で入力してください');
+define('MSG06', '指定文字数以内で入力してください');
 define('MSG07', 'エラーが発生しました。しばらく経ってからやり直してください。');
 define('MSG08', 'そのEmailは既に登録されています');
 define('MSG09', 'メールアドレスまたはパスワードが違います');
@@ -259,7 +259,7 @@ function getMsgsAndBoard($id)
         // DB接続
         $dbh = dbConnect();
         // SQL作成
-        $sql = 'SELECT m.id AS m_id, send_date, to_user, from_user, msg, board_id, sale_user, buy_user, product_id, b.create_date FROM message AS m RIGHT JOIN board AS b ON b.id = m.board_id WHERE b.id = :id ORDER BY send_date ASC';
+        $sql = 'SELECT m.id AS m_id, send_date, to_user, from_user, msg, board_id, sale_user, buy_user, product_id, b.create_date FROM message AS m RIGHT JOIN board AS b ON b.id = m.board_id WHERE b.id = :id ORDER BY send_date DESC';
         // 値の入れ込み
         $data = [
             ':id' => $id
@@ -662,5 +662,27 @@ function getMyMsgsAndBoard($u_id)
         }
     } catch (Exception $e) {
         error_log('エラー発生：' . $e->getMessage());
+    }
+}
+
+function isLogin()
+{
+    // ログインしている場合
+    if (!empty($_SESSION['login_date'])) {
+        debug('ログイン済ユーザーです');
+
+        // 現在日時が、最終ログイン時間と有効期限を超えていた場合
+        if ($_SESSION['login_date'] + $_SESSION['login_limit'] < time()) {
+            debug('ログイン有効期限オーバーです');
+
+            session_destroy();
+            return false;
+        } else {
+            debug('ログイン有効期限内です');
+            return true;
+        }
+    } else {
+        debug('未ログインユーザーです');
+        return false;
     }
 }
