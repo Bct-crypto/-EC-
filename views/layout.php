@@ -21,19 +21,32 @@
 
     <!-- Header -->
     <header>
-        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-dark border-bottom shadow-sm">
-            <h5 class="my-0 mr-md-auto font-weight-normal text-white">Tech Circle.</h5>
-            <nav class="my-2 my-md-0 mr-md-3">
-                <a class="p-2 text-white" href="index.php">Home</a>
-            </nav>
-            <?php if (empty($_SESSION['user_id'])) :  ?>
-                <a class="btn btn-success mr-3" href="signup.php">SignUp</a>
-                <a class="btn btn-primary" href="login.php">Login</a>
-            <?php else : ?>
-                <a class="btn btn-primary mr-3" href="mypage.php">MyPage</a>
-                <a class="btn btn-danger" href="logout.php">Logout</a>
-            <?php endif; ?>
-        </div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a href="index.php" class="navbar-brand">Tech Circle.</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navmenu1" aria-controls="navmenu1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navmenu1">
+                <ul class="navbar-nav">
+                    <?php if (empty($_SESSION['user_id'])) :  ?>
+                        <li class="nav-item active">
+                            <a class="nav-link mr-3" href="signup.php">SignUp</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="login.php">Login</a>
+                        </li>
+                    <?php else : ?>
+                        <li class="nav-item active">
+                            <a class="nav-link mr-3" href="mypage.php">MyPage</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="logout.php">Logout</a>
+                        </li>
+                    <?php endif; ?>
+                </ul>
+            </div>
+        </nav>
+
     </header>
 
     <p id="js-show-msg" style="display:none;" class="alert-success msg-slide">

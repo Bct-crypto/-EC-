@@ -20069,3 +20069,2584 @@
     [update_date] => 2021-01-03 23:06:47
 )
 
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：マイページへ遷移します
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：セッションID：20l8mj8r52uuhvsbm8vc1bdcos
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612102086
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612102086
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612105686
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:06 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:08:24 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:08:24 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:08:24 Asia/Tokyo] デバッグ：Profile編集ページ***********************
+[31-Jan-2021 23:08:24 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:08:24 Asia/Tokyo] デバッグ：セッションID：icfh5d05hug4g4v6o01i783tql
+[31-Jan-2021 23:08:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612102104
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:08:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612102104
+[31-Jan-2021 23:08:24 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612105704
+[31-Jan-2021 23:08:24 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:24 Asia/Tokyo] デバッグ：取得したユーザー情報： Array
+(
+    [id] => 4
+    [username] => ゴマ太郎
+    [age] => 23
+    [tel] => 08012345678
+    [zip] => 0
+    [addr] => 田んぼの真ん中
+    [email] => aaa@aaa
+    [pic] => uploads/adbdd62e7ef0ac799ae6e34b1499316db44c79be.jpeg
+    [password] => $2y$10$Q9QkbwN9b/mCHAgpkZHFVOqM9FHb2lZiYL5rROxyIt5/obBJJFVWa
+    [login_time] => 2021-01-22 00:02:30
+    [delete_flg] => 0
+    [create_date] => 2021-01-22 00:02:30
+    [update_date] => 2021-01-22 00:02:30
+)
+
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：セッションID：lce7v8oln4g3s32kumvsno8db1
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612102113
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612102113
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612105713
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:08:33 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：セッションID：9e8m6g08gp20i7vto53gnh7nkp
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612102180
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612102180
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612105780
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:09:40 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：セッションID：l68k9tgs919ojulbjkatjfa149
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612103212
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612103212
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612106812
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:26:52 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：セッションID：6lhm6s5rbthk615imc0pue1c7n
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612103303
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612103303
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612106903
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:28:23 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：セッションID：tf047hkaoahlnr31h6chj8gqq3
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612103347
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612103347
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612106947
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:29:07 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：セッションID：fohfg0calonog5g15iu0hde624
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612103492
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612103492
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612107092
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:31:32 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：セッションID：nm8b300nfm5uc1btnl7d1ctjpa
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612103546
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612103546
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612107146
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:32:26 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：セッションID：q8likebitcdascucgm3bgb3qb2
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612103688
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612103688
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612107288
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:34:48 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：セッションID：l8c0jckqqmvotktp6r933n2mks
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612103867
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612103867
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612107467
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:37:47 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：セッションID：03c2kl96a8bqlp7o11ejppsnc3
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104315
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104315
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612107915
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:45:15 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：セッションID：ih29h9ch7i48q62g8rccj0ha39
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104438
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104438
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108038
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:18 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：セッションID：5s2ineg6t3vbaj3b1jrll22tmc
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104445
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104445
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108045
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:47:25 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：セッションID：hefe1n3tdis110mpkk6ck0hgfe
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104566
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104566
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108166
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:26 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:49:30 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:49:30 Asia/Tokyo] デバッグ：セッションID：250qc51iokql299aujpm46k81t
+[31-Jan-2021 23:49:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104566
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:49:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104570
+[31-Jan-2021 23:49:30 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108166
+[31-Jan-2021 23:49:30 Asia/Tokyo] デバッグ：TOPページを表示します
+[31-Jan-2021 23:49:30 Asia/Tokyo] デバッグ：商品情報を取得します
+[31-Jan-2021 23:49:30 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:30 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[31-Jan-2021 23:49:30 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:30 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[31-Jan-2021 23:49:30 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:30 Asia/Tokyo] デバッグ：現在ページ：1
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：セッションID：c2b4qe4avcbenlurbf4vhbfu2t
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104573
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104573
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108173
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:49:33 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：セッションID：l9g9bn566l4hurqeqm5qhelo19
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104604
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104604
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108204
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:04 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:50:05 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:50:05 Asia/Tokyo] デバッグ：セッションID：20kb7rjj85tkqhl9rjuskrdm8a
+[31-Jan-2021 23:50:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104604
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:50:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104605
+[31-Jan-2021 23:50:05 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108204
+[31-Jan-2021 23:50:05 Asia/Tokyo] デバッグ：TOPページを表示します
+[31-Jan-2021 23:50:05 Asia/Tokyo] デバッグ：商品情報を取得します
+[31-Jan-2021 23:50:05 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:05 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[31-Jan-2021 23:50:05 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:05 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[31-Jan-2021 23:50:05 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:05 Asia/Tokyo] デバッグ：現在ページ：1
+[31-Jan-2021 23:50:31 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:50:31 Asia/Tokyo] デバッグ：セッションID：l6qevau2bvuc9p1l793cji6ah3
+[31-Jan-2021 23:50:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104604
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:50:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104631
+[31-Jan-2021 23:50:31 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108204
+[31-Jan-2021 23:50:31 Asia/Tokyo] デバッグ：TOPページを表示します
+[31-Jan-2021 23:50:31 Asia/Tokyo] デバッグ：商品情報を取得します
+[31-Jan-2021 23:50:31 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:31 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[31-Jan-2021 23:50:31 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:31 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[31-Jan-2021 23:50:31 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:50:31 Asia/Tokyo] デバッグ：現在ページ：1
+[31-Jan-2021 23:51:58 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:51:58 Asia/Tokyo] デバッグ：セッションID：cdb7dfchdbc8h2osuh2nuq9qp0
+[31-Jan-2021 23:51:58 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104604
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:51:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104718
+[31-Jan-2021 23:51:58 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108204
+[31-Jan-2021 23:51:58 Asia/Tokyo] デバッグ：TOPページを表示します
+[31-Jan-2021 23:51:58 Asia/Tokyo] デバッグ：商品情報を取得します
+[31-Jan-2021 23:51:58 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:51:58 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[31-Jan-2021 23:51:58 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:51:58 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[31-Jan-2021 23:51:58 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:51:58 Asia/Tokyo] デバッグ：現在ページ：1
+[31-Jan-2021 23:52:19 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:52:19 Asia/Tokyo] デバッグ：セッションID：f6gn3672fe4idufiqgv511m7eb
+[31-Jan-2021 23:52:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104604
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:52:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104739
+[31-Jan-2021 23:52:19 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108204
+[31-Jan-2021 23:52:19 Asia/Tokyo] デバッグ：TOPページを表示します
+[31-Jan-2021 23:52:19 Asia/Tokyo] デバッグ：商品情報を取得します
+[31-Jan-2021 23:52:19 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:19 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[31-Jan-2021 23:52:19 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:19 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[31-Jan-2021 23:52:19 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:19 Asia/Tokyo] デバッグ：現在ページ：1
+[31-Jan-2021 23:52:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:52:34 Asia/Tokyo] デバッグ：セッションID：1dq7kb4030p9c5n336udgm7ec2
+[31-Jan-2021 23:52:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104604
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:52:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104754
+[31-Jan-2021 23:52:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108204
+[31-Jan-2021 23:52:34 Asia/Tokyo] デバッグ：TOPページを表示します
+[31-Jan-2021 23:52:34 Asia/Tokyo] デバッグ：商品情報を取得します
+[31-Jan-2021 23:52:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:34 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[31-Jan-2021 23:52:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:34 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[31-Jan-2021 23:52:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:34 Asia/Tokyo] デバッグ：現在ページ：1
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：セッションID：4slm8e8gsebvhmeteg7jbdsgbq
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104760
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104760
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108360
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:40 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:52:42 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:52:42 Asia/Tokyo] デバッグ：セッションID：sukgi810l718jm1lv696peo3ic
+[31-Jan-2021 23:52:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104760
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:52:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104762
+[31-Jan-2021 23:52:42 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108360
+[31-Jan-2021 23:52:42 Asia/Tokyo] デバッグ：TOPページを表示します
+[31-Jan-2021 23:52:42 Asia/Tokyo] デバッグ：商品情報を取得します
+[31-Jan-2021 23:52:42 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:42 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[31-Jan-2021 23:52:42 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:42 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[31-Jan-2021 23:52:42 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:52:42 Asia/Tokyo] デバッグ：現在ページ：1
+[31-Jan-2021 23:53:16 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:53:16 Asia/Tokyo] デバッグ：セッションID：bv6agv0cm7c70v0mkfkl9kp77p
+[31-Jan-2021 23:53:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104760
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:53:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104796
+[31-Jan-2021 23:53:16 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108360
+[31-Jan-2021 23:53:16 Asia/Tokyo] デバッグ：TOPページを表示します
+[31-Jan-2021 23:53:16 Asia/Tokyo] デバッグ：商品情報を取得します
+[31-Jan-2021 23:53:16 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:53:16 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[31-Jan-2021 23:53:16 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:53:16 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[31-Jan-2021 23:53:16 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:53:16 Asia/Tokyo] デバッグ：現在ページ：1
+[31-Jan-2021 23:53:57 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:53:57 Asia/Tokyo] デバッグ：セッションID：5luvrtv2d0r9mlnmpuq6n98u0a
+[31-Jan-2021 23:53:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104760
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:53:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612104837
+[31-Jan-2021 23:53:57 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108360
+[31-Jan-2021 23:53:57 Asia/Tokyo] デバッグ：TOPページを表示します
+[31-Jan-2021 23:53:57 Asia/Tokyo] デバッグ：商品情報を取得します
+[31-Jan-2021 23:53:57 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:53:57 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[31-Jan-2021 23:53:57 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:53:57 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[31-Jan-2021 23:53:57 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:53:57 Asia/Tokyo] デバッグ：現在ページ：1
+[31-Jan-2021 23:58:18 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:58:18 Asia/Tokyo] デバッグ：セッションID：huooq7beoacaphomv3bj5npcfs
+[31-Jan-2021 23:58:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612104760
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:58:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105098
+[31-Jan-2021 23:58:18 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108360
+[31-Jan-2021 23:58:18 Asia/Tokyo] デバッグ：TOPページを表示します
+[31-Jan-2021 23:58:18 Asia/Tokyo] デバッグ：商品情報を取得します
+[31-Jan-2021 23:58:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:18 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[31-Jan-2021 23:58:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:18 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[31-Jan-2021 23:58:18 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:18 Asia/Tokyo] デバッグ：現在ページ：1
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：MyPageを表示します
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：セッションID：svebk74pg5lej4o5bfcro4t2sj
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612105114
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105114
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108714
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：ユーザID：4
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：クエリ成功
+[31-Jan-2021 23:58:34 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：LogOut****************************
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：セッションID：3m4vsvtrvdtp9ukfvrjc2ptc3k
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612105114
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105115
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612108714
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：ログアウトします
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：ログインページへ遷移します
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：未ログインユーザーです
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：Login Page.
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：セッションID：c2ltcnmgjbfa8kj04uu6absdjj
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jan-2021 23:58:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105115
+[31-Jan-2021 23:59:03 Asia/Tokyo] デバッグ：未ログインユーザーです
+[31-Jan-2021 23:59:03 Asia/Tokyo] デバッグ：Login Page.
+[31-Jan-2021 23:59:03 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[31-Jan-2021 23:59:03 Asia/Tokyo] デバッグ：セッションID：jmacu1silhe64hl2kabs41270b
+[31-Jan-2021 23:59:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jan-2021 23:59:03 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105143
+[01-Feb-2021 00:00:32 Asia/Tokyo] デバッグ：未ログインユーザーです
+[01-Feb-2021 00:00:32 Asia/Tokyo] デバッグ：Login Page.
+[01-Feb-2021 00:00:32 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:00:32 Asia/Tokyo] デバッグ：セッションID：e64cueqvcgkvvc6fi47fa5db48
+[01-Feb-2021 00:00:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[01-Feb-2021 00:00:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105232
+[01-Feb-2021 00:01:06 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:01:06 Asia/Tokyo] デバッグ：セッションID：hgr76dl4fn402fvnpp04jn9ri9
+[01-Feb-2021 00:01:06 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[01-Feb-2021 00:01:06 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105266
+[01-Feb-2021 00:01:06 Asia/Tokyo] デバッグ：TOPページを表示します
+[01-Feb-2021 00:01:06 Asia/Tokyo] デバッグ：商品情報を取得します
+[01-Feb-2021 00:01:06 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:01:06 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[01-Feb-2021 00:01:06 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:01:06 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[01-Feb-2021 00:01:06 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:01:06 Asia/Tokyo] デバッグ：現在ページ：1
+[01-Feb-2021 00:01:11 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:01:11 Asia/Tokyo] デバッグ：セッションID：holvc4eepvke27d8207e7psiov
+[01-Feb-2021 00:01:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[01-Feb-2021 00:01:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105271
+[01-Feb-2021 00:01:11 Asia/Tokyo] デバッグ：TOPページを表示します
+[01-Feb-2021 00:01:11 Asia/Tokyo] デバッグ：商品情報を取得します
+[01-Feb-2021 00:01:11 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:01:11 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[01-Feb-2021 00:01:11 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:01:11 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[01-Feb-2021 00:01:11 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:01:11 Asia/Tokyo] デバッグ：現在ページ：1
+[01-Feb-2021 00:01:40 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:04:45 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:04:50 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:04:50 Asia/Tokyo] デバッグ：セッションID：ksfqf2a6sa8q5p51baapdp5ne4
+[01-Feb-2021 00:04:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[01-Feb-2021 00:04:50 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105490
+[01-Feb-2021 00:04:50 Asia/Tokyo] デバッグ：TOPページを表示します
+[01-Feb-2021 00:04:50 Asia/Tokyo] デバッグ：商品情報を取得します
+[01-Feb-2021 00:04:50 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:04:50 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[01-Feb-2021 00:04:50 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:04:50 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[01-Feb-2021 00:04:50 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:04:50 Asia/Tokyo] デバッグ：現在ページ：1
+[01-Feb-2021 00:05:05 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:05:22 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:05:32 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:05:41 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612105552
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：MyPageを表示します
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：セッションID：6n1kavvvd1b9pl7r7hliv6fe1s
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612105552
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105552
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612109152
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：ユーザID：6
+[01-Feb-2021 00:05:52 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:08:28 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[01-Feb-2021 00:08:28 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[01-Feb-2021 00:08:28 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[01-Feb-2021 00:08:28 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:08:28 Asia/Tokyo] デバッグ：セッションID：439asg4g4fe0d32ua4jdnigebf
+[01-Feb-2021 00:08:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612105708
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Feb-2021 00:08:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105708
+[01-Feb-2021 00:08:28 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612109308
+[01-Feb-2021 00:08:28 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[01-Feb-2021 00:08:28 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:08:28 Asia/Tokyo] デバッグ：商品ID：
+[01-Feb-2021 00:08:28 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[01-Feb-2021 00:08:28 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HTML5
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:03:40
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => CSS3
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:03:40
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Javascript
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:05
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => jQuery
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:05
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => PHP
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:23
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => AWS
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:23
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => Laravel
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:52
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => Docker
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:52
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => Git
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:05:02
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => Ruby
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:05:02
+        )
+
+)
+
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：MyPageを表示します
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：セッションID：9ekausp6e7hus8i0k1pe7qk0n3
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612105718
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105718
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612109318
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：ユーザID：6
+[01-Feb-2021 00:08:38 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:08:41 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[01-Feb-2021 00:08:41 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[01-Feb-2021 00:08:41 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[01-Feb-2021 00:08:41 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:08:41 Asia/Tokyo] デバッグ：セッションID：8kamuqb3mhbbsk6uol0s2n5ens
+[01-Feb-2021 00:08:41 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612105721
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Feb-2021 00:08:41 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105721
+[01-Feb-2021 00:08:41 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612109321
+[01-Feb-2021 00:08:41 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:08:41 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 6
+    [username] => 
+    [age] => 0
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => test4@com
+    [pic] => 
+    [password] => $2y$10$GUgZJmA1x2VdTQpCBM9Zdub6ANZjh5hccg/IDqWCv8XmurOd0ZFQa
+    [login_time] => 2021-02-01 00:05:52
+    [delete_flg] => 0
+    [create_date] => 2021-02-01 00:05:52
+    [update_date] => 2021-02-01 00:05:52
+)
+
+[01-Feb-2021 00:08:50 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[01-Feb-2021 00:08:50 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[01-Feb-2021 00:08:50 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[01-Feb-2021 00:08:50 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:08:50 Asia/Tokyo] デバッグ：セッションID：f1t5h5tr2amjga9dfaqaf0k1iv
+[01-Feb-2021 00:08:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612105730
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Feb-2021 00:08:50 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105730
+[01-Feb-2021 00:08:50 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612109330
+[01-Feb-2021 00:08:50 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:08:50 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 6
+    [username] => 
+    [age] => 0
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => test4@com
+    [pic] => 
+    [password] => $2y$10$GUgZJmA1x2VdTQpCBM9Zdub6ANZjh5hccg/IDqWCv8XmurOd0ZFQa
+    [login_time] => 2021-02-01 00:05:52
+    [delete_flg] => 0
+    [create_date] => 2021-02-01 00:05:52
+    [update_date] => 2021-02-01 00:05:52
+)
+
+[01-Feb-2021 00:08:50 Asia/Tokyo] デバッグ：未入力チェックOK
+[01-Feb-2021 00:09:07 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[01-Feb-2021 00:09:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[01-Feb-2021 00:09:07 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[01-Feb-2021 00:09:07 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:09:07 Asia/Tokyo] デバッグ：セッションID：0d2c3vsg6o8b9cg0um02nba97s
+[01-Feb-2021 00:09:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612105747
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Feb-2021 00:09:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105747
+[01-Feb-2021 00:09:07 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612109347
+[01-Feb-2021 00:09:07 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:09:07 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 6
+    [username] => 
+    [age] => 0
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => test4@com
+    [pic] => 
+    [password] => $2y$10$GUgZJmA1x2VdTQpCBM9Zdub6ANZjh5hccg/IDqWCv8XmurOd0ZFQa
+    [login_time] => 2021-02-01 00:05:52
+    [delete_flg] => 0
+    [create_date] => 2021-02-01 00:05:52
+    [update_date] => 2021-02-01 00:05:52
+)
+
+[01-Feb-2021 00:09:07 Asia/Tokyo] デバッグ：未入力チェックOK
+[01-Feb-2021 00:09:59 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[01-Feb-2021 00:09:59 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[01-Feb-2021 00:09:59 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[01-Feb-2021 00:09:59 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:09:59 Asia/Tokyo] デバッグ：セッションID：kosos9aobgn88l7ebaiehrvr7q
+[01-Feb-2021 00:09:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612105799
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Feb-2021 00:09:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105799
+[01-Feb-2021 00:09:59 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612109399
+[01-Feb-2021 00:09:59 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:09:59 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 6
+    [username] => 
+    [age] => 0
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => test4@com
+    [pic] => 
+    [password] => $2y$10$GUgZJmA1x2VdTQpCBM9Zdub6ANZjh5hccg/IDqWCv8XmurOd0ZFQa
+    [login_time] => 2021-02-01 00:05:52
+    [delete_flg] => 0
+    [create_date] => 2021-02-01 00:05:52
+    [update_date] => 2021-02-01 00:05:52
+)
+
+[01-Feb-2021 00:09:59 Asia/Tokyo] デバッグ：未入力チェックOK
+[01-Feb-2021 00:10:08 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[01-Feb-2021 00:10:08 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[01-Feb-2021 00:10:08 Asia/Tokyo] デバッグ：Password変更ページ*******************
+[01-Feb-2021 00:10:08 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:10:08 Asia/Tokyo] デバッグ：セッションID：jvo31j0aokfi4btv01ehcu6rej
+[01-Feb-2021 00:10:08 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612105808
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Feb-2021 00:10:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105808
+[01-Feb-2021 00:10:08 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612109408
+[01-Feb-2021 00:10:08 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:10:08 Asia/Tokyo] デバッグ：獲得したユーザデータ：Array
+(
+    [id] => 6
+    [username] => 
+    [age] => 0
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => test4@com
+    [pic] => 
+    [password] => $2y$10$GUgZJmA1x2VdTQpCBM9Zdub6ANZjh5hccg/IDqWCv8XmurOd0ZFQa
+    [login_time] => 2021-02-01 00:05:52
+    [delete_flg] => 0
+    [create_date] => 2021-02-01 00:05:52
+    [update_date] => 2021-02-01 00:05:52
+)
+
+[01-Feb-2021 00:10:08 Asia/Tokyo] デバッグ：未入力チェックOK
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：バリデーションチェックOK：更新処理に進みます
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：クエリ成功：パスワードを更新しました
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：MyPageを表示します
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：セッションID：2q3pau71jf8fnubbb6v892s0pn
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612105809
+    [login_limit] => 3600
+    [user_id] => 6
+    [msg_success] => パスワードを変更しました!
+)
+
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105809
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612109409
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：ユーザID：6
+[01-Feb-2021 00:10:09 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:10:17 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[01-Feb-2021 00:10:17 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：MyPageを表示します
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：セッションID：u6c7d82v2jgmeh22acvj362kj1
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612105952
+    [login_limit] => 3600
+    [user_id] => 6
+    [msg_success] => 
+)
+
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612105952
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612109552
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：ユーザID：6
+[01-Feb-2021 00:12:32 Asia/Tokyo] デバッグ：クエリ成功

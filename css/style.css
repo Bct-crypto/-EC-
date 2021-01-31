@@ -23,6 +23,10 @@
   border: 3px solid #dee2e6;
 }
 
+#errMsg{
+  position: absolute;
+}
+
 #msg-submit{
   left: 50%;
     margin-bottom: 100px;
