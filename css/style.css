@@ -27,6 +27,16 @@
   position: absolute;
 }
 
+#delete_btn{
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+}
+
+#delete_btn:hover {
+  cursor: pointer;
+}
+
 #msg-submit{
   left: 50%;
     margin-bottom: 100px;

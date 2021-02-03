@@ -22681,3 +22681,1780 @@
 )
 
 [01-Feb-2021 07:12:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612131122
+[01-Feb-2021 08:32:15 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[01-Feb-2021 08:32:15 Asia/Tokyo] デバッグ：セッションID：b5bpd31i1cssrtcfvbqa0a58v8
+[01-Feb-2021 08:32:15 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[01-Feb-2021 08:32:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612135935
+[01-Feb-2021 08:32:15 Asia/Tokyo] デバッグ：TOPページを表示します
+[01-Feb-2021 08:32:15 Asia/Tokyo] デバッグ：商品情報を取得します
+[01-Feb-2021 08:32:15 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 08:32:15 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[01-Feb-2021 08:32:15 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 08:32:15 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[01-Feb-2021 08:32:15 Asia/Tokyo] デバッグ：クエリ成功
+[01-Feb-2021 08:32:15 Asia/Tokyo] デバッグ：現在ページ：1
+[03-Feb-2021 23:04:54 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:04:54 Asia/Tokyo] デバッグ：セッションID：81dg81jdte3nqoj9es14tar7fv
+[03-Feb-2021 23:04:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Feb-2021 23:04:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361094
+[03-Feb-2021 23:04:54 Asia/Tokyo] デバッグ：TOPページを表示します
+[03-Feb-2021 23:04:54 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:04:54 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:04:54 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 9 OFFSET 0
+[03-Feb-2021 23:04:54 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:04:54 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[03-Feb-2021 23:04:54 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:04:54 Asia/Tokyo] デバッグ：現在ページ：1
+[03-Feb-2021 23:04:57 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Feb-2021 23:04:57 Asia/Tokyo] デバッグ：Login Page.
+[03-Feb-2021 23:04:57 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:04:57 Asia/Tokyo] デバッグ：セッションID：avudqtm3ro9i6afq96ji67oqaq
+[03-Feb-2021 23:04:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Feb-2021 23:04:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361097
+[03-Feb-2021 23:05:02 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Feb-2021 23:05:02 Asia/Tokyo] デバッグ：Login Page.
+[03-Feb-2021 23:05:02 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:05:02 Asia/Tokyo] デバッグ：セッションID：2koipmr17ibvi0fm05q3bf3itk
+[03-Feb-2021 23:05:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Feb-2021 23:05:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361102
+[03-Feb-2021 23:05:02 Asia/Tokyo] デバッグ：POST送信があります
+[03-Feb-2021 23:05:02 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[03-Feb-2021 23:05:02 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:02 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$Q9QkbwN9b/mCHAgpkZHFVOqM9FHb2lZiYL5rROxyIt5/obBJJFVWa
+    [id] => 4
+)
+
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：マイページへ遷移します
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：MyPageを表示します
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：セッションID：oighuuoisr7fagaopi4u7j540u
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612361103
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => ログインに成功しました！
+)
+
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361103
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612364703
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：ユーザID：4
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:03 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：商品登録・編集ページを表示します
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：セッションID：5dteo7krigsvgnrffbksp4v5i3
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612361132
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361132
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612364732
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：ユーザーID：4
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：商品ID：62
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：カテゴリ情報を取得します
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：商品ID：62
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：フォーム用DBデータ：Array
+(
+    [id] => 62
+    [name] => Ruby3
+    [category_id] => 10
+    [comment] => Railsチュートリアルにも繋がります。
+    [price] => 3000
+    [pic] => uploads/1a2c72b02f9b3794f8621bf5821f247ccfde29ec.jpeg
+    [user_id] => 4
+    [delete_flg] => 0
+    [create_date] => 2021-01-22 06:41:57
+    [update_date] => 2021-01-22 06:41:57
+)
+
+[03-Feb-2021 23:05:32 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HTML5
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:03:40
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => CSS3
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:03:40
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Javascript
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:05
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => jQuery
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:05
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => PHP
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:23
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => AWS
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:23
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => Laravel
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:52
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => Docker
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:04:52
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => Git
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:05:02
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => Ruby
+            [delete_flg] => 0
+            [create_date] => 0000-00-00 00:00:00
+            [update_date] => 2021-01-10 01:05:02
+        )
+
+)
+
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：MyPageを表示します
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：セッションID：uitl2gibkdi9emmd4t4va7tuhq
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612361136
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361136
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612364736
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：ユーザID：4
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:36 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：セッションID：d96t62ggvbuf7k9h9n90bk9ttb
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612361136
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361139
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612364736
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：MSG情報を取得します
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：掲示板ID：5
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：$viewData:Array
+(
+    [0] => Array
+        (
+            [m_id] => 16
+            [send_date] => 2021-01-31 12:31:20
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => お返事いただけると幸いです。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [send_date] => 2021-01-26 17:10:39
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 希望としては2月頭には欲しいと考えています。よろしくお願いいたします。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [2] => Array
+        (
+            [m_id] => 4
+            [send_date] => 2021-01-26 16:47:34
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 購入を希望しています。発送の最短日を教えていただいても良いでしょうか？
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [3] => Array
+        (
+            [m_id] => 5
+            [send_date] => 2021-01-26 16:18:48
+            [to_user] => 4
+            [from_user] => 2
+            [msg] => 初めまして
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [send_date] => 2021-01-26 15:55:18
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => こんにちは
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+)
+
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：商品ID：9
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:05:39 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：セッションID：200b4st44mit3ilb2um4k534p3
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612361136
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361546
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612364736
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：MSG情報を取得します
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：掲示板ID：5
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：$viewData:Array
+(
+    [0] => Array
+        (
+            [m_id] => 16
+            [send_date] => 2021-01-31 12:31:20
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => お返事いただけると幸いです。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [send_date] => 2021-01-26 17:10:39
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 希望としては2月頭には欲しいと考えています。よろしくお願いいたします。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [2] => Array
+        (
+            [m_id] => 4
+            [send_date] => 2021-01-26 16:47:34
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 購入を希望しています。発送の最短日を教えていただいても良いでしょうか？
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [3] => Array
+        (
+            [m_id] => 5
+            [send_date] => 2021-01-26 16:18:48
+            [to_user] => 4
+            [from_user] => 2
+            [msg] => 初めまして
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [send_date] => 2021-01-26 15:55:18
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => こんにちは
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+)
+
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：商品ID：9
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:12:26 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：セッションID：0pc1knavce97g3b90vjj72btei
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612361136
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361573
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612364736
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：MSG情報を取得します
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：掲示板ID：5
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：$viewData:Array
+(
+    [0] => Array
+        (
+            [m_id] => 16
+            [send_date] => 2021-01-31 12:31:20
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => お返事いただけると幸いです。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [send_date] => 2021-01-26 17:10:39
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 希望としては2月頭には欲しいと考えています。よろしくお願いいたします。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [2] => Array
+        (
+            [m_id] => 4
+            [send_date] => 2021-01-26 16:47:34
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 購入を希望しています。発送の最短日を教えていただいても良いでしょうか？
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [3] => Array
+        (
+            [m_id] => 5
+            [send_date] => 2021-01-26 16:18:48
+            [to_user] => 4
+            [from_user] => 2
+            [msg] => 初めまして
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [send_date] => 2021-01-26 15:55:18
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => こんにちは
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+)
+
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：商品ID：9
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:12:53 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：セッションID：32c2fqds1471d3s2f27jfalair
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612361136
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361659
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612364736
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：MSG情報を取得します
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：掲示板ID：5
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：$viewData:Array
+(
+    [0] => Array
+        (
+            [m_id] => 16
+            [send_date] => 2021-01-31 12:31:20
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => お返事いただけると幸いです。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [send_date] => 2021-01-26 17:10:39
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 希望としては2月頭には欲しいと考えています。よろしくお願いいたします。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [2] => Array
+        (
+            [m_id] => 4
+            [send_date] => 2021-01-26 16:47:34
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 購入を希望しています。発送の最短日を教えていただいても良いでしょうか？
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [3] => Array
+        (
+            [m_id] => 5
+            [send_date] => 2021-01-26 16:18:48
+            [to_user] => 4
+            [from_user] => 2
+            [msg] => 初めまして
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [send_date] => 2021-01-26 15:55:18
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => こんにちは
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+)
+
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：商品ID：9
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:14:19 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：セッションID：ntedj1k3bp0r6qccto95ukab42
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612361136
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361675
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612364736
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：MSG情報を取得します
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：掲示板ID：5
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：$viewData:Array
+(
+    [0] => Array
+        (
+            [m_id] => 16
+            [send_date] => 2021-01-31 12:31:20
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => お返事いただけると幸いです。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [send_date] => 2021-01-26 17:10:39
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 希望としては2月頭には欲しいと考えています。よろしくお願いいたします。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [2] => Array
+        (
+            [m_id] => 4
+            [send_date] => 2021-01-26 16:47:34
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 購入を希望しています。発送の最短日を教えていただいても良いでしょうか？
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [3] => Array
+        (
+            [m_id] => 5
+            [send_date] => 2021-01-26 16:18:48
+            [to_user] => 4
+            [from_user] => 2
+            [msg] => 初めまして
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [send_date] => 2021-01-26 15:55:18
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => こんにちは
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+)
+
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：商品ID：9
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:14:35 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：セッションID：o0j43jd901693vfuj92ob7iioi
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612361136
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361818
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612364736
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：MSG情報を取得します
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：掲示板ID：5
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：$viewData:Array
+(
+    [0] => Array
+        (
+            [m_id] => 16
+            [send_date] => 2021-01-31 12:31:20
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => お返事いただけると幸いです。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [send_date] => 2021-01-26 17:10:39
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 希望としては2月頭には欲しいと考えています。よろしくお願いいたします。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [2] => Array
+        (
+            [m_id] => 4
+            [send_date] => 2021-01-26 16:47:34
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 購入を希望しています。発送の最短日を教えていただいても良いでしょうか？
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [3] => Array
+        (
+            [m_id] => 5
+            [send_date] => 2021-01-26 16:18:48
+            [to_user] => 4
+            [from_user] => 2
+            [msg] => 初めまして
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [send_date] => 2021-01-26 15:55:18
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => こんにちは
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+)
+
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：商品ID：9
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:16:58 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：セッションID：2s516nji9hdf0sgmn2eda7ulo2
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612361136
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361914
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612364736
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：MSG情報を取得します
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：掲示板ID：5
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：$viewData:Array
+(
+    [0] => Array
+        (
+            [m_id] => 16
+            [send_date] => 2021-01-31 12:31:20
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => お返事いただけると幸いです。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [send_date] => 2021-01-26 17:10:39
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 希望としては2月頭には欲しいと考えています。よろしくお願いいたします。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [2] => Array
+        (
+            [m_id] => 4
+            [send_date] => 2021-01-26 16:47:34
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 購入を希望しています。発送の最短日を教えていただいても良いでしょうか？
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [3] => Array
+        (
+            [m_id] => 5
+            [send_date] => 2021-01-26 16:18:48
+            [to_user] => 4
+            [from_user] => 2
+            [msg] => 初めまして
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [send_date] => 2021-01-26 15:55:18
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => こんにちは
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+)
+
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：商品ID：9
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:18:34 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：セッションID：72uceuq23qi6fas06t4t8sfpv9
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612361136
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612361954
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612364736
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：MSG情報を取得します
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：掲示板ID：5
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：$viewData:Array
+(
+    [0] => Array
+        (
+            [m_id] => 16
+            [send_date] => 2021-01-31 12:31:20
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => お返事いただけると幸いです。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [send_date] => 2021-01-26 17:10:39
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 希望としては2月頭には欲しいと考えています。よろしくお願いいたします。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [2] => Array
+        (
+            [m_id] => 4
+            [send_date] => 2021-01-26 16:47:34
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 購入を希望しています。発送の最短日を教えていただいても良いでしょうか？
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [3] => Array
+        (
+            [m_id] => 5
+            [send_date] => 2021-01-26 16:18:48
+            [to_user] => 4
+            [from_user] => 2
+            [msg] => 初めまして
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [send_date] => 2021-01-26 15:55:18
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => こんにちは
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+)
+
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：商品ID：9
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:19:14 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：セッションID：h0sm7ihb6a9btn9djngadau9n0
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612361136
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612362236
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612364736
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：MSG情報を取得します
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：掲示板ID：5
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：$viewData:Array
+(
+    [0] => Array
+        (
+            [m_id] => 16
+            [send_date] => 2021-01-31 12:31:20
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => お返事いただけると幸いです。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [send_date] => 2021-01-26 17:10:39
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 希望としては2月頭には欲しいと考えています。よろしくお願いいたします。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [2] => Array
+        (
+            [m_id] => 4
+            [send_date] => 2021-01-26 16:47:34
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 購入を希望しています。発送の最短日を教えていただいても良いでしょうか？
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [3] => Array
+        (
+            [m_id] => 5
+            [send_date] => 2021-01-26 16:18:48
+            [to_user] => 4
+            [from_user] => 2
+            [msg] => 初めまして
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [send_date] => 2021-01-26 15:55:18
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => こんにちは
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+)
+
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：商品ID：9
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:23:56 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：セッションID：kqk6iajfgondqdpvl1ni7gmupc
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612361136
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612362266
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612364736
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：MSG情報を取得します
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：掲示板ID：5
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：$viewData:Array
+(
+    [0] => Array
+        (
+            [m_id] => 16
+            [send_date] => 2021-01-31 12:31:20
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => お返事いただけると幸いです。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [send_date] => 2021-01-26 17:10:39
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 希望としては2月頭には欲しいと考えています。よろしくお願いいたします。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [2] => Array
+        (
+            [m_id] => 4
+            [send_date] => 2021-01-26 16:47:34
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 購入を希望しています。発送の最短日を教えていただいても良いでしょうか？
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [3] => Array
+        (
+            [m_id] => 5
+            [send_date] => 2021-01-26 16:18:48
+            [to_user] => 4
+            [from_user] => 2
+            [msg] => 初めまして
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [send_date] => 2021-01-26 15:55:18
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => こんにちは
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+)
+
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：商品ID：9
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:26 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:32 Asia/Tokyo] デバッグ：LogOut****************************
+[03-Feb-2021 23:24:32 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:24:32 Asia/Tokyo] デバッグ：セッションID：ovtoadg6k8bfm83jq1970r5mfj
+[03-Feb-2021 23:24:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Feb-2021 23:24:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612362272
+[03-Feb-2021 23:24:32 Asia/Tokyo] デバッグ：ログアウトします
+[03-Feb-2021 23:24:32 Asia/Tokyo] デバッグ：ログインページへ遷移します
+[03-Feb-2021 23:24:32 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Feb-2021 23:24:32 Asia/Tokyo] デバッグ：Login Page.
+[03-Feb-2021 23:24:32 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:24:32 Asia/Tokyo] デバッグ：セッションID：078na5l9sdhbn224t7285a7nn5
+[03-Feb-2021 23:24:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Feb-2021 23:24:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612362272
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：未ログインユーザーです
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：Login Page.
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：セッションID：q3ugc7pjeu19jr53241j0scvsh
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612362278
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：POST送信があります
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：バリデーションチェックOK
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$Q9QkbwN9b/mCHAgpkZHFVOqM9FHb2lZiYL5rROxyIt5/obBJJFVWa
+    [id] => 4
+)
+
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：マイページへ遷移します
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：ログイン済ユーザーです
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：ログイン有効期限以内です
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：MyPageを表示します
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：セッションID：52t8o647kbe1rmuolin08sobuc
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612362278
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => ログインに成功しました！
+)
+
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612362278
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612365878
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：お気に入り情報を取得します
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：自分の掲示板情報を取得します
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：自身の商品情報を取得します
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：ユーザID：4
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 2
+    [username] => ゴマ
+    [age] => 30
+    [tel] => 08033445567
+    [zip] => 9800011
+    [addr] => 東京都荒川区
+    [email] => naonao@com
+    [pic] => uploads/c6458cf34c97ee74d49268bc63a542075605b6d2.jpeg
+    [password] => $2y$10$MdAB5FH.2cg9w7XUVD3qD.hwYEEpwLa9AdT9eFjp9o3Q0UUQnf5xa
+    [login_time] => 2021-01-01 23:05:43
+    [delete_flg] => 0
+    [create_date] => 2021-01-01 23:05:43
+    [update_date] => 2021-01-01 23:05:43
+)
+
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:38 Asia/Tokyo] デバッグ：相手の情報：Array
+(
+    [id] => 3
+    [username] => なお太郎
+    [age] => 29
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => test03@com
+    [pic] => 0
+    [password] => $2y$10$LiUT8/xV/NS0oaQaqjPLQu9RK6LGERkewZHC.dHRJbBQEzqbvC9BG
+    [login_time] => 2021-01-03 23:06:47
+    [delete_flg] => 0
+    [create_date] => 2021-01-03 23:06:47
+    [update_date] => 2021-01-03 23:06:47
+)
+
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：セッションID：q5jtp29lglic3fvcjdj6bo7cps
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612362278
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612362283
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612365878
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：MSG情報を取得します
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：掲示板ID：5
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：$viewData:Array
+(
+    [0] => Array
+        (
+            [m_id] => 16
+            [send_date] => 2021-01-31 12:31:20
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => お返事いただけると幸いです。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [send_date] => 2021-01-26 17:10:39
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 希望としては2月頭には欲しいと考えています。よろしくお願いいたします。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [2] => Array
+        (
+            [m_id] => 4
+            [send_date] => 2021-01-26 16:47:34
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 購入を希望しています。発送の最短日を教えていただいても良いでしょうか？
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [3] => Array
+        (
+            [m_id] => 5
+            [send_date] => 2021-01-26 16:18:48
+            [to_user] => 4
+            [from_user] => 2
+            [msg] => 初めまして
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [send_date] => 2021-01-26 15:55:18
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => こんにちは
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+)
+
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：商品ID：9
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:24:43 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：セッションID：bdbjur131ho0qmdp9j06cdt6gi
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612362278
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612362592
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612365878
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：MSG情報を取得します
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：掲示板ID：5
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：$viewData:Array
+(
+    [0] => Array
+        (
+            [m_id] => 16
+            [send_date] => 2021-01-31 12:31:20
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => お返事いただけると幸いです。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [send_date] => 2021-01-26 17:10:39
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 希望としては2月頭には欲しいと考えています。よろしくお願いいたします。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [2] => Array
+        (
+            [m_id] => 4
+            [send_date] => 2021-01-26 16:47:34
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 購入を希望しています。発送の最短日を教えていただいても良いでしょうか？
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [3] => Array
+        (
+            [m_id] => 5
+            [send_date] => 2021-01-26 16:18:48
+            [to_user] => 4
+            [from_user] => 2
+            [msg] => 初めまして
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [send_date] => 2021-01-26 15:55:18
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => こんにちは
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+)
+
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：商品ID：9
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:29:52 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：掲示板の処理****************************
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：*********************************** 描画処理開始
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：セッションID：13lf4arboebmskus3bapr3conv
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1612362278
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1612362836
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ：1612365878
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：MSG情報を取得します
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：掲示板ID：5
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：$viewData:Array
+(
+    [0] => Array
+        (
+            [m_id] => 16
+            [send_date] => 2021-01-31 12:31:20
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => お返事いただけると幸いです。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [send_date] => 2021-01-26 17:10:39
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 希望としては2月頭には欲しいと考えています。よろしくお願いいたします。
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [2] => Array
+        (
+            [m_id] => 4
+            [send_date] => 2021-01-26 16:47:34
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => 購入を希望しています。発送の最短日を教えていただいても良いでしょうか？
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [3] => Array
+        (
+            [m_id] => 5
+            [send_date] => 2021-01-26 16:18:48
+            [to_user] => 4
+            [from_user] => 2
+            [msg] => 初めまして
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+    [4] => Array
+        (
+            [m_id] => 3
+            [send_date] => 2021-01-26 15:55:18
+            [to_user] => 2
+            [from_user] => 4
+            [msg] => こんにちは
+            [board_id] => 5
+            [sale_user] => 2
+            [buy_user] => 4
+            [product_id] => 9
+            [create_date] => 2021-01-26 15:44:53
+        )
+
+)
+
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：商品情報を取得します
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：商品ID：9
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：クエリ成功
+[03-Feb-2021 23:33:56 Asia/Tokyo] デバッグ：クエリ成功
