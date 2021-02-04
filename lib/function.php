@@ -30,6 +30,8 @@ define('SUC04', '登録しました!');
 define('SUC05', '購入しました！相手と連絡を取りましょう！');
 define('SUC06', 'ログインに成功しました！');
 define('SUC07', 'メッセージを投稿しました');
+define('SUC08', 'メッセージを更新しました');
+define('SUC09', 'メッセージを削除しました');
 
 // エラーメッセージ格納用の配列
 $errMsg = [];
@@ -657,6 +659,34 @@ function getMyMsgsAndBoard($u_id)
 
         if ($stmt) {
             return $rst;
+        } else {
+            return false;
+        }
+    } catch (Exception $e) {
+        error_log('エラー発生：' . $e->getMessage());
+    }
+}
+
+function getMyMsg($u_id)
+{
+    debug('メッセージ内容を取得します');
+
+    try {
+        // DB接続
+        $dbh = dbConnect();
+        // SQL作成
+        $sql = 'SELECT msg FROM message WHERE id = :id AND delete_flg = 0';
+        // 値の入れ込み
+        $data = [
+            ':id' => $u_id
+        ];
+        // クエリの実行
+        $stmt = queryPost($dbh, $sql, $data);
+
+
+        if ($stmt) {
+            $result = $stmt->fetch(PDO::FETCH_ASSOC);
+            return $result;
         } else {
             return false;
         }

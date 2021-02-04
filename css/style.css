@@ -27,10 +27,11 @@
   position: absolute;
 }
 
-#delete_btn{
-  display: block;
-  text-align: right;
+#delete_My_btn{
   margin-top: 5px;
+  margin-right: 15px;
+  font-size: small;
+  float:right;
 }
 
 #delete_btn:hover {

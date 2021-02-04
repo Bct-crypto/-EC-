@@ -40,7 +40,6 @@
                             <div class="" style="display: inline-block;">
                                 <p><?php echo sanitize($val['msg']); ?></p>
                                 <small id="delete_btn" class="text-muted mb-2"><?php echo sanitize($partnerUserInfo['username']); ?> - 送信日：<?php echo sanitize(date('Y年n月j日', strtotime($val['send_date']))); ?></small>
-                                <p id="delete_btn" class="text-muted">メッセージを削除<i class="fas fa-times-circle" style="color: orangered; margin-left:5px;"></i></p>
                             </div>
                         </div>
                     </div>
@@ -52,7 +51,14 @@
                             <div class="mr-2" style="display: inline-block;">
                                 <p><?php echo sanitize($val['msg']); ?></p>
                                 <small class="d-block text-muted text-right"><?php echo sanitize($myUserInfo['username']); ?> - 送信日：<?php echo sanitize(date('Y年n月j日', strtotime($val['send_date']))); ?></small>
-                                <small id="delete_btn" class="text-muted">メッセージを削除<i class="fas fa-times-circle" style="color: orangered; margin-left:5px;"></i></small>
+                                <a href="deleteMsg.php?m_id=<?php echo sanitize($val['m_id']); ?>" id="delete_My_btn" class="text-muted">
+                                    削除
+                                    <i class="fas fa-times-circle" style="color: orangered; margin-left:2px;"></i>
+                                </a>
+                                <a href="editMsg.php?m_id=<?php echo sanitize($val['m_id']); ?>" id="delete_My_btn" class="text-muted">
+                                    編集
+                                    <i class="far fa-edit" style="color:sienna;"></i>
+                                </a>
                             </div>
                             <div class="" style="display: inline-block;">
                                 <img src="<?php echo sanitize($myUserInfo['pic']); ?>" id="avatar" class="" alt="">
